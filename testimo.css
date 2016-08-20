@@ -1,0 +1,375 @@
+body {
+	height: auto;
+	left: 0;
+	right: 0;
+	width: 100%;
+	overflow: visible;
+	background-color: black;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+	height: 50px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: black;
+}
+
+#need {
+	position: absolute;
+	top: -7px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: white;
+	font-family: 'Handlee', sans-serif;
+	font-size: 19px;
+}
+
+#tacos {
+	text-decoration: none;
+	color: white;
+	top: -10px;
+	font-size: 13px;
+	border-radius: 2px;
+	border-color: transparent;
+	background-color: #B51A00;
+	font-family: 'Handlee', sans-serif;
+	cursor: pointer;
+	outline: none;
+}
+
+#siteimg {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	height: 400px;
+	background-image: url("http://i.imgur.com/mEXZmGU.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#logoimg {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: transparent;
+}
+
+img {
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 65px;
+}
+
+.menu {
+	position: absolute;
+	top: 450px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 95px;
+	z-index: 10000;
+	background-color: black;
+}
+
+#toma {
+	position: relative;
+	top: 5px;
+	height: 30px;
+	width: 30px;
+	background-color: black;
+	opacity: 0;
+}
+
+#menutext {
+	position: absolute;
+	left: -80px;
+	right: 0;
+	top: -5px;
+	bottom: 0;
+	list-style: none;
+	font-family: 'Handlee', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+li {
+	display: inline;
+	padding: 0px 30px;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: white;
+}
+
+a:hover #toma {
+	opacity: 1;
+	transition: .7s;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 95px;
+	width: 100%;
+}
+
+.info {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 590px;
+	height: 750px;
+	width: 100%;
+	z-index: 1001;
+	background-color: black;
+}
+
+#formhead {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 10px;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Handlee', sans-serif;
+	color: white;
+	z-index: 5000;
+}
+
+#taquiza {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	height: 800px;
+	left: 0;
+
+}
+
+#taquizatext {
+	position: absolute;
+	left: 7px;
+	right: 0;
+	top: 40px;
+	text-align: left;
+	font-family: 'Handlee', sans-serif;
+	font-size: 29px;
+	color: #B51A00;
+}
+
+#include {
+	position: absolute;
+	left: 160px;
+	right: 10px;
+	top: 40px;
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 27px;
+	color: white;
+	font-weight: 100;
+	line-height: 40px;
+}
+
+#lizpic {
+	position: absolute;
+	left: 0;
+	top: 120px;
+	width: 130px;
+	height: 90px;
+	background-image: url("http://images-cdn.moviepilot.com/images/c_fill,h_2739,w_3879/t_mp_quality/mgdzadzhpt7qdxn7ultr/why-gal-gadot-s-epic-wonder-woman-plans-got-shot-down-will-dc-let-gal-gadot-escape-the-s-411708.jpg");
+	background-position: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-radius: 80px;
+}
+
+#lindapic {
+	position: absolute;
+	left: 0;
+	top: 440px;
+	width: 130px;
+	height: 85px;
+	background-image: url("http://acpcpueblo.org/wp-content/uploads/2012/08/MP900414100.jpg");
+	background-position: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-radius: 80px;
+}
+
+#texttwo {
+	position: absolute;
+	left: 2px;
+	right: 0;
+	top: 350px;
+	text-align: left;
+	font-family: 'Handlee', sans-serif;
+	font-size: 28px;
+	color: #B51A00;
+}
+
+#includetwo {
+	position: absolute;
+	font-weight: 100;
+	left: 160px;
+	right: 10px;
+	top: 360px;
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 27px;
+	color: white;
+	font-weight: 100;
+	line-height: 40px;
+}
+
+
+#bottom {
+	position: absolute;
+	top: 1700px;
+	left: 0;
+	right: 0;
+	height: 100px;
+	z-index: 8000;
+}
+
+.menutwo {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	width: 100%;
+	bottom: 0;
+}
+
+#menutexttwo {
+	position: absolute;
+	left: -80px;
+	right: 0;
+	top: 20%;
+	bottom: 0;
+	list-style: none;
+	font-family: 'Handlee', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#endstuf {
+	position: absolute;
+	font-family: 'Handlee', sans-serif;
+	font-size: 14px;
+	color: white;
+	top: 110%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 8000;
+}
+
+#botstuff {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 300px;
+	top: 1460px;
+}
+
+#con {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	color: white;
+	font-size: 26px;
+}
+
+#numba {
+	position: absolute;
+	left: -140px;
+	top: 90px;
+	right: 0;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	color: white;
+	font-size: 22px;
+}
+
+#colnum {
+	position: absolute;
+	left: 60px;
+	top: 90px;
+	right: 0;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	color: #B51A00;
+	font-size: 22px;
+}
+	
+#mail {
+	position: absolute;
+	left: -212px;
+	top: 140px;
+	right: 0;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	color: white;
+	font-size: 22px;
+}
+
+#colmail {
+	position: absolute;
+	left: 60px;
+	top: 140px;
+	right: 0;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	color: #B51A00;
+	font-size: 22px;
+}
+	
+	
+#imgbotl {
+	position: absolute;
+	right: 0;
+	top: -30px;
+	height: 300px;
+	width: 400px;
+	background-image: url("http://i.imgur.com/cBAFUZv.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 8000;
+}
+
+#imgleft {
+	position: absolute;
+	left: 45px;
+	top: 35px;
+	height: 150px;
+	width: 300px;
+	background-image: url("http://i.imgur.com/8siXjwQ.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 120px;
+	z-index: 8000;
+}
+
+
