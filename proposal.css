@@ -1,0 +1,555 @@
+body {
+	height: auto;
+	width: 100%;
+	overflow: visible;
+	background-color: black;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+	height: 50px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: black;
+}
+
+#need {
+	position: absolute;
+	top: -7px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: white;
+	font-family: 'Handlee', sans-serif;
+	font-size: 19px;
+}
+
+#tacos {
+	text-decoration: none;
+	color: white;
+	top: -10px;
+	font-size: 13px;
+	border-radius: 2px;
+	border-color: transparent;
+	background-color: #B51A00;
+	font-family: 'Handlee', sans-serif;
+	cursor: pointer;
+	outline: none;
+}
+
+#siteimg {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	height: 400px;
+	background-image: url("http://i.imgur.com/7e6K1d5.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#logoimg {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: transparent;
+}
+
+img {
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 65px;
+}
+
+.menu {
+	position: absolute;
+	top: 450px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 95px;
+	z-index: 7000;
+	background-color: black;
+}
+
+#toma {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	top: 5px;
+	background-color: black;
+	opacity: 0;
+}
+
+#menutext {
+	position: absolute;
+	left: -80px;
+	right: 0;
+	top: -5px;
+	bottom: 0;
+	list-style: none;
+	font-family: 'Handlee', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+li {
+	display: inline;
+	padding: 0px 30px;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: white;
+}
+
+a:hover #toma {
+	opacity: 1;
+	top: 5px;
+	transition: .7s;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 95px;
+}
+
+#formhead {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 600px;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Handlee', sans-serif;
+	color: white;
+	z-index: 5000;
+}
+
+.forma {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 640px;
+	height: 600px;
+	width: 100%;
+	text-align: left;
+	z-index: 1001;
+}
+
+#phone {
+	position: absolute;
+	left: 0;
+	right: 109px;
+	top: 80px;
+	text-align: right;
+	font-family: 'Handlee', sans-serif;
+	font-size: 22px;
+	color: white;
+}
+
+#diffcolor {
+	position: absolute;
+	left: 0;
+	right: 80px;
+	top: 105px;
+	text-align: right;
+	font-family: 'Handlee', sans-serif;
+	font-size: 22px;
+	color: #B51A00;
+}
+
+#mailstat {
+	position: absolute;
+	left: 0;
+	right: 110px;
+	top: 170px;
+	text-align: right;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	color: white;
+}
+
+#maildiff {
+	position: absolute;
+	left: 0;
+	right: 40px;
+	top: 195px;
+	text-align: right;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	color: #B51A00;
+}
+
+#actform {
+	position: absolute;
+	top: 90px;
+	height: 600px;
+	left: 0;
+	right: 0;
+	font-family: 'Handlee', sans-serif;
+	font-size: 21px;
+	color: white;
+	z-index: 1002;
+}
+
+input {
+	font-family: 'Handlee', sans-serif;
+	background-color: black;
+	font-size: 22px;
+	color: #B51A00;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.nombre {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 50px;
+	top: 0;
+}
+
+#nombredos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.correo {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 50px;
+	top: 0px;
+}
+
+#correodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.telefo {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 150px;
+	top: 80px;
+	
+}
+
+#telefodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+	left: 30px;
+}
+
+.cuantos {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 130px;
+	top: 80px;
+	
+}
+
+#cuantosdos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.tipo {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 290px;
+	top: 160px;
+}
+
+#tipodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.ete {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 290px;
+	top: 160px;
+	
+}
+
+#etedos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.dia {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 290px;
+	top: 240px;
+}
+
+#diados {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.tiempo {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 290px;
+	top: 240px;
+}
+
+#tiempodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.donde {
+	position: absolute;
+	background-color: black;
+	text-align: left;
+	left: 30px;
+	width: 200px;
+	top: 320px;
+}
+
+textarea {
+	background-color: black;
+	border: solid 1px #B51A00;
+	resize: none;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #B51A00;
+	outline: none;
+	width: 375px;
+	height: 70px;
+}
+
+#usebut {
+	position: absolute;
+	left: 30px;
+	top: 640px;
+}
+
+#sendMessage {
+	position: absolute;
+	left: 30px;
+	top: 480px;
+	cursor: pointer;
+	height: 40px;
+	width: 90px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	outline: none;
+	text-decoration: none;
+	border: 1px solid #B51A00;
+	background-color: black;
+	color: white;
+}
+
+#thanks {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 500px;
+	widht: 100%;
+	height: 800px;
+	background-color: black;
+	z-index: 100;
+}
+
+.boxer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 600px;
+	width: 100%;
+	background-color: black;
+	z-index: 100;
+	top: 250px;
+}
+
+.aftersent {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 250px;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	z-index: 19;
+}
+
+.aftersent2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 290px;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	z-index: 19;
+}
+
+#afterlogo {
+	position: absolute;
+	top: 350px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	height: 300px;
+	width: 400px;
+	background-image: url("http://i.imgur.com/cBAFUZv.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#phonetwo {
+	position: absolute;
+	left: 0;
+	right: 23%;
+	top: 625px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 22px;
+	color: white;
+	z-index: 19;
+}
+
+#diffcolortwo {
+	position: absolute;
+	left: 0;
+	right: 23%;
+	top: 650px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 22px;
+	color: #B51A00;
+	z-index: 19;
+}
+
+#mailstattwo {
+	position: absolute;
+	left: 12%;
+	right: 0;
+	top: 625px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	color: white;
+	z-index: 19;
+}
+
+#maildifftwo {
+	position: absolute;
+	left: 12%;
+	right: 0;
+	top: 650px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	color: #B51A00;
+	z-index: 49;
+}
+
+.remform {
+	display: none;
+}
+
+.goaway {
+	display: none;
+}
+
+#bottom {
+	position: absolute;
+	top: 1330px;
+	left: 0;
+	right: 0;
+	height: 100px;
+	z-index: 8000;
+}
+
+.menutwo {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	width: 100%;
+	bottom: 0;
+}
+
+#menutexttwo {
+	position: absolute;
+	left: -80px;
+	right: 0;
+	top: 20%;
+	bottom: 0;
+	list-style: none;
+	font-family: 'Handlee', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#endstuf {
+	position: absolute;
+	font-family: 'Handlee', sans-serif;
+	font-size: 14px;
+	color: white;
+	top: 110%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 8000;
+}
+
