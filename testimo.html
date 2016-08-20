@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="testimo.css"> 
+</head>
+
+<html>
+	<body>
+		<div class="top">
+			<p id="need">Need help catering your event?   <button id="tacos"><a href="proposal.html">Let's Talk Tacos!</a></button></p>
+		</div>
+		<div id="siteimg">
+			<div id="logoimg">
+				<a href="index.html"><img src="http://i.imgur.com/PxsLvJL.png"></a>
+			</div>
+		</div>
+	
+		<nav class="menu">
+
+			<ul id="menutext">
+				<li id="home"><a href="index.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">HOME</a></li>
+				<li id="menus"><a href="menu.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">MENUS</a></li>
+				<li id="test"><a href="testimo.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">TESTIMONIALS</a></li>
+				<li id="about"><a href="proposal.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">REQUEST CATERING PROPOSAL</a></li>
+				<li id="about"><a href="about.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">ABOUT</a></li>
+			</ul>
+		</nav>
+		
+		<div class="info">
+			<p id="formhead">TESTIMONIALS</p>
+			<div id="taquiza">
+				<p id="taquizatext">Elizabeth -</p>
+				<p id="include">"Trish did my wedding back in January. Absolutely deserves all five stars and then some. 
+										She is a wonderful lady, remarkable chef, AND super helpful with wedding tactics.
+										She made everything we wanted happen and suited our needs, whether by working to 
+										adapt to the venue or supplying odds and ends no one would expect the caterer to have handy. 
+										Having a caterer is one thing, but having a smart caterer with solutions is pure gold.
+										Ahhh, I almost forgot the whole point of having a caterer, the food. Let's just say I 
+										still get comments on how good the food was almost 9 months later. I really do. 
+										Trish is a great chef and she made a wonderful impression on me, my wife, and our 
+										guests making her one of the best wedding decisions we made."</p>
+										
+						
+				<p id="texttwo">Linda Miler -</p>
+				<p id="includetwo">"It started as Sanchez wedding and turned into Rado. You did a fabulous job Trish. 
+											  The meat was fork tender and super tasty. The veggies were delicious. I could not 
+											  stop eating the ceasar salad. Thanks so much for decorating the dessert table. It looked 
+											  so cute. We are so happy with your service and will recommend you!!! Thank God my 
+											  co-worker recommended you!"</p>
+			</div>
+
+		</div>
+		<div id="botstuff">
+			<div id="imgbotl">
+			</div>
+			<div id="imgleft">
+			</div>
+			<p id="con">CONTACT US TODAY</p>
+			<p id="numba">Phone: </p>
+			<p id="colnum">323.314.4792</p>
+			<p id="mail">Email: </p>
+			<p id="colmail">saborculichi@gmail.com</p>
+		</div>
+		<div id="bottom">
+			<div class="menutwo">
+				<ul id="menutexttwo">
+					<li><a href="index.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">HOME</a></li>
+					<li><a href="menu.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">MENUS</a></li>
+					<li><a href="testimo.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">TESTIMONIALS</a></li>
+					<li><a href="proposal.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">REQUEST CATERING PROPOSAL</a></li>
+					<li><a href="about.html"><img id="toma"src="http://i.imgur.com/eNHDmU0.png">ABOUT</a></li>
+				</ul>
+			</div>
+					
+			<p id="endstuf">Copyright &copy; 2016  .  Sabor Culichi  .  All Rights Reserved</p>
+		
+		
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!--Script used on both Mobile and Desktop versions of site. Makes menu fixed after
+		    scrolling past certain amount of pixels on page. The amount of pixels depend on whether
+		    site is mobile or desktop, which depends on whether overflow: on wrapper is either hidden(Mobile)
+		    or visible(Desktop)-->
+		<script>
+		$(document).ready(function() {
+			
+			checkSize();
+			
+			$(window).resize(checkSize);
+		})
+		
+		function checkSize() {
+			if($(".top").css("position") == "absolute"){
+				var num= 450;
+		
+				$(window).bind('scroll', function() {
+					if($(window).scrollTop() > num) {
+						$('.menu').addClass('fixed');
+					} else {
+						$('.menu').removeClass('fixed');
+					}
+				});
+			}
+		};
+		</script>
+	</body>
+</html>
