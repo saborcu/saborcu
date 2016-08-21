@@ -130,7 +130,7 @@ img {
 	background-color: black;
 }
 
-#toma {
+.toma {
 	position: relative;
 	height: 30px;
 	width: 30px;
@@ -165,7 +165,7 @@ a {
 	color: white;
 }
 
-a:hover #toma {
+a:hover .toma {
 	opacity: 1;
 	top: 5px;
 	transition: .7s;
