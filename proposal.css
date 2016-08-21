@@ -127,6 +127,19 @@ a:hover #toma {
 	height: 95px;
 }
 
+#container {
+	position: absolute;
+	top: 450px;
+	left: 0;
+	right: 0;
+	height: 1100px;
+	background-image: url("http://i.imgur.com/FZDtDqG.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	opacity: .6;
+	z-index: 999;
+}
+
 #formhead {
 	position: absolute;
 	left: 0;
@@ -137,6 +150,7 @@ a:hover #toma {
 	font-family: 'Handlee', sans-serif;
 	color: white;
 	z-index: 5000;
+	transition: .2s;
 }
 
 .forma {
@@ -147,7 +161,9 @@ a:hover #toma {
 	height: 600px;
 	width: 100%;
 	text-align: left;
-	z-index: 1001;
+	z-index: 1002;
+	background-color: transparent;
+	transition: .35s;
 }
 
 #phone {
@@ -159,6 +175,7 @@ a:hover #toma {
 	font-family: 'Handlee', sans-serif;
 	font-size: 22px;
 	color: white;
+	transition: .1s;
 }
 
 #diffcolor {
@@ -181,6 +198,7 @@ a:hover #toma {
 	font-family: 'Handlee', sans-serif;
 	font-size: 23px;
 	color: white;
+	transition: .5s;
 }
 
 #maildiff {
@@ -204,6 +222,7 @@ a:hover #toma {
 	font-size: 21px;
 	color: white;
 	z-index: 1002;
+	background-color: transparent;
 }
 
 input {
@@ -217,7 +236,7 @@ input {
 
 .nombre {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 30px;
 	width: 50px;
 	top: 0;
@@ -226,14 +245,14 @@ input {
 #nombredos {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 }
 
 .correo {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 40%;
 	width: 50px;
 	top: 0px;
@@ -242,14 +261,14 @@ input {
 #correodos {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 }
 
 .telefo {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 30px;
 	width: 150px;
 	top: 80px;
@@ -259,7 +278,7 @@ input {
 #telefodos {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 	left: 30px;
@@ -267,7 +286,7 @@ input {
 
 .cuantos {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 40%;
 	width: 130px;
 	top: 80px;
@@ -277,14 +296,14 @@ input {
 #cuantosdos {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 }
 
 .tipo {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 30px;
 	width: 290px;
 	top: 160px;
@@ -293,14 +312,14 @@ input {
 #tipodos {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 }
 
 .ete {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 40%;
 	width: 290px;
 	top: 160px;
@@ -310,14 +329,14 @@ input {
 #etedos {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 }
 
 .dia {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 30px;
 	width: 290px;
 	top: 240px;
@@ -326,14 +345,14 @@ input {
 #diados {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 }
 
 .tiempo {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	left: 40%;
 	width: 290px;
 	top: 240px;
@@ -342,14 +361,14 @@ input {
 #tiempodos {
 	outline: none;
 	border: solid 1px #B51A00;
-	background-color: black;
+	background-color: transparent;
 	height: 40px;
 	width: 375px;
 }
 
 .donde {
 	position: absolute;
-	background-color: black;
+	background-color: transparent;
 	text-align: left;
 	left: 30px;
 	width: 200px;
@@ -357,7 +376,7 @@ input {
 }
 
 textarea {
-	background-color: black;
+	background-color: transparent;
 	border: solid 1px #B51A00;
 	resize: none;
 	font-family: 'Handlee', sans-serif;
@@ -387,9 +406,10 @@ textarea {
 	font-size: 20px;
 	outline: none;
 	text-decoration: none;
-	border: 1px solid #B51A00;
+	border: 2px solid #B51A00;
 	background-color: black;
 	color: white;
+	border-radius: 10px;
 }
 
 #thanks {
@@ -399,14 +419,14 @@ textarea {
 	top: 500px;
 	widht: 100%;
 	height: 800px;
-	background-color: black;
-	z-index: 100;
+	background-color: transparent;
+	z-index: 1001;
+	overflow: hidden;
 }
 
 .boxer {
 	position: absolute;
-	left: 0;
-	right: 0;
+	right: -150%;
 	height: 600px;
 	width: 100%;
 	background-color: black;
@@ -417,7 +437,7 @@ textarea {
 .aftersent {
 	position: absolute;
 	left: 0;
-	right: 0;
+	right: -150%;
 	top: 250px;
 	font-size: 28px;
 	color: white;
@@ -429,7 +449,7 @@ textarea {
 .aftersent2 {
 	position: absolute;
 	left: 0;
-	right: 0;
+	right: -150%;
 	top: 290px;
 	font-size: 28px;
 	color: white;
@@ -442,7 +462,7 @@ textarea {
 	position: absolute;
 	top: 350px;
 	left: 0;
-	right: 0;
+	right: -150%;
 	margin: auto;
 	text-align: center;
 	height: 300px;
@@ -514,8 +534,9 @@ textarea {
 	top: 1330px;
 	left: 0;
 	right: 0;
-	height: 100px;
+	height: 220px;
 	z-index: 8000;
+	background-color: black;
 }
 
 .menutwo {
@@ -546,7 +567,7 @@ textarea {
 	font-family: 'Handlee', sans-serif;
 	font-size: 14px;
 	color: white;
-	top: 110%;
+	top: 170px;
 	left: 0;
 	right: 0;
 	text-align: center;
