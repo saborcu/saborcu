@@ -14,7 +14,7 @@ body {
 	width: 150px;
 	background-position: cover;
 	background-repeat: no-repeat;
-	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/onlythedrinknobacksmall_zpskjrogtui.png");	
+	background-image: url("onlythedrinknobacksmall.png");	
 	background-size: 100%;
 	z-index: 1000;
 	text-align: center;
@@ -26,12 +26,12 @@ body {
 #wood {
 	position: absolute;
 	right: 30px;
-	top: 650px;
+	top: 630px;
 	height: 330px ;
 	width: 250px;
 	background-position: cover;
 	background-repeat: no-repeat;
-	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/tacosnoback_zpsl5bq5m1g.png");	
+	background-image: url("tacosnoback.png");	
 	background-size: 100%;
 	z-index: 1000;
 	background-color: transparent;
@@ -41,17 +41,18 @@ body {
 #green {
 	position: absolute;
 	left: 20px;
-	top: 900px;
-	height: 160px ;
-	width: 200px;
+	top: 810px;
+	height: 200px ;
+	width: 290px;
 	background-position: cover;
 	background-repeat: no-repeat;
-	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/cartnobacksmall_zpszrpb3eed.png");	
+	background-image: url("cartnobacksmall.png");	
 	background-size: 100%;
 	z-index: 1000;
 	background-color: transparent;
 	transition: .6s;
-}			
+}	
+	
 
 .top {
 	position: absolute;
