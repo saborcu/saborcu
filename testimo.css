@@ -47,9 +47,10 @@ body {
 	left: 0;
 	right: 0;
 	height: 400px;
+	width: 100%;
 	background-image: url("http://i.imgur.com/mEXZmGU.jpg");
 	background-position: center;
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
@@ -205,7 +206,7 @@ a:hover #toma {
 	width: 130px;
 	height: 85px;
 	background-image: url("http://acpcpueblo.org/wp-content/uploads/2012/08/MP900414100.jpg");
-	background-position: cover;
+	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	border-radius: 80px;
