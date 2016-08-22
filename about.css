@@ -85,7 +85,7 @@ img {
 	background-color: black;
 }
 
-#toma {
+.toma {
 	position: relative;
 	top: 5px;
 	height: 30px;
@@ -128,7 +128,7 @@ a {
 	color: white;
 }
 
-a:hover #toma {
+a:hover .toma {
 	opacity: 1;
 	transition: .7s;
 }
