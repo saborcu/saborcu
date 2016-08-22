@@ -12,7 +12,7 @@ body {
 	top: 1200px;
 	height: 260px ;
 	width: 150px;
-	background-position: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/onlythedrinknobacksmaller_zpswaqeijuk.png");	
 	background-size: 100%;
@@ -29,7 +29,7 @@ body {
 	top: 630px;
 	height: 330px ;
 	width: 250px;
-	background-position: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/tacosnobacksmaller_zpsgq5yrqiz.png");	
 	background-size: 100%;
@@ -44,7 +44,7 @@ body {
 	top: 810px;
 	height: 200px ;
 	width: 290px;
-	background-position: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/cartnobacksmaller_zpsnlgygszf.png");	
 	background-size: 100%;
