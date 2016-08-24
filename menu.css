@@ -14,7 +14,7 @@ body {
 	width: 150px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/onlythedrinknobacksmaller_zpswaqeijuk.png");	
+	background-image: url("http://i.imgur.com/vK6Ovax.png");	
 	background-size: 100%;
 	z-index: 1000;
 	text-align: center;
@@ -31,7 +31,7 @@ body {
 	width: 250px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/tacosnobacksmaller_zpsgq5yrqiz.png");	
+	background-image: url("http://i.imgur.com/9YT2VWW.png");	
 	background-size: 100%;
 	z-index: 1000;
 	background-color: transparent;
@@ -46,13 +46,57 @@ body {
 	width: 290px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url("http://i377.photobucket.com/albums/oo214/vrchavez05/cartnobacksmaller_zpsnlgygszf.png");	
+	background-image: url("http://i.imgur.com/I2rVvpG.png");	
 	background-size: 100%;
 	z-index: 1000;
 	background-color: transparent;
 	transition: .6s;
+}
+
+#guisosdoe {
+	position: absolute;
+	left: 40px;
+	top: 1630px;
+	height: 330px ;
+	width: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("http://i.imgur.com/HX6Pqdt.png");	
+	background-size: 100%;
+	z-index: 1000;
+	background-color: transparent;
+	transition: .8s;
 }	
-	
+
+#rice {
+	position: absolute;
+	right: 10px;
+	top: 1800px;
+	height: 330px ;
+	width: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("http://i.imgur.com/1mXoFti.png");	
+	background-size: 100%;
+	z-index: 1000;
+	background-color: transparent;
+	transition: .8s;
+}	
+
+#tortillas {
+	position: absolute;
+	left: 40px;
+	top: 1950px;
+	height: 250px ;
+	width: 180px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("http://i.imgur.com/K8egfxT.png");	
+	background-size: 100%;
+	z-index: 1000;
+	background-color: transparent;
+	transition: .8s;
+}
 
 .top {
 	position: absolute;
