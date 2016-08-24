@@ -80,8 +80,10 @@ body {
 	text-decoration: none;
 	color: white;
 	top: -10px;
-	font-size: 13px;
+	font-size: 17px;
 	border-radius: 2px;
+	height: 30px;
+	width: 130px;
 	border-color: transparent;
 	background-color: #B51A00;
 	font-family: 'Handlee', sans-serif;
@@ -140,7 +142,7 @@ img {
 }
 
 #menutext {
-	position: relative;
+	position: absolute;
 	left: -80px;
 	right: 0;
 	top: -5px;
