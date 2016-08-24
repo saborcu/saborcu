@@ -32,8 +32,10 @@ body {
 	text-decoration: none;
 	color: white;
 	top: -10px;
-	font-size: 13px;
+	font-size: 17px;
 	border-radius: 2px;
+	height: 30px;
+	width: 130px;
 	border-color: transparent;
 	background-color: #B51A00;
 	font-family: 'Handlee', sans-serif;
