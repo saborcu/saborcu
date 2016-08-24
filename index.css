@@ -249,7 +249,7 @@ img {
 	right: 63%;
 	top: 80px;
 	height: 450px;
-	background-image: url("http://i.imgur.com/s13xPx6.jpg");
+	background-image: url("http://i.imgur.com/Wah8ys3.jpg");
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -372,7 +372,7 @@ img {
 	height: 150px;
 	width: 300px;
 	border-radius: 100px;
-	background-image: url("http://i.imgur.com/8siXjwQ.jpg");
+	background-image: url("http://i.imgur.com/Gj3MwMA.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -392,19 +392,16 @@ img {
 
 
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("http://i.imgur.com/xw2Jw81.jpg");
+  background-image: url("http://i.imgur.com/waq1vxF.jpg");
   bottom: -40px;
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("http://i.imgur.com/pdX9Ovh.jpg");
+  background-image: url("http://i.imgur.com/Xm1riGh.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("http://i.imgur.com/jhYDdNi.jpg");
+  background-image: url("http://i.imgur.com/tYwisp1.jpg");
 }
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url("../img/cd-background-4.jpg");
-}
- 
+
 .cd-scrolling-bg {
 	min-height: 60%;
 }
