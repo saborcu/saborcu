@@ -462,12 +462,13 @@ textarea {
 
 #afterlogo {
 	position: absolute;
-	top: 350px;
+	top: 450px;
 	left: 0;
 	right: -150%;
 	margin: auto;
 	text-align: center;
-	height: 300px;
+	border-radius: 220px;
+	height: 100px;
 	width: 400px;
 	background-image: url("http://i.imgur.com/cBAFUZv.png");
 	background-position: center;
