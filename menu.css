@@ -9,7 +9,7 @@ body {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 1150px;
+	top: 1050px;
 	height: 260px ;
 	width: 150px;
 	background-position: center;
@@ -41,7 +41,7 @@ body {
 #green {
 	position: absolute;
 	left: 20px;
-	top: 810px;
+	top: 670px;
 	height: 200px ;
 	width: 290px;
 	background-position: center;
