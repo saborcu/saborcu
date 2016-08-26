@@ -56,12 +56,12 @@ body {
 #guisosdoe {
 	position: absolute;
 	left: 40px;
-	top: 1630px;
+	top: 1540px;
 	height: 330px ;
 	width: 250px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url("http://i.imgur.com/HX6Pqdt.png");	
+	background-image: url("http://i.imgur.com/dRy6YJv.png");	
 	background-size: 100%;
 	z-index: 1000;
 	background-color: transparent;
@@ -71,12 +71,12 @@ body {
 #rice {
 	position: absolute;
 	right: 10px;
-	top: 1600px;
+	top: 1800px;
 	height: 330px ;
 	width: 250px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url("http://i.imgur.com/lN9nWCK.png");	
+	background-image: url("http://i.imgur.com/NEFd4YV.png");	
 	background-size: 100%;
 	z-index: 1000;
 	background-color: transparent;
