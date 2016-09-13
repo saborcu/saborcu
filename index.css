@@ -460,6 +460,7 @@ img {
 	
 	.menu {
 		position: absolute;
+		display: none;
 		top: 90%;
 		left: 0;
 		right: 0;
@@ -525,6 +526,7 @@ img {
 	}
 	
 	.fixed {
+	  display: none;
 	  top: 0;
 	  bottom: 90%;
 	  position: fixed;
