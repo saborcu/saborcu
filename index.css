@@ -630,7 +630,7 @@ img {
 	
 	#secttwo {
 		position: absolute;
-		top: -35px;
+		top: -20px;
 		vertical-align: middle;
 		left: 40%;
 		right: 10px;
@@ -639,7 +639,7 @@ img {
 		font-family: 'Handlee', sans-serif;
 		font-size: 22px;
 		color: white;
-		line-height: 10px;
+		line-height: 17px;
 	}
 	
 	#readmore {
