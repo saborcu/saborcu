@@ -185,6 +185,10 @@ img {
 	line-height: 80px;
 }
 
+#hider {
+	position: absolute;
+	display: none;
+}
 
 #tacostwo {
 	position: absolute;
@@ -572,6 +576,16 @@ img {
 	
 	#firsttext {
 		position: absolute;
+		display: none;
+	}
+	
+	#secondtext {
+		position: absolute;
+		display: none;
+	}
+	
+	#hider {
+		position: absolute;
 		top: 105%;
 		height: 70px;
 		left: 7px;
@@ -583,20 +597,6 @@ img {
 		color: white;
 		line-height: 30px;
 		z-index: 9000;
-	}
-	
-	#secondtext {
-		position: absolute;
-		top: 125%;
-		left: 7px;
-		right: 7px;
-		height: 70px;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 30px;
-		color: white;
-		line-height: 30px;
 	}
 	
 	
