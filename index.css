@@ -630,14 +630,14 @@ img {
 	
 	#secttwo {
 		position: absolute;
-		top: 10px;
+		top: 7px;
 		vertical-align: middle;
 		left: 7px;
 		right: 7px;
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
+		font-size: 30px;
 		color: white;
 		line-height: 23px;
 	}
@@ -649,7 +649,7 @@ img {
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 270px;
+		top: 320px;
 		font-size: 20px;
 		border-radius: 2px;
 		border-color: transparent;
