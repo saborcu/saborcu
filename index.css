@@ -639,7 +639,7 @@ img {
 		font-family: 'Handlee', sans-serif;
 		font-size: 30px;
 		color: white;
-		line-height: 23px;
+		line-height: 30px;
 	}
 	
 	#readmore {
@@ -649,7 +649,7 @@ img {
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 320px;
+		top: 300px;
 		font-size: 20px;
 		border-radius: 2px;
 		border-color: transparent;
