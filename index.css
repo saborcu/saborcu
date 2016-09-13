@@ -624,7 +624,7 @@ img {
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 700px;
+		height: 800px;
 		vertical-align: middle;
 	}
 	
@@ -811,6 +811,6 @@ img {
 	}
 	
 	.cd-scrolling-bg {
-		height: 45%;
+		height: 48%;
 	}
 }
