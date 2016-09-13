@@ -572,32 +572,32 @@ img {
 	
 	#firsttext {
 		position: absolute;
-		top: 100%;
+		top: 110%;
 		height: 70px;
 		left: 0;
 		right: 0;
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
-		font-size: 25px;
+		font-size: 30px;
 		color: white;
-		line-height: 25px;
+		line-height: 30px;
 		z-index: 9000;
 		background-color: yellow;
 	}
 	
 	#secondtext {
 		position: absolute;
-		top: 125%;
+		top: 115%;
 		left: 0;
 		right: 0;
 		height: 70px;
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
-		font-size: 25px;
+		font-size: 30px;
 		color: white;
-		line-height: 25px;
+		line-height: 30px;
 		background-color: purple;
 	}
 	
