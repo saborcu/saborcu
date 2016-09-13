@@ -574,9 +574,9 @@ img {
 		position: absolute;
 		top: 110%;
 		height: 70px;
-		left: 0;
-		right: 0;
-		text-align: center;
+		left: 7px;
+		right: 7px;
+		text-align: justify;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
 		font-size: 30px;
@@ -589,10 +589,10 @@ img {
 	#secondtext {
 		position: absolute;
 		top: 120%;
-		left: 0;
-		right: 0;
+		left: 7px;
+		right: 7px;
 		height: 70px;
-		text-align: center;
+		text-align: justify;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
 		font-size: 30px;
