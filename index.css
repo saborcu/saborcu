@@ -577,17 +577,19 @@ img {
 	#firsttext {
 		position: absolute;
 		display: none;
+		z-index: 1;
 	}
 	
 	#secondtext {
 		position: absolute;
 		display: none;
+		z-index: 1;
 	}
 	
 	#hider {
 		position: absolute;
 		top: 105%;
-		height: 70px;
+		height: 140px;
 		left: 7px;
 		right: 7px;
 		text-align: center;
