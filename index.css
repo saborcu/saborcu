@@ -408,9 +408,9 @@ img {
 
 @media all and (max-width: 1024px) {
 	body, html, main {
-	/* important */
-	height: 100%;
-	background-color: black;
+		/* important */
+		height: 100%;
+		background-color: black;
 	}
 	
 	.top {
@@ -431,16 +431,16 @@ img {
 		text-align: center;
 		color: white;
 		font-family: 'Handlee', sans-serif;
-		font-size: 36px;
+		font-size: 26px;
 	}
 	
 	#tacos {
 		text-decoration: none;
 		color: white;
 		top: -10px;
-		font-size: 36px;
+		font-size: 26px;
 		border-radius: 2px;
-		height: 60px;
+		height: 40px;
 		width: 190px;
 		border-color: transparent;
 		background-color: #B51A00;
