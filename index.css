@@ -588,7 +588,7 @@ img {
 	
 	#hiderone {
 		position: absolute;
-		top: 145%;
+		top: 105%;
 		height: 140px;
 		left: 7px;
 		right: 7px;
@@ -609,7 +609,7 @@ img {
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 128%;
+		top: 148%;
 		font-size: 22px;
 		border-radius: 2px;
 		border-color: transparent;
