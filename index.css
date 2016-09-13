@@ -579,9 +579,9 @@ img {
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
+		font-size: 25px;
 		color: white;
-		line-height: 15px;
+		line-height: 25px;
 		z-index: 9000;
 		background-color: yellow;
 	}
@@ -595,9 +595,9 @@ img {
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
-		font-size: 20px;
+		font-size: 25px;
 		color: white;
-		line-height: 15px;
+		line-height: 25px;
 		background-color: purple;
 	}
 	
