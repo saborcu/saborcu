@@ -649,7 +649,7 @@ img {
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 300px;
+		top: 320px;
 		font-size: 25px;
 		border-radius: 2px;
 		border-color: transparent;
@@ -811,6 +811,6 @@ img {
 	}
 	
 	.cd-scrolling-bg {
-		height: 40%;
+		height: 45%;
 	}
 }
