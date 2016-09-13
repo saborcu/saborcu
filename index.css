@@ -624,13 +624,13 @@ img {
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 600px;
+		height: 700px;
 		vertical-align: middle;
 	}
 	
 	#secttwo {
 		position: absolute;
-		top: -20px;
+		top: 0px;
 		vertical-align: middle;
 		left: 40%;
 		right: 10px;
@@ -639,7 +639,7 @@ img {
 		font-family: 'Handlee', sans-serif;
 		font-size: 22px;
 		color: white;
-		line-height: 17px;
+		line-height: 23px;
 	}
 	
 	#readmore {
@@ -649,7 +649,7 @@ img {
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 470px;
+		top: 4380px;
 		font-size: 20px;
 		border-radius: 2px;
 		border-color: transparent;
@@ -663,13 +663,13 @@ img {
 		position: absolute;
 		left: 10px;
 		right: 63%;
-		top: 80px;
+		top: 0px;
 		height: 450px;
 		background-image: url("http://i.imgur.com/Wah8ys3.jpg");
 		background-position: center;
 		background-size: 100%;
 		background-repeat: no-repeat;
-		border-radius: 180px;
+		border-radius: 280px;
 	}
 	
 	.cd-containerthree {
