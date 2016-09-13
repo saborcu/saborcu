@@ -661,15 +661,7 @@ img {
 	
 	#smallone {
 		position: absolute;
-		left: 10px;
-		right: 63%;
-		top: 0px;
-		height: 450px;
-		background-image: url("http://i.imgur.com/Wah8ys3.jpg");
-		background-position: center;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		border-radius: 280px;
+		display: none;
 	}
 	
 	.cd-containerthree {
