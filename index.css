@@ -572,11 +572,11 @@ img {
 	
 	#firsttext {
 		position: absolute;
-		top: 110%;
+		top: 105%;
 		height: 70px;
 		left: 7px;
 		right: 7px;
-		text-align: justify;
+		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
 		font-size: 30px;
@@ -592,7 +592,7 @@ img {
 		left: 7px;
 		right: 7px;
 		height: 70px;
-		text-align: justify;
+		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
 		font-size: 30px;
