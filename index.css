@@ -694,7 +694,7 @@ img {
 		position: absolute;
 		top: 70px;
 		left: 0;
-		right: 45%;
+		right: 43%;
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
@@ -706,7 +706,7 @@ img {
 	#diffphone {
 		position: absolute;
 		top: 70px;
-		left: 24%;
+		left: 22%;
 		right: 0;
 		text-align: center;
 		font-weight: 100;
@@ -714,6 +714,10 @@ img {
 		font-size: 22px;
 		color: #B51A00;
 		z-index: 7000;
+	}
+	
+	#diffphone[href^=tel] { 
+		color: inherit; text-decoration: none; 
 	}
 	
 	#email {
@@ -1045,6 +1049,10 @@ img {
 		font-size: 22px;
 		color: #B51A00;
 		z-index: 7000;
+	}
+	
+	#diffphone[href^=tel] { 
+		color: inherit; text-decoration: none; 
 	}
 	
 	#email {
