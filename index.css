@@ -1100,25 +1100,7 @@ img {
 	
 	.menutwo {
 		position: absolute;
-		top: 40%;
-		left: 0;
-		right: 0;
-		width: 100%;
-		bottom: 0;
-	}
-	
-	#menutexttwo {
-		position: absolute;
-		left: -80px;
-		right: 0;
-		top: 60%;
-		bottom: 0;
-		list-style: none;
-		font-family: 'Handlee', sans-serif;
-		font-size: 15px;
-		color: white;
-		text-align: center;
-		vertical-align: middle;
+		display: none;
 	}
 	
 	#endstuf {
@@ -1135,15 +1117,7 @@ img {
 	
 	#finalimg {
 		position: absolute;
-		top: 130px;
-		left: 45px;
-		height: 150px;
-		width: 300px;
-		border-radius: 100px;
-		background-image: url("http://i.imgur.com/Gj3MwMA.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 100%;
+		display: none;
 	}
 	
 	#finalimgtwo {
