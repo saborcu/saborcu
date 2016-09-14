@@ -960,8 +960,7 @@ img {
 	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 25%;
-		right: 0;
+		left: 15%;
 		text-align: center;
 		text-decoration: none;
 		color: white;
