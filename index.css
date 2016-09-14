@@ -771,6 +771,7 @@ img {
 	#finalimgtwo {
 		position: absolute;
 		top: 230px;
+		text-align: center;
 		left: 5px;
 		right: 5px;
 		height: 150px;
