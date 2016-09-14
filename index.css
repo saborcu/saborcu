@@ -679,7 +679,7 @@ img {
 	
 	#contact {
 		position: absolute;
-		top: 100px;
+		top: 0;
 		left: 0;
 		right: 0;
 		text-align: center;
@@ -692,7 +692,7 @@ img {
 	
 	#phone {
 		position: absolute;
-		top: 170px;
+		top: 70px;
 		left: 0;
 		right: 10%;
 		text-align: center;
@@ -705,7 +705,7 @@ img {
 	
 	#diffphone {
 		position: absolute;
-		top: 170px;
+		top: 70px;
 		left: 7%;
 		right: 0;
 		text-align: center;
@@ -718,7 +718,7 @@ img {
 	
 	#email {
 		position: absolute;
-		top: 210px;
+		top: 110px;
 		left: 0;
 		right: 17%;
 		text-align: center;
@@ -731,7 +731,7 @@ img {
 	
 	#diffemail {
 		position: absolute;
-		top: 210px;
+		top: 110px;
 		left: 6%;
 		right: 0;
 		text-align: center;
@@ -761,20 +761,20 @@ img {
 	
 	#finalimg {
 		position: absolute;
-		top: 130px;
-		left: 45px;
-		height: 150px;
-		width: 300px;
-		border-radius: 100px;
-		background-image: url("http://i.imgur.com/Gj3MwMA.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 100%;
+		display: none;
 	}
 	
 	#finalimgtwo {
 		position: absolute;
-		display: none;
+		top: 230px;
+		left: 45px;
+		height: 150px;
+		width: 300px;
+		border-radius: 100px;
+		background-image: url("http://i.imgur.com/cBAFUZv.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
 	}
 	
 	
@@ -1010,7 +1010,7 @@ img {
 	
 	#contact {
 		position: absolute;
-		top: 100px;
+		top: 0px;
 		left: 0;
 		right: 0;
 		text-align: center;
@@ -1023,7 +1023,7 @@ img {
 	
 	#phone {
 		position: absolute;
-		top: 170px;
+		top: 70px;
 		left: 0;
 		right: 10%;
 		text-align: center;
@@ -1036,7 +1036,7 @@ img {
 	
 	#diffphone {
 		position: absolute;
-		top: 170px;
+		top: 70px;
 		left: 7%;
 		right: 0;
 		text-align: center;
@@ -1049,7 +1049,7 @@ img {
 	
 	#email {
 		position: absolute;
-		top: 210px;
+		top: 110px;
 		left: 0;
 		right: 17%;
 		text-align: center;
@@ -1062,7 +1062,7 @@ img {
 	
 	#diffemail {
 		position: absolute;
-		top: 210px;
+		top: 110px;
 		left: 6%;
 		right: 0;
 		text-align: center;
@@ -1092,19 +1092,20 @@ img {
 	
 	#finalimg {
 		position: absolute;
-		display: none;
-	}
-	
-	#finalimgtwo {
-		position: absolute;
-		top: 50px;
-		right: 5px;
-		height: 300px;
-		width: 400px;
+		top: 130px;
+		left: 45px;
+		height: 150px;
+		width: 300px;
+		border-radius: 100px;
 		background-image: url("http://i.imgur.com/cBAFUZv.png");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 100%;
+	}
+	
+	#finalimgtwo {
+		position: absolute;
+		display: none;
 	}
 	
 	
