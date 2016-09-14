@@ -694,7 +694,7 @@ img {
 		position: absolute;
 		top: 70px;
 		left: 0;
-		right: 18%;
+		right: 25%;
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
@@ -706,7 +706,7 @@ img {
 	#diffphone {
 		position: absolute;
 		top: 70px;
-		left: 17%;
+		left: 30%;
 		right: 0;
 		text-align: center;
 		font-weight: 100;
