@@ -607,6 +607,7 @@ img {
 		-webkit-appearance: none;
 		position: absolute;
 		left: 30%;
+		width: 120px;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
