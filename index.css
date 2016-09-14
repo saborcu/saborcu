@@ -631,7 +631,7 @@ img {
 	
 	#secttwo {
 		position: absolute;
-		top: -15px;
+		top: -5px;
 		vertical-align: middle;
 		left: 7px;
 		right: 7px;
@@ -650,7 +650,7 @@ img {
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 330px;
+		top: 360px;
 		font-size: 25px;
 		border-radius: 2px;
 		border-color: transparent;
