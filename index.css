@@ -607,7 +607,6 @@ img {
 		-webkit-appearance: none;
 		position: absolute;
 		left: 30%;
-		width: 120px;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
@@ -961,7 +960,8 @@ img {
 	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 15%;
+		left: 25%;
+		width: 200px;
 		text-align: center;
 		text-decoration: none;
 		color: white;
