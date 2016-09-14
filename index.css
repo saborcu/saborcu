@@ -439,6 +439,7 @@ img {
 	}
 	
 	#tacos {
+		-webkit-appearance: none;
 		text-decoration: none;
 		color: white;
 		top: -10px;
@@ -603,6 +604,7 @@ img {
 	
 	
 	#tacostwo {
+		-webkit-appearance: none;
 		position: absolute;
 		left: 30%;
 		right: 0;
@@ -644,6 +646,7 @@ img {
 	}
 	
 	#readmore {
+		-webkit-appearance: none;
 		position: absolute;
 		left: 30%;
 		right: 0;
