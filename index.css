@@ -645,12 +645,12 @@ img {
 	
 	#readmore {
 		position: absolute;
-		left: 35%;
+		left: 30%;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 300px;
+		top: 330px;
 		font-size: 25px;
 		border-radius: 2px;
 		border-color: transparent;
