@@ -771,7 +771,8 @@ img {
 	#finalimgtwo {
 		position: absolute;
 		top: 230px;
-		left: 45px;
+		left: 5px;
+		right: 5px;
 		height: 150px;
 		width: 300px;
 		border-radius: 100px;
