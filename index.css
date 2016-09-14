@@ -606,7 +606,7 @@ img {
 	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 30%;
+		left: 25%;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
@@ -648,12 +648,12 @@ img {
 	#readmore {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 30%;
+		left: 33%;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 360px;
+		top: 348px;
 		font-size: 22px;
 		border-radius: 2px;
 		border-color: transparent;
