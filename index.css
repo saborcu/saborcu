@@ -48,6 +48,62 @@ body, html, main {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.menuwrap p { text-align: right; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+
+/*Dropdown Menu for mobile site. Hidden on desktop*/
+.littleme {
+  z-index: 5000;
+  top: 0;
+  left: 90px;
+  right: 0;
+  text-align: right;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: none;
+}
+
+.littleme:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.littleme ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+.littleme ul li {
+  margin: 0;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+}
+
+.littleme a {
+  text-align: center;
+  opacity: 1;
+  display: block;
+  background-color: #008080;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 45px;
+  text-decoration: none;
+}
+
+.littleme li > a:after { content: ' +'; }
+
+.littleme li > a:only-child:after { content: ''; }
 
 .menu {
 	position: absolute;
@@ -468,11 +524,67 @@ img {
 		display: none;
 	}
 	
+		 /*Makes Mobile Version of Menu visible*/
+	.littleme {
+		display: initial;
+	    	left: 90px;
+	    	right: 0;
+	    	z-index: 7000;
+	    	height: 50px;
+	    	overflow: visible;
+	    	background-color: black;
+	    	opacity: 1;
+	  }
+	
+	.littleme { margin: 0; }
+	
+	.toggle + a,
+	 .othermenu { 
+	     	display: none; 
+	 }
+	
+	/*Used a Character Font to make the Menu Icon. 
+	It was the most effecient way to get to what I needed.
+	This styles the Menu Icon*/
+	.toggle {
+	    	display: block;
+	    	text-align: right;
+	    	background-color: black;
+	    	opacity: 1;
+	    	top: 3px;
+	    	position: relative;
+	    	right: 5px;
+	    	color: #FFFFFF;
+	    	font-size: 48px;
+	    	font-weight: 100;
+	    	line-height: 45px;
+	    	text-decoration: none;
+	    	font-family: 'Material Icons', sans-serif;
+	    	z-index: 7000;
+	}
+	
+	/*Makes Menu Icon Site green after getting clicked*/
+	#drop:checked + label {
+	    	color: #008080;
+	}
+	
+	/*Displays Dropdown Menu after Menu Icon is clicked*/
+	[id^=drop]:checked + label + ul {
+	    	display: block;
+	}
+	
+	.littleme ul li {
+		display: block;
+	    	width: 100%;
+	    	z-index: 6000;
+	    	border: none;
+	}
+	
 	.fixed {
-	  display: none;
-	  top: 0;
-	  bottom: 90%;
-	  position: fixed;
+	 	top: 0;
+		bottom: 90%;
+	  	position: fixed;
+	  	overflow: visible;
 	}
 	
 	#barz {
@@ -826,11 +938,74 @@ img {
 		background-color: black;
 	}
 	
+			 /*Makes Mobile Version of Menu visible*/
+	.littleme {
+		display: initial;
+	    	left: 90px;
+	    	right: 0;
+	    	z-index: 7000;
+	    	height: 50px;
+	    	overflow: visible;
+	    	background-color: black;
+	    	opacity: 1;
+	  }
+	
+	.littleme { margin: 0; }
+	
+	.toggle + a,
+	 .othermenu { 
+	     	display: none; 
+	 }
+	
+	/*Used a Character Font to make the Menu Icon. 
+	It was the most effecient way to get to what I needed.
+	This styles the Menu Icon*/
+	.toggle {
+	    	display: block;
+	    	text-align: right;
+	    	background-color: black;
+	    	opacity: 1;
+	    	top: 3px;
+	    	position: relative;
+	    	right: 5px;
+	    	color: #FFFFFF;
+	    	font-size: 48px;
+	    	font-weight: 100;
+	    	line-height: 45px;
+	    	text-decoration: none;
+	    	font-family: 'Material Icons', sans-serif;
+	    	z-index: 7000;
+	}
+	
+	/*Makes Menu Icon Site green after getting clicked*/
+	#drop:checked + label {
+	    	color: #008080;
+	}
+	
+	/*Displays Dropdown Menu after Menu Icon is clicked*/
+	[id^=drop]:checked + label + ul {
+	    	display: block;
+	}
+	
+	.littleme ul li {
+		display: block;
+	    	width: 100%;
+	    	z-index: 6000;
+	    	border: none;
+	}
+	
 	.fixed {
-	  display: none;
+	 	top: 0;
+		bottom: 90%;
+	  	position: fixed;
+	  	overflow: visible;
+	}
+	
+	.fixed {
 	  top: 0;
 	  bottom: 90%;
 	  position: fixed;
+	  overflow: visible;
 	}
 	
 	#barz {
