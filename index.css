@@ -540,6 +540,8 @@ img {
 		position: absolute;
 		text-align: center;
 		text-decoration: none;
+		height: 30px;
+		width: 210px;
 		color: white;
 		top: 0;
 		font-size: 22px;
@@ -600,6 +602,8 @@ img {
 	#readmore {
 		-webkit-appearance: none;
 		position: absolute;
+		height: 30px;
+		width: 160px;
 		text-align: center;
 		text-decoration: none;
 		color: white;
@@ -890,8 +894,7 @@ img {
 	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 0;
-		right: 0;
+		height: 30px;
 		width: 210px;
 		text-align: center;
 		text-decoration: none;
@@ -955,8 +958,7 @@ img {
 	#readmore {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 0;
-		right: 0;
+		height: 30px;
 		width: 160px;
 		text-align: center;
 		text-decoration: none;
