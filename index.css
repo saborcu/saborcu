@@ -531,6 +531,12 @@ img {
 		top: 0;
 		left: 0;
 		margin: auto;
+		height: 50px;
+		width: 90px;
+		background-image: url("http://i.imgur.com/cBAFUZv.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
 	}
 	
 		 /*Makes Mobile Version of Menu visible*/
