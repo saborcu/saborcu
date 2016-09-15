@@ -537,12 +537,12 @@ img {
 	
 	#tacostwo {
 		-webkit-appearance: none;
+		top: 148%;
 		margin: auto;
 		display: block;
 		position: absolute;
-		text-align: center;
 		text-decoration: none;
-		height: 30px;
+		height: 40px;
 		width: 210px;
 		color: white;
 		top: 0;
