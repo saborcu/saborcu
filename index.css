@@ -458,7 +458,7 @@ img {
 		height: 300px;
 		width: 100%;
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
@@ -466,68 +466,6 @@ img {
 	.menu {
 		position: absolute;
 		display: none;
-		top: 90%;
-		left: 0;
-		right: 0;
-		width: 100%;
-		bottom: 0;
-		z-index: 10000;
-		background-color: black;
-	}
-	
-	
-	
-	.toma {
-		position: relative;
-		height: 30px;
-		width: 30px;
-		background-color: black;
-		opacity: 0;
-	}
-	
-	#menutext {
-		position: absolute;
-		left: -80px;
-		right: 0;
-		top: -5px;
-		bottom: 0;
-		list-style: none;
-		font-family: 'Handlee', sans-serif;
-		font-size: 15px;
-		color: white;
-		text-align: center;
-		vertical-align: middle;
-	}
-	
-	#linemenu {
-		background-color: #B51A00;
-		height: 2px;
-		top: 45%;
-		left: 0;
-		right: 0;
-		width: 60%;
-		text-align: center;
-		position: absolute;
-		z-index: 7002;
-		border: none;
-		opacity: .7;
-		}
-	
-	li {
-		display: inline;
-		padding: 0px 30px;
-	}
-	
-	a {
-		text-decoration: none;
-		outline: none;
-		color: white;
-	}
-	
-	a:hover .toma {
-		opacity: 1;
-		top: 5px;
-		transition: .7s;
 	}
 	
 	.fixed {
@@ -540,12 +478,6 @@ img {
 	#barz {
 		position: absolute;
 		display: none;
-		top: 100%;
-		left: 0;
-		right: 0;
-		width: 100%;
-		height: 15px;
-		background-color: black;
 	}
 	
 	 
@@ -845,7 +777,7 @@ img {
 		height: 300px;
 		width: 100%;
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
