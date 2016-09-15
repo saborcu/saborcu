@@ -551,7 +551,6 @@ img {
 		height: 40px;
 		width: 210px;
 		color: white;
-		top: 0;
 		font-size: 22px;
 		border-radius: 2px;
 		border-color: transparent;
@@ -597,26 +596,23 @@ img {
 		line-height: 30px;
 	}
 	
-	#butcen2 {
-		position: absolute;
-		top: 348px;
-		height: 30px;
-		width: 100%;
-		text-align: center;
-		left: 0;
-		right: 0;
-		background-color: black;
+	#readmore {
+		margin: auto;
+		display: block;
 	}
 	
 	#readmore {
 		-webkit-appearance: none;
 		position: absolute;
+		left: 0;
+		right: 0;
+		text-align: center;
 		height: 30px;
 		width: 160px;
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 0px;
+		top: 340px;
 		font-size: 22px;
 		border-radius: 2px;
 		border-color: transparent;
@@ -899,12 +895,18 @@ img {
 		z-index: 9000;
 	}
 	
+	#tacostwo {
+		margin: auto;
+		display: block;
+	}
 	
 	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
 		height: 30px;
 		width: 210px;
+		left: 0;
+		right: 0;
 		text-align: center;
 		text-decoration: none;
 		color: white;
@@ -917,16 +919,7 @@ img {
 		cursor: pointer;
 		outline: none;
 	}
-	
-	#butcen {
-		position: absolute;
-		top: 148%;
-		height: 30px;
-		left: 0;
-		right: 0;
-		text-align: center;
-		background-color: black;
-	}
+
 	
 	.cd-containertwo {
 		position: relative;
