@@ -604,10 +604,12 @@ img {
 	/*Displays Dropdown Menu after Menu Icon is clicked*/
 	[id^=drop]:checked + label + ul {
 	    	display: block;
+	    	text-align: center;
 	}
 	
 	.littleme ul li {
 		display: block;
+		text-align: center;
 	    	width: 100%;
 	    	z-index: 6000;
 	    	border: none;
