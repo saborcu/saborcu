@@ -49,6 +49,11 @@ body, html, main {
 	background-position: center;
 }
 
+#menuwrap {
+	position: absolute;
+	display: none;
+}
+
 .littleme p { text-align: right; }
  .toggle, [id^=drop] {
  display: none;
@@ -526,17 +531,26 @@ img {
 		display: none;
 	}
 	
-	#smallogo {
+	#menuwrap {
 		position: absolute;
+		display: inline;
 		top: 0;
 		left: 0;
-		margin: auto;
+		right: 0;
+		width: 100%;
+		height: 50px;
+	}
+	
+	#alm {
+		position: absolute;
+		height: 50px;
+		top: 0;
+		left: 0;
+	}
+	
+	#alm2 {
 		height: 50px;
 		width: 90px;
-		background-image: url("http://i.imgur.com/cBAFUZv.png");
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
 	}
 	
 		 /*Makes Mobile Version of Menu visible*/
