@@ -1101,9 +1101,14 @@ img {
 	
 	#finalimg {
 		position: absolute;
-		top: 130px;
-		left: 5px;
-		right: 5px;
+		display: none;
+	}
+	
+	#finalimgtwo {
+		position: absolute;
+		top: 230px;
+		text-align: center;
+		left: 10%;
 		height: 150px;
 		width: 300px;
 		border-radius: 100px;
@@ -1111,11 +1116,6 @@ img {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 100%;
-	}
-	
-	#finalimgtwo {
-		position: absolute;
-		display: none;
 	}
 	
 	
