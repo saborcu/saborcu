@@ -731,7 +731,7 @@ img {
 		position: absolute;
 		top: 230px;
 		text-align: center;
-		left: 0;
+		left: 3%;
 		right: 0;
 		margin: auto;
 		display: block;
@@ -1083,6 +1083,10 @@ img {
 	
 	#finalimgtwo {
 		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		display: block;
 		top: 230px;
 		text-align: center;
 		height: 150px;
