@@ -526,6 +526,13 @@ img {
 		display: none;
 	}
 	
+	#smallogo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: auto;
+	}
+	
 		 /*Makes Mobile Version of Menu visible*/
 	.littleme {
 		display: initial;
