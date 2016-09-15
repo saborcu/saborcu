@@ -555,6 +555,8 @@ img {
 		position: absolute;
 		top: 148%;
 		left: 0;
+		height: 30px;
+		width: 100%;
 		right: 0;
 		text-align: center;
 		background-color: black;
@@ -587,6 +589,8 @@ img {
 	#butcen2 {
 		position: absolute;
 		top: 348px;
+		height: 30px;
+		width: 100%;
 		text-align: center;
 		left: 0;
 		right: 0;
@@ -905,6 +909,8 @@ img {
 	#butcen {
 		position: absolute;
 		top: 148%;
+		height: 30px;
+		width: 100%;
 		left: 0;
 		right: 0;
 		text-align: center;
@@ -937,7 +943,9 @@ img {
 	
 	#butcen2 {
 		position: absolute;
-		top: 348px;
+		top: 148px;
+		height: 30px;
+		width: 100%;
 		text-align: center;
 		left: 0;
 		right: 0;
