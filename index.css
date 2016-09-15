@@ -534,13 +534,16 @@ img {
 		z-index: 9000;
 	}
 	
+	#tacostwo {
+		margin: auto;
+		display: block;
+	}
+	
 	
 	#tacostwo {
 		-webkit-appearance: none;
 		top: 148%;
-		margin: auto;
-		display: block;
-		position: absolute;
+		position: relative;
 		text-decoration: none;
 		height: 40px;
 		width: 210px;
