@@ -537,6 +537,8 @@ img {
 	
 	#tacostwo {
 		-webkit-appearance: none;
+		left: 0;
+		right: 0;
 		position: absolute;
 		text-align: center;
 		text-decoration: none;
@@ -578,6 +580,8 @@ img {
 	#readmore {
 		-webkit-appearance: none;
 		position: absolute;
+		left: 0;
+		right: 0;
 		text-align: center;
 		text-decoration: none;
 		color: white;
@@ -868,6 +872,8 @@ img {
 	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
+		left: 0;
+		right: 0;
 		width: 210px;
 		text-align: center;
 		text-decoration: none;
@@ -909,6 +915,8 @@ img {
 	#readmore {
 		-webkit-appearance: none;
 		position: absolute;
+		left: 0;
+		right: 0;
 		width: 160px;
 		text-align: center;
 		text-decoration: none;
