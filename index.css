@@ -49,7 +49,7 @@ body, html, main {
 	background-position: center;
 }
 
-#menuwrap {
+.menuwrap {
 	position: absolute;
 	display: none;
 }
@@ -531,7 +531,7 @@ img {
 		display: none;
 	}
 	
-	#menuwrap {
+	.menuwrap {
 		position: absolute;
 		display: inline;
 		top: 0;
