@@ -537,13 +537,11 @@ img {
 	
 	#tacostwo {
 		-webkit-appearance: none;
-		left: 0;
-		right: 0;
 		position: absolute;
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 148%;
+		top: 0;
 		font-size: 22px;
 		border-radius: 2px;
 		border-color: transparent;
@@ -551,6 +549,15 @@ img {
 		font-family: 'Handlee', sans-serif;
 		cursor: pointer;
 		outline: none;
+	}
+	
+	#butcen {
+		position: absolute;
+		top: 148%;
+		left: 0;
+		right: 0;
+		text-align: center;
+		background-color: black;
 	}
 	
 	.cd-containertwo {
@@ -577,15 +584,22 @@ img {
 		line-height: 30px;
 	}
 	
+	#butcen2 {
+		position: absolute;
+		top: 348px;
+		text-align: center;
+		left: 0;
+		right: 0;
+		background-color: black;
+	}
+	
 	#readmore {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 0;
-		right: 0;
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 348px;
+		top: 0px;
 		font-size: 22px;
 		border-radius: 2px;
 		border-color: transparent;
@@ -888,6 +902,15 @@ img {
 		outline: none;
 	}
 	
+	#butcen {
+		position: absolute;
+		top: 148%;
+		left: 0;
+		right: 0;
+		text-align: center;
+		background-color: black;
+	}
+	
 	.cd-containertwo {
 		position: relative;
 		top: 0;
@@ -910,6 +933,15 @@ img {
 		font-size: 28px;
 		color: white;
 		line-height: 30px;
+	}
+	
+	#butcen2 {
+		position: absolute;
+		top: 348px;
+		text-align: center;
+		left: 0;
+		right: 0;
+		background-color: black;
 	}
 	
 	#readmore {
