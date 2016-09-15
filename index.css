@@ -477,7 +477,7 @@ img {
 	
 	.top {
 		position: absolute;
-		top: 0;
+		top: 50px;
 		height: 90px;
 		left: 0;
 		right: 0;
@@ -531,10 +531,10 @@ img {
 		display: initial;
 	    	left: 0;
 	    	right: 0;
-	    	z-index: 900;
+	    	z-index: 10000;
 	    	height: 50px;
 	    	overflow: visible;
-	    	background-color: transparent;
+	    	background-color: black;
 	    	opacity: 1;
 	  }
 	
@@ -551,14 +551,14 @@ img {
 	.toggle {
 	    	display: block;
 	    	text-align: right;
-	    	background-color: transparent;
+	    	background-color: black;
 	    	opacity: 1;
 	    	top: 3px;
 	    	position: relative;
 	    	right: 0;
 	    	left: 0;
 	    	color: #B51A00;
-	    	font-size: 55px;
+	    	font-size: 48px;
 	    	font-weight: 100;
 	    	line-height: 45px;
 	    	text-decoration: none;
