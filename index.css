@@ -543,7 +543,10 @@ img {
 	#tacostwo {
 		-webkit-appearance: none;
 		top: 148%;
-		position: relative;
+		position: absolute;
+		left: 0;
+		right: 0;
+		text-align: center;
 		text-decoration: none;
 		height: 40px;
 		width: 210px;
