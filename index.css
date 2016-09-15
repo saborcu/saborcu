@@ -532,6 +532,7 @@ img {
 	}
 	
 	.menuwrap {
+		transform: translate3d(0px,0px,0px);
 		position: absolute;
 		display: inline;
 		top: 0;
