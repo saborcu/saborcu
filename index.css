@@ -537,6 +537,8 @@ img {
 	
 	#tacostwo {
 		-webkit-appearance: none;
+		margin: auto;
+		display: block;
 		position: absolute;
 		text-align: center;
 		text-decoration: none;
@@ -555,6 +557,7 @@ img {
 	
 	#butcen {
 		position: absolute;
+		display: block;
 		top: 148%;
 		left: 0;
 		height: 30px;
