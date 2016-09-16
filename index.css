@@ -803,8 +803,8 @@ img {
 	#phone {
 		position: absolute;
 		top: 70px;
-		left: 0;
-		right: 43%;
+		left: -140px;
+		right: 0;
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
@@ -816,7 +816,7 @@ img {
 	#diffphone {
 		position: absolute;
 		top: 70px;
-		left: 22%;
+		left: 60px;
 		right: 0;
 		text-align: center;
 		font-weight: 100;
@@ -832,9 +832,8 @@ img {
 	
 	#email {
 		position: absolute;
-		top: 110px;
-		left: 0;
-		right: 66%;
+		left: 212px;
+		right: 0;
 		text-align: center;
 		font-weight: 100;
 		font-family: 'Handlee', sans-serif;
@@ -846,7 +845,7 @@ img {
 	#diffemail {
 		position: absolute;
 		top: 110px;
-		left: 20%;
+		left: 60px;
 		right: 0;
 		text-align: center;
 		font-weight: 100;
