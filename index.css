@@ -66,6 +66,7 @@ body, html, main {
   left: 0;
   right: 0;
   height: 50px;
+  text-align: right;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -579,6 +580,8 @@ img {
 	.toggle + a,
 	 .othermenu { 
 	     	display: none;
+	     	left: 0;
+	     	right: 0;
 	     	text-align: center;
 	 }
 	
@@ -606,20 +609,18 @@ img {
 	/*Makes Menu Icon Site green after getting clicked*/
 	#drop:checked + label {
 	    	color: #B51A00;
-	    	text-align: center;
 	}
 	
 	/*Displays Dropdown Menu after Menu Icon is clicked*/
 	[id^=drop]:checked + label + ul {
 	    	display: block;
-	    	left: 0;
-	    	right: 0;
-	    	text-align: center;
 	}
 	
 	.littleme ul li {
 		display: block;
 		text-align: center;
+		left: 0;
+		right: 0;
 	    	width: 100%;
 	    	z-index: 6000;
 	    	border: none;
