@@ -1052,14 +1052,23 @@ img {
 	.littleme ul li {
 		display: block;
 		text-align: center;
-		left: -6%;
-		right: 6%;
+		left: -7.5%;
+		right: 7.5%;
 	    	width: 100%;
 	    	z-index: 6000;
 	    	border: none;
 	    	font-family: 'Handlee', sans-serif;
 	}
 	
+	.littleme ul {
+		padding: 0;
+		left: -7.5%;
+		right: 7.5%;
+	 	list-style: none;
+		position: relative;
+		text-align: center;
+	}
+
 	#barz {
 		position: absolute;
 		display: none;
