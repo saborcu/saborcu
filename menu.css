@@ -1440,6 +1440,7 @@ a:hover .toma {
 		background-color: black;
 		opacity: 1;
 		z-index: 700;
+		overflow: hidde;
 	}
 	
 	#need {
@@ -1613,6 +1614,7 @@ a:hover .toma {
 		z-index: 1001;
 		background-color: transparent;
 		transition: ease-out .4s all;
+		overflow: hidden;
 	}
 	
 	#container {
@@ -1626,6 +1628,7 @@ a:hover .toma {
 		background-position: center;
 		background-repeat: repeat;
 		opacity: .6;
+		overflow: hidden;
 	}
 		
 	
@@ -2576,6 +2579,7 @@ a:hover .toma {
 		height: 390px;
 		z-index: 8000;
 		background-color: black;
+		overflow: hidden;
 	}
 	
 	.menutwo {
