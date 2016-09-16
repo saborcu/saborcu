@@ -1387,7 +1387,7 @@ a:hover .toma {
 
 @media all and (max-width: 1024px) {
 	body {
-		height: auto;
+		height: 4000px
 		width: 100%;
 		right: 0;
 		left: 0;
