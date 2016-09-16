@@ -580,9 +580,11 @@ img {
 	.toggle + a,
 	 .othermenu { 
 	     	display: none;
+	     	position: absolute;
 	     	left: 0;
 	     	right: 0;
 	     	text-align: center;
+	     	margin: auto;
 	 }
 	
 	/*Used a Character Font to make the Menu Icon. 
@@ -619,6 +621,7 @@ img {
 	.littleme ul li {
 		display: block;
 		text-align: center;
+		margin: auto;
 		left: 0;
 		right: 0;
 	    	width: 100%;
