@@ -1387,88 +1387,37 @@ a:hover .toma {
 
 @media all and (max-width: 1024px) {
 	body {
-		height: auto;
+		height: 3200px;
 		width: 100%;
-		overflow: visible;
+		right: 0;
+		left: 0;
+		overflow: hidden;
 		background-color: black;
 	}
 	
 	#spoon {
 		position: absolute;
-		left: 0;
-		right: 0;
-		top: 1050px;
-		height: 260px ;
-		width: 150px;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-image: url("http://i.imgur.com/OdTsPfs.png");	
-		background-size: 100%;
-		z-index: 1000;
-		text-align: center;
-		margin: auto;
-		background-color: transparent;
-		transition: .5s;
+		display: none;
 	}
 	
 	#wood {
 		position: absolute;
-		right: 30px;
-		top: 630px;
-		height: 330px ;
-		width: 250px;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-image: url("http://i.imgur.com/9YT2VWW.png");	
-		background-size: 100%;
-		z-index: 1000;
-		background-color: transparent;
-		transition: .8s;
+		display: none;
 	}
 	
 	#green {
 		position: absolute;
-		left: 20px;
-		top: 670px;
-		height: 200px ;
-		width: 290px;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-image: url("http://i.imgur.com/WpmxPPP.png");	
-		background-size: 100%;
-		z-index: 1000;
-		background-color: transparent;
-		transition: .6s;
+		display: none;
 	}
 	
 	#guisosdoe {
 		position: absolute;
-		left: 40px;
-		top: 1540px;
-		height: 330px ;
-		width: 250px;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-image: url("http://i.imgur.com/dRy6YJv.png");	
-		background-size: 100%;
-		z-index: 1000;
-		background-color: transparent;
-		transition: .8s;
+		display: none;
 	}	
 	
 	#rice {
 		position: absolute;
-		right: 10px;
-		top: 1800px;
-		height: 330px ;
-		width: 250px;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-image: url("http://i.imgur.com/NEFd4YV.png");	
-		background-size: 100%;
-		z-index: 1000;
-		background-color: transparent;
-		transition: .8s;
+		display: none;
 	}	
 	
 	#tortillas {
