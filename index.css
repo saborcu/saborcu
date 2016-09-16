@@ -54,7 +54,7 @@ body, html, main {
 	display: none;
 }
 
-.littleme p { text-align: center; }
+.littleme p { text-align: right; }
  .toggle, [id^=drop] {
  display: none;
 }
@@ -114,7 +114,7 @@ body, html, main {
   text-decoration: none;
 }
 
-.littleme li > a:after { content: ' +'; }
+.littleme li > a:after { content: ' +'; text-align: center;}
 
 .littleme li > a:only-child:after { content: ''; }
 
@@ -565,6 +565,7 @@ img {
 		 /*Makes Mobile Version of Menu visible*/
 	.littleme {
 		display: initial;
+		text-align: center;
 	    	left: 0;
 	    	right: 0;
 	    	z-index: 10000;
@@ -578,7 +579,8 @@ img {
 	
 	.toggle + a,
 	 .othermenu { 
-	     	display: none; 
+	     	display: none;
+	     	text-align: center;
 	 }
 	
 	/*Used a Character Font to make the Menu Icon. 
@@ -586,7 +588,7 @@ img {
 	This styles the Menu Icon*/
 	.toggle {
 	    	display: block;
-	    	text-align: center;
+	    	text-align: right;
 	    	background-color: black;
 	    	opacity: 1;
 	    	top: 3px;
@@ -605,6 +607,7 @@ img {
 	/*Makes Menu Icon Site green after getting clicked*/
 	#drop:checked + label {
 	    	color: #B51A00;
+	    	text-align: center;
 	}
 	
 	/*Displays Dropdown Menu after Menu Icon is clicked*/
