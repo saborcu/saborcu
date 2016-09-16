@@ -113,7 +113,7 @@ body, html, main {
   text-decoration: none;
 }
 
-.littleme li > a:after { content: ' +'; text-align: center;}
+.littleme li > a:after { content: ' +';}
 
 .littleme li > a:only-child:after { content: ''; }
 
