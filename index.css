@@ -618,7 +618,7 @@ img {
 	.littleme ul li {
 		display: block;
 		text-align: center;
-		left: 0;
+		left: -5%;
 		right: 0;
 	    	width: 100%;
 	    	z-index: 6000;
