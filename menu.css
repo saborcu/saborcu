@@ -108,6 +108,7 @@ body {
 	width: 100%;
 	background-color: black;
 	opacity: 1;
+	overflow: hidden;
 }
 
 #need {
@@ -243,6 +244,7 @@ img {
 	height: 95px;
 	z-index: 7000;
 	background-color: black;
+	overflow: hidden;
 }
 
 .toma {
@@ -256,6 +258,7 @@ img {
 
 #menutext {
 	position: absolute;
+	overflow: hidden;
 	left: -80px;
 	right: 0;
 	top: -5px;
@@ -304,6 +307,7 @@ a:hover .toma {
 	z-index: 1001;
 	background-color: transparent;
 	transition: ease-out .4s all;
+	overflow: hidden;
 }
 
 #container {
@@ -316,6 +320,7 @@ a:hover .toma {
 	background-position: center;
 	background-repeat: repeat;
 	opacity: .6;
+	overflow: hidden;
 }
 	
 
@@ -1265,6 +1270,7 @@ a:hover .toma {
 	right: 0;
 	height: 390px;
 	z-index: 8000;
+	overflow: hidden;
 	background-color: black;
 }
 
