@@ -2057,7 +2057,7 @@ a:hover .toma {
 	
 	#peopler {
 		position: absolute;
-		left: -63px;
+		left: -60px;
 		top: 825px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2069,7 +2069,7 @@ a:hover .toma {
 	
 	#costr {
 		position: absolute;
-		left: -63px;
+		left: -60px;
 		top: 865px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2105,7 +2105,7 @@ a:hover .toma {
 	
 	#hunedr {
 		position: absolute;
-		right: -63px;
+		right: -60px;
 		top: 825px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2117,7 +2117,7 @@ a:hover .toma {
 	
 	#hunedcostr {
 		position: absolute;
-		right: -63px;
+		right: -60px;
 		top: 865px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2403,7 +2403,7 @@ a:hover .toma {
 	
 	#people {
 		position: absolute;
-		left: -63px;
+		left: -60px;
 		top: 545px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2415,7 +2415,7 @@ a:hover .toma {
 	
 	#cost {
 		position: absolute;
-		left: -63px;
+		left: -60px;
 		top: 585px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2451,7 +2451,7 @@ a:hover .toma {
 	
 	#huned {
 		position: absolute;
-		right: -63px;
+		right: -60px;
 		top: 545px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2463,7 +2463,7 @@ a:hover .toma {
 	
 	#hunedcost {
 		position: absolute;
-		right: -63px;
+		right: -60px;
 		top: 585px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2537,7 +2537,7 @@ a:hover .toma {
 	
 	#tacostwo {
 		position: absolute;
-		left: 45%;
+		left: 0;
 		right: 0;
 		text-decoration: none;
 		color: white;
@@ -2551,6 +2551,8 @@ a:hover .toma {
 		font-family: 'Handlee', sans-serif;
 		cursor: pointer;
 		outline: none;
+		text-align: center;
+		margin: auto;
 	}
 	
 	#bottom {
@@ -2558,7 +2560,7 @@ a:hover .toma {
 		top: 2930px;
 		left: 0;
 		right: 0;
-		height: 390px;
+		height: 500px;
 		z-index: 8000;
 		background-color: black;
 		overflow: hidden;
@@ -2566,26 +2568,7 @@ a:hover .toma {
 	
 	.menutwo {
 		position: absolute;
-		top: 250px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		bottom: 0;
-		background-color: black;
-	}
-	
-	#menutexttwo {
-		position: absolute;
-		left: -80px;
-		right: 0;
-		top: 20%;
-		bottom: 0;
-		list-style: none;
-		font-family: 'Handlee', sans-serif;
-		font-size: 15px;
-		color: white;
-		text-align: center;
-		vertical-align: middle;
+		display: none;
 	}
 	
 	#endstuf {
@@ -2616,16 +2599,7 @@ a:hover .toma {
 	
 	#imgleft {
 		position: absolute;
-		left: 45px;
-		top: 35px;
-		height: 150px;
-		width: 300px;
-		background-image: url("http://i.imgur.com/8siXjwQ.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		border-radius: 120px;
-		z-index: 8000;
+		display: none;
 	}
 	
 	
