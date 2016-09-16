@@ -8,6 +8,7 @@ body {
 
 #spoon {
 	position: absolute;
+	display: none;
 	left: 0;
 	right: 0;
 	top: 1050px;
@@ -26,6 +27,7 @@ body {
 
 #wood {
 	position: absolute;
+	display: none;
 	right: 30px;
 	top: 630px;
 	height: 330px ;
@@ -52,10 +54,12 @@ body {
 	z-index: 1000;
 	background-color: transparent;
 	transition: .6s;
+	display: none;
 }
 
 #guisosdoe {
 	position: absolute;
+	display: none;
 	left: 40px;
 	top: 1540px;
 	height: 330px ;
@@ -82,21 +86,7 @@ body {
 	z-index: 1000;
 	background-color: transparent;
 	transition: .8s;
-}	
-
-#tortillas {
-	position: absolute;
-	left: 40px;
-	top: 1950px;
-	height: 250px ;
-	width: 180px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url("http://i.imgur.com/K8egfxT.png");	
-	background-size: 100%;
-	z-index: 1000;
-	background-color: transparent;
-	transition: .8s;
+	display: none;
 }
 
 .top {
