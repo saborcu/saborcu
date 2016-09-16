@@ -1391,7 +1391,7 @@ a:hover .toma {
 		width: 100%;
 		right: 0;
 		left: 0;
-		overflow: hidden;
+		overflow: visible;
 		background-color: black;
 	}
 	
