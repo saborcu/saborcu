@@ -2161,7 +2161,7 @@ a:hover .toma {
 	
 	#diffbistec {
 		position: absolute;
-		left: -670px;
+		left: -320px;
 		right: 0;
 		top: 143px;
 		text-align: center;
@@ -2174,7 +2174,7 @@ a:hover .toma {
 		position: absolute;
 		left: 0;
 		right: -25px;
-		top: 170px;
+		top: 200px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2184,9 +2184,9 @@ a:hover .toma {
 	
 	#diffcochi {
 		position: absolute;
-		left: -670px;
+		left: -320px;
 		right: 0;
-		top: 173px;
+		top: 203px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
@@ -2197,7 +2197,7 @@ a:hover .toma {
 		position: absolute;
 		left: 0;
 		right: 112px;
-		top: 200px;
+		top: 230px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2207,9 +2207,9 @@ a:hover .toma {
 	
 	#diffrajas {
 		position: absolute;
-		left: -670px;
+		left: -320px;
 		right: 0;
-		top: 203px;
+		top: 233px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
