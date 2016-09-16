@@ -241,7 +241,7 @@ img {
 	width: 100%;
 	height: 95px;
 	z-index: 7000;
-	background-color: black;
+	background-color: green;
 }
 
 .toma {
@@ -1262,7 +1262,7 @@ a:hover .toma {
 	right: 0;
 	height: 390px;
 	z-index: 8000;
-	background-color: black;
+	background-color: green;
 }
 
 .menutwo {
@@ -1272,7 +1272,7 @@ a:hover .toma {
 	right: 0;
 	width: 100%;
 	bottom: 0;
-	background-color: black;
+	background-color: yellow;
 }
 
 #menutexttwo {
