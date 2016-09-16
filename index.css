@@ -65,7 +65,7 @@ body, html, main {
   top: 0;
   left: 0;
   right: 0;
-  text-align: right;
+  text-align: center;
   height: 50px;
   margin: 0;
   padding: 0;
@@ -185,9 +185,9 @@ a:hover .toma {
 }
 
 .fixed {
-  top: 0;
-  bottom: 90%;
-  position: fixed;
+  	top: 0;
+  	bottom: 90%;
+  	position: fixed;
 }
 
 #barz {
@@ -586,7 +586,7 @@ img {
 	This styles the Menu Icon*/
 	.toggle {
 	    	display: block;
-	    	text-align: right;
+	    	text-align: center;
 	    	background-color: black;
 	    	opacity: 1;
 	    	top: 3px;
