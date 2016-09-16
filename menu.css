@@ -271,6 +271,7 @@ img {
 li {
 	display: inline;
 	padding: 0px 30px;
+	background-color: yellow;
 }
 
 a {
@@ -1264,7 +1265,7 @@ a:hover .toma {
 	right: 0;
 	height: 390px;
 	z-index: 8000;
-	background-color: green;
+	background-color: black;
 }
 
 .menutwo {
@@ -1315,7 +1316,6 @@ a:hover .toma {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	z-index: 8000;
-	background-color: yellow;
 }
 
 #imgleft {
@@ -1330,6 +1330,7 @@ a:hover .toma {
 	background-size: 100%;
 	border-radius: 120px;
 	z-index: 8000;
+	background-color: yellow;
 }
 
 
