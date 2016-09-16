@@ -2266,7 +2266,7 @@ a:hover .toma {
 		position: absolute;
 		left: 10px;
 		right: 0;
-		top: 290px;
+		top: 440px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2278,7 +2278,7 @@ a:hover .toma {
 		position: absolute;
 		left: -410px;
 		right: 0;
-		top: 293px;
+		top: 443px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
@@ -2287,9 +2287,9 @@ a:hover .toma {
 	
 	#pollo {
 		position: absolute;
-		left: 55px;
+		left: 10px;
 		right: 0;
-		top: 320px;
+		top: 500px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2299,9 +2299,9 @@ a:hover .toma {
 	
 	#diffpollo {
 		position: absolute;
-		left: -670px;
+		left: -410px;
 		right: 0;
-		top: 323px;
+		top: 500px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
@@ -2310,9 +2310,9 @@ a:hover .toma {
 	
 	#tinga {
 		position: absolute;
-		left: -85px;
+		left: 10px;
 		right: 0;
-		top: 350px;
+		top: 560px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2322,9 +2322,9 @@ a:hover .toma {
 	
 	#difftinga {
 		position: absolute;
-		left: -670px;
+		left: -410px;
 		right: 0;
-		top: 353px;
+		top: 560px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
@@ -2333,9 +2333,9 @@ a:hover .toma {
 	
 	#cama {
 		position: absolute;
-		left: -60px;
+		left: 10px;
 		right: 0;
-		top: 380px;
+		top: 620px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2345,9 +2345,9 @@ a:hover .toma {
 	
 	#diffcama {
 		position: absolute;
-		left: -670px;
+		left: -410px;
 		right: 0;
-		top: 383px;
+		top: 623px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
