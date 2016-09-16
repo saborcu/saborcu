@@ -2149,11 +2149,11 @@ a:hover .toma {
 	
 	#bistec {
 		position: absolute;
-		left: 5px
+		left: 10px
 		right: 0px;
 		top: 140px;
 		line-height: 30px;
-		text-align: center;
+		text-align: justify;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
 		color: white;
@@ -2173,10 +2173,10 @@ a:hover .toma {
 	
 	#cochi {
 		position: absolute;
-		left: 0px;
+		left: 10px;
 		right: 0;
 		top: 200px;
-		text-align: center;
+		text-align: justify;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
 		color: white;
