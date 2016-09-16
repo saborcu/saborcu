@@ -2149,7 +2149,7 @@ a:hover .toma {
 	
 	#bistec {
 		position: absolute;
-		left: 20px;
+		left: 5px
 		right: 0px;
 		top: 140px;
 		line-height: 30px;
@@ -2173,7 +2173,7 @@ a:hover .toma {
 	
 	#cochi {
 		position: absolute;
-		left: 20px;
+		left: 0px;
 		right: 0;
 		top: 200px;
 		text-align: center;
