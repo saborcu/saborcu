@@ -2356,9 +2356,9 @@ a:hover .toma {
 	
 	#puer {
 		position: absolute;
-		left: 55px;
+		left: 10px;
 		right: 0;
-		top: 410px;
+		top: 680px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2368,9 +2368,9 @@ a:hover .toma {
 	
 	#diffpuer {
 		position: absolute;
-		left: -670px;
+		left: -410px;
 		right: 0;
-		top: 413px;
+		top: 683px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
@@ -2379,10 +2379,10 @@ a:hover .toma {
 	
 	#mach {
 		position: absolute;
-		left: -15px;
+		left: 10px;
 		right: 0;
 		text-align: center;
-		top: 440px;
+		top: 740px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2392,9 +2392,9 @@ a:hover .toma {
 	
 	#diffmach {
 		position: absolute;
-		left: -670px;
+		left: -410px;
 		right: 0;
-		top: 443px;
+		top: 743px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
