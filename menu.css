@@ -2161,7 +2161,7 @@ a:hover .toma {
 	
 	#diffbistec {
 		position: absolute;
-		left: -610px;
+		left: -510px;
 		right: 0;
 		top: 143px;
 		text-align: center;
@@ -2218,9 +2218,9 @@ a:hover .toma {
 	
 	#chich {
 		position: absolute;
-		left: 0;
+		left: 10px;
 		right: 0;
-		top: 230px;
+		top: 260px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2230,9 +2230,9 @@ a:hover .toma {
 	
 	#diffchich {
 		position: absolute;
-		left: -670px;
+		left: -510px;
 		right: 0;
-		top: 233px;
+		top: 263px;
 		text-align: center;
 		font-family: 'Material Icons', sans-serif;
 		font-size: 23px;
