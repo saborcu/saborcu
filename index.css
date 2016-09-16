@@ -89,13 +89,12 @@ body, html, main {
 }
 
 .littleme ul li {
-  margin: auto;
   left: 0;
   right: 0;
   text-align: center;
   height: auto;
   width: 100%;
-  display: inline-block;
+  display: block;
   background-color: #B51A00;
   opacity: 1;
 }
@@ -614,7 +613,6 @@ img {
 	/*Displays Dropdown Menu after Menu Icon is clicked*/
 	[id^=drop]:checked + label + ul {
 	    	display: block;
-	    	margin: auto;
 	}
 	
 	.littleme ul li {
