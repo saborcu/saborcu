@@ -2404,7 +2404,7 @@ a:hover .toma {
 	#people {
 		position: absolute;
 		left: -60px;
-		top: 845px;
+		top: 945px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2416,7 +2416,7 @@ a:hover .toma {
 	#cost {
 		position: absolute;
 		left: -60px;
-		top: 885px;
+		top: 985px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2428,7 +2428,7 @@ a:hover .toma {
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 845px;
+		top: 945px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2441,7 +2441,7 @@ a:hover .toma {
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 885px;
+		top: 985px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2452,7 +2452,7 @@ a:hover .toma {
 	#huned {
 		position: absolute;
 		right: -60px;
-		top: 845px;
+		top: 945px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2464,7 +2464,7 @@ a:hover .toma {
 	#hunedcost {
 		position: absolute;
 		right: -60px;
-		top: 885px;
+		top: 985px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
