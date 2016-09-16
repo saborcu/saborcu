@@ -2149,7 +2149,7 @@ a:hover .toma {
 	
 	#bistec {
 		position: absolute;
-		left: 15px
+		left: 25px
 		right: 0px;
 		top: 140px;
 		line-height: 30px;
@@ -2173,7 +2173,7 @@ a:hover .toma {
 	
 	#cochi {
 		position: absolute;
-		left: 20px;
+		left: 25px;
 		right: 0;
 		top: 200px;
 		text-align: center;
@@ -2197,7 +2197,7 @@ a:hover .toma {
 	
 	#rajas {
 		position: absolute;
-		left: 10px;
+		left: -20px;
 		right: 0;
 		top: 260px;
 		text-align: center;
@@ -2221,7 +2221,7 @@ a:hover .toma {
 	
 	#chich {
 		position: absolute;
-		left: 10px;
+		left: 25px;
 		right: 0;
 		top: 320px;
 		text-align: center;
@@ -2245,7 +2245,7 @@ a:hover .toma {
 	
 	#mar {
 		position: absolute;
-		left: 10px;
+		left: 25px;
 		right: 0;
 		line-height: 30px;
 		top: 380px;
@@ -2269,7 +2269,7 @@ a:hover .toma {
 	
 	#frijol {
 		position: absolute;
-		left: 10px;
+		left: 30px;
 		right: 0;
 		top: 440px;
 		text-align: center;
@@ -2293,7 +2293,7 @@ a:hover .toma {
 	
 	#pollo {
 		position: absolute;
-		left: 10px;
+		left: 25px;
 		right: 0;
 		top: 500px;
 		text-align: center;
