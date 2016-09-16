@@ -832,7 +832,8 @@ img {
 	
 	#email {
 		position: absolute;
-		left: 212px;
+		top: 110px;
+		left: -212px;
 		right: 0;
 		text-align: center;
 		font-weight: 100;
