@@ -2152,7 +2152,7 @@ a:hover .toma {
 		left: 10px;
 		right: 0px;
 		top: 140px;
-		line-height: 60px;
+		line-height: 30px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
@@ -2162,7 +2162,7 @@ a:hover .toma {
 	
 	#diffbistec {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 143px;
 		text-align: center;
@@ -2181,11 +2181,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffcochi {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 203px;
 		text-align: center;
@@ -2204,11 +2205,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffrajas {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 263px;
 		text-align: center;
@@ -2227,11 +2229,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffchich {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 323px;
 		text-align: center;
@@ -2244,6 +2247,7 @@ a:hover .toma {
 		position: absolute;
 		left: 10px;
 		right: 0;
+		line-height: 30px;
 		top: 380px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2254,7 +2258,7 @@ a:hover .toma {
 	
 	#diffmar {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 383px;
 		text-align: center;
@@ -2273,11 +2277,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffrijol {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 443px;
 		text-align: center;
@@ -2296,11 +2301,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffpollo {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 500px;
 		text-align: center;
@@ -2319,11 +2325,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#difftinga {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 560px;
 		text-align: center;
@@ -2342,11 +2349,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffcama {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 623px;
 		text-align: center;
@@ -2365,11 +2373,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffpuer {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 683px;
 		text-align: center;
@@ -2389,11 +2398,12 @@ a:hover .toma {
 		font-size: 25px;
 		color: white;
 		z-index: 3000;
+		line-height: 30px;
 	}
 	
 	#diffmach {
 		position: absolute;
-		left: -410px;
+		left: -390px;
 		right: 0;
 		top: 743px;
 		text-align: center;
