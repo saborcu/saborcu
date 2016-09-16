@@ -81,16 +81,16 @@ body, html, main {
 
 .littleme ul {
   padding: 0;
-  left: -5%;
-  right: 0;
+  left: -6.5%;
+  right: 6.5%;
   list-style: none;
   position: relative;
   text-align: center;
 }
 
 .littleme ul li {
-  left: -5%;
-  right: 0;
+  left: -6.5%;
+  right: 6.5%;
   text-align: center;
   height: auto;
   width: 100%;
