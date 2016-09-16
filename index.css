@@ -626,12 +626,6 @@ img {
 	    	font-family: 'Handlee', sans-serif;
 	}
 	
-	.fixed {
-	 	top: 0;
-	  	position: fixed;
-	  	overflow: visible;
-	}
-	
 	#barz {
 		position: absolute;
 		display: none;
@@ -974,21 +968,40 @@ img {
 	.menu {
 		position: absolute;
 		display: none;
-		top: 90%;
+	}
+	
+	.menuwrap {
+		transform: translate3d(0px,0px,0px);
+		position: fixed;
+		display: inline;
+		top: 0;
 		left: 0;
 		right: 0;
 		width: 100%;
-		bottom: 0;
-		z-index: 10000;
-		background-color: black;
+		height: 50px;
+		z-index: 10001;
 	}
 	
-			 /*Makes Mobile Version of Menu visible*/
+	#alm {
+		position: absolute;
+		height: 48px;
+		top: 0;
+		left: 0;
+		z-index: 10001;
+	}
+	
+	#alm2 {
+		height: 48px;
+		width: 140px;
+	}
+	
+		 /*Makes Mobile Version of Menu visible*/
 	.littleme {
 		display: initial;
-	    	left: 90px;
+		text-align: center;
+	    	left: 0;
 	    	right: 0;
-	    	z-index: 7000;
+	    	z-index: 10000;
 	    	height: 50px;
 	    	overflow: visible;
 	    	background-color: black;
@@ -1000,6 +1013,8 @@ img {
 	.toggle + a,
 	 .othermenu { 
 	     	display: none;
+	     	left: 0;
+	     	right: 0;
 	     	text-align: center;
 	 }
 	
@@ -1012,9 +1027,10 @@ img {
 	    	background-color: black;
 	    	opacity: 1;
 	    	top: 3px;
-	    	absolute: relative;
-	    	right: 5px;
-	    	color: #FFFFFF;
+	    	position: absolute;
+	    	right: 0;
+	    	left: 0;
+	    	color: #B51A00;
 	    	font-size: 48px;
 	    	font-weight: 100;
 	    	line-height: 45px;
@@ -1025,7 +1041,7 @@ img {
 	
 	/*Makes Menu Icon Site green after getting clicked*/
 	#drop:checked + label {
-	    	color: #008080;
+	    	color: #B51A00;
 	}
 	
 	/*Displays Dropdown Menu after Menu Icon is clicked*/
@@ -1035,23 +1051,13 @@ img {
 	
 	.littleme ul li {
 		display: block;
+		text-align: center;
+		left: -6%;
+		right: 6%;
 	    	width: 100%;
 	    	z-index: 6000;
 	    	border: none;
-	}
-	
-	.fixed {
-	 	top: 0;
-		bottom: 90%;
-	  	position: fixed;
-	  	overflow: visible;
-	}
-	
-	.fixed {
-	  top: 0;
-	  bottom: 90%;
-	  position: fixed;
-	  overflow: visible;
+	    	font-family: 'Handlee', sans-serif;
 	}
 	
 	#barz {
