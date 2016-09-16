@@ -584,7 +584,6 @@ img {
 	     	left: 0;
 	     	right: 0;
 	     	text-align: center;
-	     	margin: auto;
 	 }
 	
 	/*Used a Character Font to make the Menu Icon. 
@@ -616,12 +615,12 @@ img {
 	/*Displays Dropdown Menu after Menu Icon is clicked*/
 	[id^=drop]:checked + label + ul {
 	    	display: block;
+	    	margin: auto;
 	}
 	
 	.littleme ul li {
 		display: block;
 		text-align: center;
-		margin: auto;
 		left: 0;
 		right: 0;
 	    	width: 100%;
