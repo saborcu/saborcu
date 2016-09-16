@@ -2058,7 +2058,6 @@ a:hover .toma {
 	#peopler {
 		position: absolute;
 		left: 0;
-		right: 50%;
 		top: 825px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2071,7 +2070,6 @@ a:hover .toma {
 	#costr {
 		position: absolute;
 		left: 0;
-		right: 50%;
 		top: 865px;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -2107,7 +2105,6 @@ a:hover .toma {
 	
 	#hunedr {
 		position: absolute;
-		left: 50%;
 		right: 0;
 		top: 825px;
 		text-align: center;
@@ -2120,7 +2117,6 @@ a:hover .toma {
 	
 	#hunedcostr {
 		position: absolute;
-		left: 50%;
 		right: 0;
 		top: 865px;
 		text-align: center;
