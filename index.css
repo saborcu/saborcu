@@ -54,7 +54,7 @@ body, html, main {
 	display: none;
 }
 
-.littleme p { text-align: right; }
+.littleme p { text-align: center; }
  .toggle, [id^=drop] {
  display: none;
 }
