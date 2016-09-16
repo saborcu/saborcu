@@ -2149,7 +2149,7 @@ a:hover .toma {
 	
 	#bistec {
 		position: absolute;
-		left: 45px
+		left: 35px
 		right: 0px;
 		top: 140px;
 		line-height: 30px;
@@ -2317,7 +2317,7 @@ a:hover .toma {
 	
 	#tinga {
 		position: absolute;
-		left: 10px;
+		left: 25px;
 		right: 0;
 		top: 560px;
 		text-align: center;
@@ -2341,7 +2341,7 @@ a:hover .toma {
 	
 	#cama {
 		position: absolute;
-		left: 10px;
+		left: 5px;
 		right: 0;
 		top: 620px;
 		text-align: center;
@@ -2365,7 +2365,7 @@ a:hover .toma {
 	
 	#puer {
 		position: absolute;
-		left: 10px;
+		left: 25px;
 		right: 0;
 		top: 680px;
 		text-align: center;
