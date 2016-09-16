@@ -551,14 +551,14 @@ img {
 	
 	#alm {
 		position: absolute;
-		height: 50px;
+		height: 48px;
 		top: 0;
 		left: 0;
 		z-index: 10001;
 	}
 	
 	#alm2 {
-		height: 50px;
+		height: 48px;
 		width: 140px;
 	}
 	
