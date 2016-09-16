@@ -2153,7 +2153,7 @@ a:hover .toma {
 		right: 0px;
 		top: 140px;
 		line-height: 30px;
-		text-align: justify;
+		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
 		color: white;
@@ -2176,7 +2176,7 @@ a:hover .toma {
 		left: 10px;
 		right: 0;
 		top: 200px;
-		text-align: justify;
+		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		font-size: 25px;
 		color: white;
