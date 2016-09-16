@@ -185,10 +185,12 @@
 		})
 		
 		function paraDo(){
-			$(window).bind("scroll", function(){
-				$(".info").css({"top": 550 - $(window).scrollTop() * .1 + 'px'});
-			}); 
-		}
+			if($(".top").css("height") == "50px"){
+				$(window).bind("scroll", function(){
+					$(".info").css({"top": 550 - $(window).scrollTop() * .1 + 'px'});
+				}); 
+			}
+		};
 		</script>
 	</body>
 </html>
