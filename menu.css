@@ -3,6 +3,7 @@ body {
 	width: 100%;
 	overflow: visible;
 	background-color: black;
+	margin: auto;
 }
 
 #spoon {
@@ -271,7 +272,6 @@ img {
 li {
 	display: inline;
 	padding: 0px 30px;
-	background-color: yellow;
 }
 
 a {
