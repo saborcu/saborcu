@@ -1333,6 +1333,8 @@ a:hover .toma {
 	#imgbotl {
 		position: absolute;
 		right: 0;
+		left: 5%;
+		text-align: center;
 		top: -30px;
 		height: 300px;
 		width: 400px;
@@ -1345,16 +1347,7 @@ a:hover .toma {
 	
 	#imgleft {
 		position: absolute;
-		left: 45px;
-		top: 35px;
-		height: 150px;
-		width: 300px;
-		background-image: url("http://i.imgur.com/Gj3MwMA.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		border-radius: 70px;
-		z-index: 8000;
+		display: none;
 	}
 	
 	#bottom {
@@ -1365,28 +1358,14 @@ a:hover .toma {
 		height: 100px;
 		z-index: 8000;
 	}
+
+	a[href^=tel] { 
+		color: inherit; text-decoration: none; 
+	}
 	
 	.menutwo {
 		position: absolute;
-		top: 10%;
-		left: 0;
-		right: 0;
-		width: 100%;
-		bottom: 0;
-	}
-	
-	#menutexttwo {
-		position: absolute;
-		left: -80px;
-		right: 0;
-		top: 20%;
-		bottom: 0;
-		list-style: none;
-		font-family: 'Handlee', sans-serif;
-		font-size: 15px;
-		color: white;
-		text-align: center;
-		vertical-align: middle;
+		display: none;
 	}
 	
 	#endstuf {
