@@ -491,7 +491,7 @@ a:hover .toma {
 	
 	#siteimg {
 		position: absolute;
-		top: 50px;
+		top: 140px;
 		left: 0;
 		right: 0;
 		height: 400px;
@@ -520,8 +520,6 @@ a:hover .toma {
 		border-radius: 80px;
 	}
 	
-}
-	
 	.menuwrap {
 		transform: translate3d(0px,0px,0px);
 		position: fixed;
@@ -547,7 +545,7 @@ a:hover .toma {
 		width: 140px;
 	}
 	
-		 /*Makes Mobile Version of Menu visible*/
+	/*Makes Mobile Version of Menu visible*/
 	.littleme {
 		display: initial;
 		text-align: center;
