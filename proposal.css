@@ -913,9 +913,11 @@ textarea {
 	.nombre {
 		position: absolute;
 		background-color: transparent;
-		left: 30px;
+		left: 0;
 		width: 50px;
 		top: 0;
+		text-align: center;
+		margin: auto;
 	}
 	
 	#nombredos {
