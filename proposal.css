@@ -859,7 +859,7 @@ textarea {
 		left: 0;
 		right: 0;
 		top: 640px;
-		height: 600px;
+		height: 1200px;
 		width: 100%;
 		text-align: left;
 		z-index: 1002;
@@ -1102,7 +1102,7 @@ textarea {
 	
 	.boxer {
 		position: absolute;
-		right: -150%;
+		right: -200%;
 		height: 600px;
 		width: 100%;
 		background-color: black;
