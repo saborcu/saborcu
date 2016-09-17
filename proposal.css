@@ -925,10 +925,6 @@ textarea {
 		background-color: transparent;
 		height: 40px;
 		width: 250px;
-		left: 0;
-		right: 0;
-		margin: auto;
-		text-align: center;
 	}
 	
 	.correo {
