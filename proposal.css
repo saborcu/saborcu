@@ -963,9 +963,9 @@ textarea {
 	.cuantos {
 		position: absolute;
 		background-color: transparent;
-		left: 40%;
+		left: 30px;
 		width: 130px;
-		top: 80px;
+		top: 240px;
 		
 	}
 	
@@ -982,7 +982,7 @@ textarea {
 		background-color: transparent;
 		left: 30px;
 		width: 290px;
-		top: 160px;
+		top: 400px;
 	}
 	
 	#tipodos {
@@ -996,9 +996,9 @@ textarea {
 	.ete {
 		position: absolute;
 		background-color: transparent;
-		left: 40%;
+		left: 30px;
 		width: 290px;
-		top: 160px;
+		top: 320px;
 		
 	}
 	
@@ -1015,7 +1015,7 @@ textarea {
 		background-color: transparent;
 		left: 30px;
 		width: 290px;
-		top: 240px;
+		top: 480px;
 	}
 	
 	#diados {
@@ -1029,9 +1029,9 @@ textarea {
 	.tiempo {
 		position: absolute;
 		background-color: transparent;
-		left: 40%;
+		left: 30px;
 		width: 290px;
-		top: 240px;
+		top: 560px;
 	}
 	
 	#tiempodos {
