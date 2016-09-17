@@ -1048,7 +1048,7 @@ textarea {
 		text-align: left;
 		left: 30px;
 		width: 200px;
-		top: 320px;
+		top: 620px;
 	}
 	
 	textarea {
@@ -1072,9 +1072,10 @@ textarea {
 	}
 	
 	#sendMessage {
+		-webkit-appearance: none;
 		position: absolute;
 		left: 30px;
-		top: 480px;
+		top: 620px;
 		cursor: pointer;
 		height: 40px;
 		width: 90px;
@@ -1199,7 +1200,7 @@ textarea {
 	
 	#bottom {
 		position: absolute;
-		top: 1330px;
+		top: 1630px;
 		left: 0;
 		right: 0;
 		height: 220px;
