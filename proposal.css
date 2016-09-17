@@ -918,6 +918,7 @@ textarea {
 		top: 0;
 		text-align: center;
 		margin: auto;
+		display: block;
 	}
 	
 	#nombredos {
