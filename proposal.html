@@ -193,12 +193,14 @@
 			})
 			
 			function paraDo(){
-				$(window).bind("scroll", function(){
-					$("#phone").css({"top": 80 - $(window).scrollTop() * .08+ 'px'});	
-					$("#mailstat").css({"top": 170 - $(window).scrollTop() * .05+ 'px'});	
-					$("#formhead").css({"top": 600 - $(window).scrollTop() * .15+ 'px'});
-					$(".forma").css({"top": 640 - $(window).scrollTop() * .1 + 'px'});
-				}); 
+				if($(".top").css("height") == "50px"){
+					$(window).bind("scroll", function(){
+						$("#phone").css({"top": 80 - $(window).scrollTop() * .08+ 'px'});	
+						$("#mailstat").css({"top": 170 - $(window).scrollTop() * .05+ 'px'});	
+						$("#formhead").css({"top": 600 - $(window).scrollTop() * .15+ 'px'});
+						$(".forma").css({"top": 640 - $(window).scrollTop() * .1 + 'px'});
+					}); 
+				}
 			}
 			</script>
 		</body>
