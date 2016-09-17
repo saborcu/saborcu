@@ -443,4 +443,410 @@ a:hover .toma {
 	z-index: 8000;
 }
 
+@media all and (max-width: 1024px) {
+	body {
+		height: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		overflow: visible;
+		background-color: black;
+	}
 
+	.top {
+		position: absolute;
+		top: 50px;
+		height: 90px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		background-color: black;
+	}
+	
+	#need {
+		position: absolute;
+		top: -15px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: white;
+		font-family: 'Handlee', sans-serif;
+		font-size: 26px;
+	}
+	
+	#tacos {
+		text-decoration: none;
+		color: white;
+		top: -10px;
+		font-size: 23px;
+		border-radius: 2px;
+		height: 30px;
+		width: 190px;
+		border-color: transparent;
+		background-color: #B51A00;
+		font-family: 'Handlee', sans-serif;
+		cursor: pointer;
+		outline: none;
+	}
+	
+	#siteimg {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		height: 400px;
+		width: 100%;
+		background-image: url("http://i.imgur.com/YZMEYFU.jpg");
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	
+	#logoimg {
+		position: absolute;
+		top: 30%;
+		left: 0;
+		right: 0;
+		text-align: center;
+		height: auto;
+		width: 100%;
+		background-color: transparent;
+	}
+	
+	img {
+		position: relative;
+		height: 150px;
+		width: 300px;
+		border-radius: 80px;
+	}
+	
+}
+	
+	.menuwrap {
+		transform: translate3d(0px,0px,0px);
+		position: fixed;
+		display: inline;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 50px;
+		z-index: 10001;
+	}
+	
+	#alm {
+		position: absolute;
+		height: 48px;
+		top: 0;
+		left: 0;
+		z-index: 10001;
+	}
+	
+	#alm2 {
+		height: 48px;
+		width: 140px;
+	}
+	
+		 /*Makes Mobile Version of Menu visible*/
+	.littleme {
+		display: initial;
+		text-align: center;
+	    	left: 0;
+	    	right: 0;
+	    	z-index: 10000;
+	    	height: 50px;
+	    	overflow: visible;
+	    	background-color: black;
+	    	opacity: 1;
+	  }
+	
+	.littleme { margin: 0; }
+	
+	.toggle + a,
+	 .othermenu { 
+	     	display: none;
+	     	left: 0;
+	     	right: 0;
+	     	text-align: center;
+	 }
+	
+	/*Used a Character Font to make the Menu Icon. 
+	It was the most effecient way to get to what I needed.
+	This styles the Menu Icon*/
+	.toggle {
+	    	display: block;
+	    	text-align: right;
+	    	background-color: black;
+	    	opacity: 1;
+	    	top: 3px;
+	    	position: absolute;
+	    	right: 0;
+	    	left: 0;
+	    	color: #B51A00;
+	    	font-size: 48px;
+	    	font-weight: 100;
+	    	line-height: 45px;
+	    	text-decoration: none;
+	    	font-family: 'Material Icons', sans-serif;
+	    	z-index: 7000;
+	}
+	
+	/*Makes Menu Icon Site green after getting clicked*/
+	#drop:checked + label {
+	    	color: #B51A00;
+	}
+	
+	/*Displays Dropdown Menu after Menu Icon is clicked*/
+	[id^=drop]:checked + label + ul {
+	    	display: block;
+	}
+	
+	.littleme ul li {
+		display: block;
+		text-align: center;
+		left: -7.5%;
+		right: 7.5%;
+	    	width: 100%;
+	    	z-index: 6000;
+	    	border: none;
+	    	font-family: 'Handlee', sans-serif;
+	}
+	
+	.littleme ul {
+		padding: 0;
+		left: -7.5%;
+		right: 7.5%;
+	 	list-style: none;
+		position: relative;
+		text-align: center;
+	}
+	
+	.menu {
+		position: absolute;
+		display: none;
+	}
+	
+	.info {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 590px;
+		height: 750px;
+		width: 100%;
+		z-index: 1001;
+		background-color: black;
+	}
+	
+	#formhead {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 10px;
+		text-align: center;
+		font-size: 36px;
+		font-family: 'Handlee', sans-serif;
+		color: white;
+		z-index: 5000;
+	}
+	
+	#taquiza {
+		position: absolute;
+		top: 110px;
+		right: 0;
+		height: 800px;
+		left: 0;
+	
+	}
+	
+	#taquizatext {
+		position: absolute;
+		left: 7px;
+		right: 0;
+		top: 40px;
+		text-align: left;
+		font-family: 'Handlee', sans-serif;
+		font-size: 29px;
+		color: #B51A00;
+	}
+	
+	#include {
+		position: absolute;
+		left: 160px;
+		right: 10px;
+		top: 40px;
+		text-align: left;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 27px;
+		color: white;
+		font-weight: 100;
+		line-height: 40px;
+	}
+	
+	#lizpic {
+		position: absolute;
+		left: 0;
+		top: 120px;
+		width: 130px;
+		height: 90px;
+		background-image: url("http://images-cdn.moviepilot.com/images/c_fill,h_2739,w_3879/t_mp_quality/mgdzadzhpt7qdxn7ultr/why-gal-gadot-s-epic-wonder-woman-plans-got-shot-down-will-dc-let-gal-gadot-escape-the-s-411708.jpg");
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		border-radius: 80px;
+	}
+	
+	#lindapic {
+		position: absolute;
+		left: 0;
+		top: 440px;
+		width: 130px;
+		height: 85px;
+		background-image: url("http://acpcpueblo.org/wp-content/uploads/2012/08/MP900414100.jpg");
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		border-radius: 80px;
+	}
+	
+	#texttwo {
+		position: absolute;
+		left: 2px;
+		right: 0;
+		top: 350px;
+		text-align: left;
+		font-family: 'Handlee', sans-serif;
+		font-size: 28px;
+		color: #B51A00;
+	}
+	
+	#includetwo {
+		position: absolute;
+		font-weight: 100;
+		left: 160px;
+		right: 10px;
+		top: 360px;
+		text-align: left;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 27px;
+		color: white;
+		font-weight: 100;
+		line-height: 40px;
+	}
+	
+	
+	#bottom {
+		position: absolute;
+		top: 1700px;
+		left: 0;
+		right: 0;
+		height: 510px;
+		z-index: 8000;
+	}
+	
+	.menutwo {
+		position: absolute;
+		display: none;
+	}
+	
+	#endstuf {
+		position: absolute;
+		font-family: 'Handlee', sans-serif;
+		font-size: 14px;
+		color: white;
+		top: 94%;
+		left: 0;
+		right: 0;
+		text-align: center;
+		z-index: 8000;
+	}
+	
+	a[href^=tel] { 
+		color: inherit; text-decoration: none; 
+	}
+	
+	#botstuff {
+		position: absolute;
+		left: 0;
+		right: 0;
+		height: 300px;
+		top: 1460px;
+	}
+	
+	#con {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		font-family: 'Handlee', sans-serif;
+		color: white;
+		font-size: 29px;
+	}
+	
+	#numba {
+		position: absolute;
+		left: -140px;
+		top: 70px;
+		right: 0;
+		text-align: center;
+		font-family: 'Handlee', sans-serif;
+		color: white;
+		font-size: 22px;
+	}
+	
+	#colnum {
+		position: absolute;
+		left: 60px;
+		top: 70px;
+		right: 0;
+		text-align: center;
+		font-family: 'Handlee', sans-serif;
+		color: #B51A00;
+		font-size: 22px;
+	}
+		
+	#mail {
+		position: absolute;
+		left: -212px;
+		top: 110px;
+		right: 0;
+		text-align: center;
+		font-family: 'Handlee', sans-serif;
+		color: white;
+		font-size: 22px;
+	}
+	
+	#colmail {
+		position: absolute;
+		left: 60px;
+		top: 110px;
+		right: 0;
+		text-align: center;
+		font-family: 'Handlee', sans-serif;
+		color: #B51A00;
+		font-size: 22px;
+	}
+		
+		
+	#imgbotl {
+		position: absolute;
+		left: 3%;
+		text-align: center;
+		right: 0;
+		top: 230px;
+		height: 150px;
+		width: 300px;
+		background-image: url("http://i.imgur.com/cBAFUZv.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		z-index: 8000;
+	}
+	
+	#imgleft {
+		position: absolute;
+		display: none;
+	
+	}
+
+}
