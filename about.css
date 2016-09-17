@@ -725,7 +725,7 @@ a:hover .toma {
 	
 	.top {
 		position: absolute;
-		top: 0;
+		top: 50px;
 		height: 50px;
 		left: 0;
 		right: 0;
@@ -735,20 +735,20 @@ a:hover .toma {
 	
 	#need {
 		position: absolute;
-		top: -7px;
+		top: -15px;
 		left: 0;
 		right: 0;
 		text-align: center;
 		color: white;
 		font-family: 'Handlee', sans-serif;
-		font-size: 19px;
+		font-size: 26px;
 	}
 	
 	#tacos {
 		text-decoration: none;
 		color: white;
 		top: -10px;
-		font-size: 17px;
+		font-size: 23px;
 		border-radius: 2px;
 		height: 30px;
 		width: 130px;
