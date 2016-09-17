@@ -908,19 +908,15 @@ textarea {
 		color: #B51A00;
 		padding-left: 8px;
 		padding-right: 8px;
+		margin: auto;
 	}
 	
 	.nombre {
 		position: absolute;
 		background-color: transparent;
-		left: 0;
-		right: 0;
+		left: 30px;
 		width: 50px;
-		height: auto;
 		top: 0;
-		text-align: center;
-		margin: auto;
-		display: block;
 	}
 	
 	#nombredos {
@@ -929,6 +925,9 @@ textarea {
 		background-color: transparent;
 		height: 40px;
 		width: 250px;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 	
 	.correo {
