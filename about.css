@@ -1275,13 +1275,13 @@ a:hover .toma {
 	
 	#con {
 		position: absolute;
-		top: 20px;
+		top: 0;
 		left: 0;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		color: white;
-		font-size: 26px;
+		font-size: 29px;
 	}
 	
 	#numba {
@@ -1336,8 +1336,8 @@ a:hover .toma {
 		left: 5%;
 		text-align: center;
 		top: -30px;
-		height: 300px;
-		width: 400px;
+		height: 150px;
+		width: 300px;
 		background-image: url("http://i.imgur.com/cBAFUZv.png");
 		background-position: center;
 		background-repeat: no-repeat;
