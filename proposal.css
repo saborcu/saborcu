@@ -847,7 +847,7 @@ textarea {
 		right: 0;
 		top: 600px;
 		text-align: center;
-		font-size: 36px;
+		font-size: 31px;
 		font-family: 'Handlee', sans-serif;
 		color: white;
 		z-index: 5000;
@@ -869,48 +869,22 @@ textarea {
 	
 	#phone {
 		position: absolute;
-		left: 0;
-		right: 109px;
-		top: 80px;
-		text-align: right;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: white;
-		transition: .1s;
+		display: none;
 	}
 	
 	#diffcolor {
 		position: absolute;
-		left: 0;
-		right: 80px;
-		top: 105px;
-		text-align: right;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: #B51A00;
+		display: none;
 	}
 	
 	#mailstat {
 		position: absolute;
-		left: 0;
-		right: 110px;
-		top: 170px;
-		text-align: right;
-		font-family: 'Handlee', sans-serif;
-		font-size: 23px;
-		color: white;
-		transition: .5s;
+		display: none;
 	}
 	
 	#maildiff {
 		position: absolute;
-		left: 0;
-		right: 40px;
-		top: 195px;
-		text-align: right;
-		font-family: 'Handlee', sans-serif;
-		font-size: 23px;
-		color: #B51A00;
+		display: none;
 	}
 	
 	#actform {
@@ -948,7 +922,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 	}
 	
 	.correo {
@@ -964,7 +938,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 	}
 	
 	.telefo {
@@ -981,7 +955,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 		left: 30px;
 	}
 	
@@ -1258,7 +1232,7 @@ textarea {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 100%;
-		z-index: 8000;
+		z-index: 11000;
 	}
 	
 	#endstuf {
