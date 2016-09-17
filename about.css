@@ -944,13 +944,13 @@ a:hover .toma {
 	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
-		left: 0;
+		left: 40%;
 		margin: auto;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
 		color: white;
-		top: 640px;
+		top: 680px;
 		font-size: 22px;
 		border-radius: 5px;
 		border-color: transparent;
