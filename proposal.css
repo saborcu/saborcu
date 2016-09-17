@@ -1112,18 +1112,20 @@ textarea {
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		z-index: 19;
+		line-height: 40px;
 	}
 	
 	.aftersent2 {
 		position: absolute;
 		left: 0;
 		right: -250%;
-		top: 290px;
+		top: 330px;
 		font-size: 28px;
 		color: white;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
 		z-index: 19;
+		line-height: 40px;
 	}
 	
 	#afterlogo {
