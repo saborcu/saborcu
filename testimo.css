@@ -663,13 +663,13 @@ a:hover .toma {
 		top: 40px;
 		text-align: left;
 		font-family: 'Handlee', sans-serif;
-		font-size: 29px;
+		font-size: 23px;
 		color: #B51A00;
 	}
 	
 	#include {
 		position: absolute;
-		left: 160px;
+		left: 120px;
 		right: 10px;
 		top: 40px;
 		text-align: left;
@@ -713,14 +713,14 @@ a:hover .toma {
 		top: 560px;
 		text-align: left;
 		font-family: 'Handlee', sans-serif;
-		font-size: 28px;
+		font-size: 23px;
 		color: #B51A00;
 	}
 	
 	#includetwo {
 		position: absolute;
 		font-weight: 100;
-		left: 160px;
+		left: 110px;
 		right: 10px;
 		top: 570px;
 		text-align: left;
