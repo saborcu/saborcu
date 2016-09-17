@@ -973,7 +973,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 	}
 	
 	.tipo {
@@ -989,7 +989,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 	}
 	
 	.ete {
@@ -1006,7 +1006,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 	}
 	
 	.dia {
@@ -1022,7 +1022,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 	}
 	
 	.tiempo {
@@ -1038,7 +1038,7 @@ textarea {
 		border: solid 1px #B51A00;
 		background-color: transparent;
 		height: 40px;
-		width: 375px;
+		width: 250px;
 	}
 	
 	.donde {
@@ -1060,7 +1060,7 @@ textarea {
 		padding-right: 8px;
 		color: #B51A00;
 		outline: none;
-		width: 375px;
+		width: 250px;
 		height: 70px;
 	}
 	
