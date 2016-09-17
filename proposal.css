@@ -865,6 +865,7 @@ textarea {
 		z-index: 1002;
 		background-color: transparent;
 		transition: .35s;
+		overflow: hidden;
 	}
 	
 	#phone {
