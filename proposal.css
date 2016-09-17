@@ -1100,20 +1100,11 @@ textarea {
 		overflow: hidden;
 	}
 	
-	.boxer {
-		position: absolute;
-		right: -200%;
-		height: 600px;
-		width: 100%;
-		background-color: black;
-		z-index: 100;
-		top: 250px;
-	}
 	
 	.aftersent {
 		position: absolute;
 		left: 0;
-		right: -150%;
+		right: -250%;
 		top: 250px;
 		font-size: 28px;
 		color: white;
@@ -1125,7 +1116,7 @@ textarea {
 	.aftersent2 {
 		position: absolute;
 		left: 0;
-		right: -150%;
+		right: -250%;
 		top: 290px;
 		font-size: 28px;
 		color: white;
@@ -1138,7 +1129,7 @@ textarea {
 		position: absolute;
 		top: 450px;
 		left: 0;
-		right: -150%;
+		right: -250%;
 		margin: auto;
 		text-align: center;
 		border-radius: 220px;
