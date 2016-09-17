@@ -772,7 +772,7 @@ a:hover .toma {
 	
 	#con {
 		position: absolute;
-		top: 250px;
+		top: 240px;
 		left: 0;
 		right: 0;
 		text-align: center;
@@ -784,7 +784,7 @@ a:hover .toma {
 	#numba {
 		position: absolute;
 		left: -140px;
-		top: 320px;
+		top: 310px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -795,7 +795,7 @@ a:hover .toma {
 	#colnum {
 		position: absolute;
 		left: 60px;
-		top: 320px;
+		top: 310px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -806,7 +806,7 @@ a:hover .toma {
 	#mail {
 		position: absolute;
 		left: -212px;
-		top: 380px;
+		top: 370px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -817,7 +817,7 @@ a:hover .toma {
 	#colmail {
 		position: absolute;
 		left: 60px;
-		top: 380px;
+		top: 370px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
