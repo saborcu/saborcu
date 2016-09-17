@@ -31,6 +31,7 @@ body {
 }
 
 #tacos {
+	-webkit-appearance: none;
 	text-decoration: none;
 	color: white;
 	top: -10px;
@@ -258,6 +259,7 @@ a:hover .toma {
 }
 
 #tacostwo {
+	-webkit-appearance: none;
 	position: absolute;
 	left: 17%;
 	right: 0;
@@ -745,6 +747,7 @@ a:hover .toma {
 	}
 	
 	#tacos {
+		-webkit-appearance: none;
 		text-decoration: none;
 		color: white;
 		top: -10px;
@@ -939,8 +942,10 @@ a:hover .toma {
 	}
 	
 	#tacostwo {
+		-webkit-appearance: none;
 		position: absolute;
-		left: 17%;
+		left: 0;
+		margin: auto;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
