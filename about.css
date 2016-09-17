@@ -942,11 +942,14 @@ a:hover .toma {
 	}
 	
 	#tacostwo {
+		display: block;
+		margin: auto;
+	}
+	
+	#tacostwo {
 		-webkit-appearance: none;
 		position: absolute;
 		left: 0;
-		display: block;
-		margin: auto;
 		right: 0;
 		text-align: center;
 		text-decoration: none;
