@@ -655,8 +655,8 @@ textarea {
 	
 	.top {
 		position: absolute;
-		top: 0;
-		height: 50px;
+		top: 50px;
+		height: 90px;
 		left: 0;
 		right: 0;
 		width: 100%;
@@ -665,20 +665,20 @@ textarea {
 	
 	#need {
 		position: absolute;
-		top: -7px;
+		top: -15px;
 		left: 0;
 		right: 0;
 		text-align: center;
 		color: white;
 		font-family: 'Handlee', sans-serif;
-		font-size: 19px;
+		font-size: 26px;
 	}
 	
 	#tacos {
 		text-decoration: none;
 		color: white;
 		top: -10px;
-		font-size: 17px;
+		font-size: 23px;
 		border-radius: 2px;
 		height: 30px;
 		width: 130px;
@@ -691,7 +691,7 @@ textarea {
 	
 	#siteimg {
 		position: absolute;
-		top: 50px;
+		top: 110px;
 		left: 0;
 		right: 0;
 		height: 400px;
@@ -1239,6 +1239,7 @@ textarea {
 	.menutwo {
 		position: absolute;
 		display: none;
+	}
 	
 	#endstuf {
 		position: absolute;
