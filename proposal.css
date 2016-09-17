@@ -609,6 +609,11 @@ textarea {
 	z-index: 8000;
 	background-color: black;
 }
+	
+#imgbotl {
+	position: absolute;
+	display: none;
+}
 
 .menutwo {
 	position: absolute;
@@ -1239,6 +1244,21 @@ textarea {
 	.menutwo {
 		position: absolute;
 		display: none;
+	}
+	
+	#imgbotl {
+		position: absolute;
+		left: 12%;
+		text-align: center;
+		right: 0;
+		top: 30px;
+		height: 150px;
+		width: 300px;
+		background-image: url("http://i.imgur.com/cBAFUZv.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		z-index: 8000;
 	}
 	
 	#endstuf {
