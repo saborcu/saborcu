@@ -1310,7 +1310,7 @@ a:hover .toma {
 	#mail {
 		position: absolute;
 		left: -212px;
-		top: 140px;
+		top: -30px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -1321,7 +1321,7 @@ a:hover .toma {
 	#colmail {
 		position: absolute;
 		left: 60px;
-		top: 140px;
+		top: -30px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
