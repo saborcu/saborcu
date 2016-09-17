@@ -1287,7 +1287,7 @@ a:hover .toma {
 	#numba {
 		position: absolute;
 		left: -140px;
-		top: -60px;
+		top: -70px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
@@ -1298,7 +1298,7 @@ a:hover .toma {
 	#colnum {
 		position: absolute;
 		left: 60px;
-		top: -60px;
+		top: -70px;
 		right: 0;
 		text-align: center;
 		font-family: 'Handlee', sans-serif;
