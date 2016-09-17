@@ -761,13 +761,13 @@ a:hover .toma {
 	
 	#siteimg {
 		position: absolute;
-		top: 60px;
+		top: 50px;
 		left: 0;
 		right: 0;
-		height: 410px;
+		height: 510px;
 		background-image: url("http://i.imgur.com/kbqhk2p.jpg");
 		background-position: center;
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	
