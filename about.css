@@ -921,7 +921,7 @@ a:hover .toma {
 		top: 150px;
 		right: 0;
 		height: 500px;
-		left: 50%;
+		left: 0;
 	
 	}
 	
@@ -935,16 +935,7 @@ a:hover .toma {
 	
 	#jppic {
 		position: absolute;
-		left: 30px;
-		top: 100px;
-		right: 30px;
-		width: 80%;
-		height: 400px;
-		background-image: url("http://i.imgur.com/yyCprzF.jpg");
-		background-position: center;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		border-radius: 60px;
+		display: none;
 	}
 	
 	#tacostwo {
