@@ -691,10 +691,10 @@ textarea {
 	
 	#siteimg {
 		position: absolute;
-		top: 110px;
+		top: 140px;
 		left: 0;
 		right: 0;
-		height: 400px;
+		height: 310px;
 		background-image: url("http://i.imgur.com/waq1vxF.jpg");
 		background-position: center;
 		background-size: cover;
