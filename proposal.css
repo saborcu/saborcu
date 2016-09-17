@@ -929,9 +929,9 @@ textarea {
 	.correo {
 		position: absolute;
 		background-color: transparent;
-		left: 40%;
+		left: 30px;
 		width: 50px;
-		top: 0px;
+		top: 160px;
 	}
 	
 	#correodos {
