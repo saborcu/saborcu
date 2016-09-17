@@ -1135,7 +1135,7 @@ textarea {
 		text-align: center;
 		border-radius: 220px;
 		height: 100px;
-		width: 400px;
+		width: 300px;
 		background-image: url("http://i.imgur.com/cBAFUZv.png");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -1200,7 +1200,7 @@ textarea {
 	
 	#bottom {
 		position: absolute;
-		top: 1630px;
+		top: 1830px;
 		left: 0;
 		right: 0;
 		height: 220px;
