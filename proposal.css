@@ -833,7 +833,7 @@ textarea {
 		top: 450px;
 		left: 0;
 		right: 0;
-		height: 1100px;
+		height: 2000px;
 		background-image: url("http://i.imgur.com/FZDtDqG.jpg");
 		background-position: center;
 		background-repeat: repeat;
@@ -891,7 +891,7 @@ textarea {
 	#actform {
 		position: absolute;
 		top: 90px;
-		height: 600px;
+		height: 1200px;
 		left: 0;
 		right: 0;
 		font-family: 'Handlee', sans-serif;
