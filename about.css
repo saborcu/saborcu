@@ -711,4 +711,8 @@ a:hover .toma {
 	z-index: 8000;
 }
 
+@media all and (max-width: 1024px) {
+	
+}
+
 
