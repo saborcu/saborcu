@@ -1275,7 +1275,7 @@ a:hover .toma {
 	
 	#con {
 		position: absolute;
-		top: 0;
+		top: -30;
 		left: 0;
 		right: 0;
 		text-align: center;
@@ -1335,7 +1335,7 @@ a:hover .toma {
 		right: 0;
 		left: 12%;
 		text-align: center;
-		top: 100px;
+		top: 90px;
 		height: 150px;
 		width: 300px;
 		background-image: url("http://i.imgur.com/cBAFUZv.png");
