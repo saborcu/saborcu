@@ -52,7 +52,7 @@ body {
 	width: 100%;
 	background-image: url("http://i.imgur.com/YZMEYFU.jpg");
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
