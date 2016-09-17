@@ -859,7 +859,7 @@ textarea {
 		left: 0;
 		right: 0;
 		top: 640px;
-		height: 950px;
+		height: 1050px;
 		width: 100%;
 		text-align: left;
 		z-index: 1002;
@@ -891,7 +891,7 @@ textarea {
 	#actform {
 		position: absolute;
 		top: 90px;
-		height: 950px;
+		height: 1050px;
 		left: 0;
 		right: 0;
 		font-family: 'Handlee', sans-serif;
