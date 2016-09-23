@@ -27,6 +27,7 @@ body {
 }
 
 #tacos {
+	-webkit-appearance: none;
 	text-decoration: none;
 	color: white;
 	top: -10px;
@@ -466,6 +467,7 @@ textarea {
 }
 
 #sendMessage {
+	-webkit-appearance: none;
 	position: absolute;
 	left: 30px;
 	top: 480px;
