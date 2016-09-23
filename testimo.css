@@ -29,6 +29,7 @@ body {
 }
 
 #tacos {
+	-webkit-appearance: none;
 	text-decoration: none;
 	color: white;
 	top: -10px;
