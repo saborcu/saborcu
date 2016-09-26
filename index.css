@@ -224,6 +224,7 @@ img {
 	position: relative;
 	height: 150px;
 	width: 300px;
+	border-radius: 80px;
 }
 
 #firsttext {
@@ -657,6 +658,7 @@ img {
 		position: relative;
 		height: 150px;
 		width: 300px;
+		border-radius: 80px;
 	}
 	
 	#firsttext {
@@ -1104,6 +1106,7 @@ img {
 		position: relative;
 		height: 150px;
 		width: 300px;
+		border-radius: 80px;
 	}
 	
 	#firsttext {
