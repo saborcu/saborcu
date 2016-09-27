@@ -867,10 +867,8 @@ a:hover .toma {
 
 #cochi {
 	position: absolute;
-	left: 0;
-	right: -65px;
+	left: 350px;
 	top: 170px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -890,10 +888,8 @@ a:hover .toma {
 
 #rajas {
 	position: absolute;
-	left: 0;
-	right: 112px;
+	left: 350px;
 	top: 200px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -913,10 +909,8 @@ a:hover .toma {
 
 #chich {
 	position: absolute;
-	left: 0;
-	right: 0;
+	left: 350px;
 	top: 230px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -936,10 +930,8 @@ a:hover .toma {
 
 #mar {
 	position: absolute;
-	left: 5px;
-	right: 0;
+	left: 350px;
 	top: 260px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -959,10 +951,8 @@ a:hover .toma {
 
 #frijol {
 	position: absolute;
-	left: -140px;
-	right: 0;
+	left: 350px;
 	top: 290px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -982,10 +972,8 @@ a:hover .toma {
 
 #pollo {
 	position: absolute;
-	left: 55px;
-	right: 0;
+	left: 350px;
 	top: 320px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
