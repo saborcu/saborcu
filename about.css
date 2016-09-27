@@ -263,6 +263,8 @@ a:hover .toma {
 	position: absolute;
 	left: 17%;
 	right: 0;
+	height: 35px;
+	width: 170px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
