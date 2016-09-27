@@ -263,7 +263,7 @@ img {
 #tacostwo {
 	-webkit-appearance: none;
 	position: absolute;
-	height: 40px;
+	height: 35px;
 	width: 165px;
 	left: 45%;
 	text-align: center;
@@ -306,6 +306,8 @@ img {
 	-webkit-appearance: none;
 	position: absolute;
 	left: 65%;
+	height: 35px;
+	width: 130px;
 	right: 0;
 	text-align: center;
 	text-decoration: none;
