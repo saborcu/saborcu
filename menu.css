@@ -993,10 +993,8 @@ a:hover .toma {
 
 #tinga {
 	position: absolute;
-	left: -85px;
-	right: 0;
+	left: 350px;
 	top: 350px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -1016,10 +1014,8 @@ a:hover .toma {
 
 #cama {
 	position: absolute;
-	left: -60px;
-	right: 0;
+	left: 350px;
 	top: 380px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -1039,10 +1035,9 @@ a:hover .toma {
 
 #puer {
 	position: absolute;
-	left: 55px;
+	left: 350px;
 	right: 0;
 	top: 410px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
@@ -1062,11 +1057,9 @@ a:hover .toma {
 
 #mach {
 	position: absolute;
-	left: -15px;
+	left: 350px;
 	right: 0;
-	text-align: center;
 	top: 440px;
-	text-align: center;
 	font-family: 'Handlee', sans-serif;
 	font-size: 25px;
 	color: white;
