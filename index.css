@@ -260,10 +260,15 @@ img {
 }
 
 #tacostwo {
+	margin: auto;
+	display: block;
+}
+
+#tacostwo {
 	-webkit-appearance: none;
 	position: absolute;
-	left: 44%;
-	right: 0;
+	height: 30px;
+	width: 130px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
