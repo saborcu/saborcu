@@ -222,8 +222,9 @@ a:hover .toma {
 
 img {
 	position: relative;
-	height: 120px;
-	width: 240px;
+	height: 150px;
+	width: 300px;
+	border-radius: 80px;
 }
 
 #firsttext {
