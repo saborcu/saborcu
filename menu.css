@@ -136,7 +136,7 @@ body {
 	height: 400px;
 	background-image: url("http://i.imgur.com/m3YnLVc.jpg");
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 
