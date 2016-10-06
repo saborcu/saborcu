@@ -72,7 +72,7 @@ img {
 	position: relative;
 	height: 150px;
 	width: 300px;
-	border-radius: 80px;
+	border-radius: 10px;
 }
 
 .menuwrap {
@@ -519,7 +519,7 @@ a:hover .toma {
 		position: relative;
 		height: 150px;
 		width: 300px;
-		border-radius: 80px;
+		border-radius: 10px;
 	}
 	
 	.menuwrap {
