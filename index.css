@@ -471,14 +471,14 @@ img {
 
 
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url(http://i.imgur.com/st7B1pl.jpg);
+  background-image: url("http://i.imgur.com/st7B1pl.jpg");
   bottom: -40px;
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url(http://i.imgur.com/7p50tib.jpg);
+  background-image: url("http://i.imgur.com/7p50tib.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("http://i.imgur.com/bmWjoWz.jpg");
+  background-image: url("http://i.imgur.com/xdAlFZy.jpg");
 }
 
 .cd-scrolling-bg {
@@ -904,14 +904,14 @@ img {
 	
 	
 	.cd-fixed-bg.cd-bg-1 {
-	  background-image: url(http://i.imgur.com/st7B1pl.jpg);
+	  background-image: url("http://i.imgur.com/st7B1pl.jpg");
 	  bottom: -40px;
 	}
 	.cd-fixed-bg.cd-bg-2 {
-	  background-image: url(http://i.imgur.com/7p50tib.jpg);
+	  background-image: url("http://i.imgur.com/7p50tib.jpg");
 	}
 	.cd-fixed-bg.cd-bg-3 {
-	  background-image: url("http://i.imgur.com/bmWjoWz.jpg");
+	  background-image: url("http://i.imgur.com/xdAlFZy.jpg");
 	}
 	
 	.cd-scrolling-bg {
@@ -1343,14 +1343,14 @@ img {
 	
 	
 	.cd-fixed-bg.cd-bg-1 {
-	  background-image: url(http://i.imgur.com/st7B1pl.jpg);
+	  background-image: url("http://i.imgur.com/st7B1pl.jpg");
 	  bottom: -40px;
 	}
 	.cd-fixed-bg.cd-bg-2 {
-	  background-image: url(http://i.imgur.com/7p50tib.jpg);
+	  background-image: url("http://i.imgur.com/7p50tib.jpg");
 	}
 	.cd-fixed-bg.cd-bg-3 {
-	  background-image: url("http://i.imgur.com/bmWjoWz.jpg");
+	  background-image: url("http://i.imgur.com/xdAlFZy.jpg");
 	}
 	
 	.cd-scrolling-bg {
