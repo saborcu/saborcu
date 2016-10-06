@@ -133,10 +133,10 @@ body {
 	top: 50px;
 	left: 0;
 	right: 0;
-	height: 500px;
+	height: 400px;
 	background-image: url("http://i.imgur.com/m3YnLVc.jpg");
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	z-index: 1;
