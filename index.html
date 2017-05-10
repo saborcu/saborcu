@@ -297,6 +297,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script type="text/javascript">
             $("#userFormSubmit").on("click", function () {
+		event.preventDefault();
                 $.ajax({
                     url: "//formspree.io/vrchavez11@gmail.com",
                     method: "POST",
