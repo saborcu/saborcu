@@ -1,1359 +1,1780 @@
-body, html, main {
-	/* important */
-	height: 100%;
-	background-color: black;
+/*CLEAN CLEAN CLEAN*/
+@font-face {
+	font-family: Bebas;
+	src: url('BebasNeue Bold.otf');
 }
 
-.top {
+@font-face {
+	font-family: Din;
+	src: url('din-condensed.otf');
+}
+
+@font-face {
+	font-family: Lato;
+	src: url('Lato.otf');
+}
+
+/*Desktop version website height and width*/
+body {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#top {
 	position: absolute;
+	left: 0;
 	top: 0;
-	height: 50px;
-	left: 0;
 	right: 0;
-	width: 100%;
-	background-color: black;
-}
-
-#need {
-	position: absolute;
-	top: -7px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	color: white;
-	font-family: 'Handlee', sans-serif;
-	font-size: 19px;
-}
-
-#tacos {
-	-webkit-appearance: none;
-	text-decoration: none;
-	color: white;
-	top: -10px;
-	font-size: 17px;
-	border-radius: 2px;
-	height: 30px;
-	width: 130px;
-	border-color: transparent;
-	background-color: #B51A00;
-	font-family: 'Handlee', sans-serif;
-	cursor: pointer;
-	outline: none;
-}
- 
-.cd-fixed-bg {
-	min-height: 100%;
-	width: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	bottom: 0;
+	background-image: url(http://i.imgur.com/rt66oLa.jpg);
 	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-.menuwrap {
+.top-color {
 	position: absolute;
-	display: none;
-}
-
-.littleme p { text-align: right; }
- .toggle, [id^=drop] {
- display: none;
-}
-
-/*Dropdown Menu for mobile site. Hidden on desktop*/
-.littleme {
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 50px;
-  text-align: right;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  display: none;
-}
-
-.littleme:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.littleme ul {
-  padding: 0;
-  left: -6%;
-  right: 6%;
-  list-style: none;
-  position: relative;
-  text-align: center;
-}
-
-.littleme ul li {
-  left: -6%;
-  right: 6%;
-  text-align: center;
-  height: auto;
-  width: 100%;
-  display: block;
-  background-color: #B51A00;
-  opacity: 1;
-}
-
-.littleme a {
-  text-align: center;
-  opacity: 1;
-  left: 0;
-  right: 0;
-  display: block;
-  background-color: #B51A00;
-  color: #FFF;
-  font-size: 20px;
-  font-family: ;
-  line-height: 45px;
-  text-decoration: none;
-}
-
-.littleme li > a:after { content: ' +';}
-
-.littleme li > a:only-child:after { content: ''; }
-
-.menu {
-	position: absolute;
-	top: 90%;
+	background-color: #c0dfd9;
 	left: 0;
+	top: 0;
 	right: 0;
+	bottom: 0;
+	height: auto;
 	width: 100%;
-	bottom: 0;
-	z-index: 10000;
-	background-color: black;
+	opacity: .58;
 }
 
-
-
-.toma {
-	position: relative;
-	height: 30px;
-	width: 30px;
-	background-color: black;
-	opacity: 0;
+.container2 {
+    display: inline-block;
+    cursor: pointer;
+    right: 32.5px;
+    top: 22px;
+    position: fixed;
+    z-index: 4000;
 }
 
-#menutext {
-	position: absolute;
-	left: -80px;
-	right: 0;
-	top: -5px;
-	bottom: 0;
-	list-style: none;
-	font-family: 'Handlee', sans-serif;
-	font-size: 15px;
-	color: white;
-	text-align: center;
-	vertical-align: middle;
+.bar1, .bar2, .bar3 {
+    width: 47px;
+    height: 5.3px;
+    background-color: #333;
+    margin: 7.4px 0;
+    transition: 0.4s;
 }
 
-#linemenu {
-	background-color: #B51A00;
-	height: 2px;
-	top: 45%;
+.container2:hover .bar1, .container2:hover .bar2, .container2:hover .bar3 {
+    background-color: #5b5b5b;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, 9px);
+    transform: rotate(-45deg) translate(-10px, 9px);
+    background-color: #c1cdcb;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #c1cdcb;
+}
+
+#arrow1 {
+    position: absolute;
+    top: 88%;
+    right: 3.5%;
+    font-family: 'Material Icons', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    color: #252525;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: .02s;
+    z-index: 1008;
+    -webkit-animation-name: arrowUno; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .7s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 1.4s;
+    animation-name: arrowUno;
+    animation-duration: .7s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 1.4s;
+}
+
+@-webkit-keyframes arrowUno {
+    0% {top: 88%;}
+    100% {top: 79%;}
+}
+
+@keyframes arrowUno {
+    0% {top: 88%;}
+    100% {top: 79%;}
+}
+
+#arrow1:hover {
+    color: #5b5b5b;
+    outline: none;
+}
+
+#arrow1:active {
+    top: 89.5%;
+    outline: none;
+}
+
+.arrow {
+    position: absolute;
+    top: 88%;
+    right: 3.5%;
+    font-family: 'Material Icons', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    color: #252525;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: .02s;
+    z-index: 1008;
+}
+
+.arrow:hover {
+    color: #5b5b5b;
+    outline: none;
+}
+
+.arrow:active {
+    top: 89.5%;
+    outline: none;
+}
+
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#no {
+	cursor: default;
+	outline: none;
+	border: none;
+}
+
+#no:hover {
+	background-color: #723a44;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #723a44;
+    width: 30%;
+    height: 60%;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    top: 0;
+    z-index: 3010;
+}
+
+.dropdown-content a {
+    color: #c1cdcb;
+    padding: 12px 16px;
+    text-decoration: none;
 	left: 0;
 	right: 0;
-	width: 60%;
 	text-align: center;
+    display: block;
+	font-family: Bebas;
+	font-size: 42px;
+	height: 40px;
+    z-index: 4001;
+}
+
+.dropdown-content a:hover { color: #252525;}
+
+.show {display:block;}
+
+#logo-click {
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    height: 90px;
+    width: 115px;
+    z-index: 1000;
+}
+
+#logo-img {
+    position: relative;
+	height: auto;
+	width: 100%;
+}
+
+.carForever {
+    position: absolute;
+    top: 54%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 110px;
+    height: 110px;
+    background-image: url(http://i.imgur.com/0hqytor.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2001;
+}
+
+.first-header {
+    font-family: Bebas;
+    top: 10%;
+    color: #252525;
+    font-size: 145px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.first-header2 {
+    font-family: Bebas;
+    color: #252525;
+    font-size: 97px;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#thirdCont {
+    position: absolute;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 87%;
+}
+
+.third-text {
+    font-family: "Bebas", sans-serif;
+    color: #252525;
+    font-size: 49px;
+    font-weight: normal;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+.third-text span {
+    opacity: 0;
+}
+
+.first-button-div {
 	position: absolute;
-	z-index: 7002;
-	border: none;
-	opacity: .7;
-	}
-
-li {
-	display: inline;
-	padding: 0px 30px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 64%;
 }
 
-a {
-	text-decoration: none;
-	outline: none;
-	color: white;
+#first-button {
+    position: relative;
+    -webkit-appearance: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #dddddd;
+    font-size: 35px;
+    border-radius: 7px;
+    height: 1.6%;
+    width: 210px;
+    border-color: transparent;
+    background-color: #723a44;
+    font-family: 'Bebas', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: .09s;
 }
 
-a:hover .toma {
-	opacity: 1;
-	top: 5px;
-	transition: .7s;
+#first-button:hover {
+	color: #9e9e9e;
 }
 
-.fixed {
-  	top: 0;
-  	bottom: 90%;
-  	position: fixed;
+#first-button:active {
+    box-shadow: 0 0 0 #3f2026;
+    top: 4px;
+    outline: none;
 }
 
-#barz {
+.carZero {
+    position: absolute;
+    top: 83%;
+    left: -10%;
+    width: 110px;
+    height: 110px;
+    background-image: url(http://i.imgur.com/Ok7zdRt.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1005;
+    -webkit-animation-name: car; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2.8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: .4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: car;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
+    animation-delay: .4s;
+    animation-fill-mode: forwards; /* http://i.imgur.com/Ok7zdRt.png */
+}
+
+@-webkit-keyframes car {
+    0% {left: -10%; top: 83%;}
+    100% {left: 115%; top: 83%;}
+}
+
+@keyframes car {
+    0% {left: -10%; top: 83%;}
+    100% {left: 115%;top: 83%;}
+}
+
+.second-panel {
 	position: absolute;
 	top: 100%;
 	left: 0;
 	right: 0;
+	height: 100%;
 	width: 100%;
-	height: 15px;
-	background-color: black;
+    background-image: url(wood.jpg);
 }
 
- 
-.cd-container {
-	top: -20px;
-	background-color: black;
-	height: 500px;
-	z-index: 5;
+.second-color {
+    position: absolute;
+    background-color: #f7f8db;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    opacity: .8;
 }
 
-
-#image {
-	position: absolute;
-	top: 37%;
+.second-header {
+	font-family: Bebas;
+	top: 2%;
+	color: #252525;
+	font-size: 100px;
 	left: 0;
 	right: 0;
 	text-align: center;
+	position: relative;
+    margin: 0px;
+}
+
+.step1 {
+	position: absolute;
+	left: 0;
+	right: 66.66%;
+	top: 60%;
+	text-align: center;
+	margin: auto;
+	color: #252525;
+	font-family: Din;
+	font-size: 36px;
+	font-weight: 100;
+	width: 23%;
 	height: auto;
-	width: 100%;
-	background-color: transparent;
 }
 
-img {
-	position: relative;
-	height: 150px;
-	width: 300px;
-	border-radius: 10px;
+.step1 #ONE {
+	font-family: Din;
+    font-weight: 200;
+    font-size: 54px;
+    left: -5px;
 }
 
-#firsttext {
+#iphone {
 	position: absolute;
-	top: 110%;
+	top: 32%;
+	left: 0;
+	right: 58%;
+	margin: auto;
+	text-align: center;
+	height: 175px;
+	width: 85px;
+}
+
+#galaxy {
+	position: absolute;
+	top: 32%;
+	left: 9%;
+	right: 0;
+	text-align: center;
+	height: 175px;
+	width: 85px;
+}
+
+#brokenIphone {
+	position: absolute;
+	top: 32%;
 	left: 0;
 	right: 0;
+	margin: auto;
 	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 2.6vw;
-	color: white;
-	line-height: 80px;
-	z-index: 9000;
+	height: 175px;
+	width: 85px;
 }
 
-#secondtext {
+.step2 {
 	position: absolute;
-	top: 120%;
 	left: 0;
-	right: 0;
-	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 2.6vw;
-	color: white;
-	line-height: 80px;
-}
-
-#hider {
-	position: absolute;
-	display: none;
-}
-
-
-#tacostwo {
-	-webkit-appearance: none;
-	position: absolute;
-	height: 35px;
-	width: 165px;
-	left: 45%;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	top: 140%;
-	font-size: 22px;
-	border-radius: 2px;
-	border-color: transparent;
-	background-color: #B51A00;
-	font-family: 'Handlee', sans-serif;
-	cursor: pointer;
-	outline: none;
-}
-
-.cd-containertwo {
-	position: relative;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 600px;
-	vertical-align: middle;
-}
-
-#secttwo {
-	position: absolute;
-	top: 70px;
-	vertical-align: middle;
-	left: 40%;
-	right: 10px;
-	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 2.6vw;
-	color: white;
-	line-height: 70px;
-}
-
-#readmore {
-	-webkit-appearance: none;
-	position: absolute;
-	left: 65%;
-	height: 35px;
-	width: 130px;
-	right: 0;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	top: 470px;
-	font-size: 20px;
-	border-radius: 2px;
-	border-color: transparent;
-	background-color: #B51A00;
-	font-family: 'Handlee', sans-serif;
-	cursor: pointer;
-	outline: none;
-}
-
-#smallone {
-	position: absolute;
-	left: 10px;
-	right: 63%;
-	top: 80px;
-	height: 450px;
-	background-image: url("http://i.imgur.com/Wah8ys3.jpg");
-	background-position: center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	border-radius: 180px;
-}
-
-.cd-containerthree {
-	position: relative;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 500px;
-	vertical-align: middle;
-}
-
-#contact {
-	position: absolute;
-	top: 100px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 29px;
-	color: white;
-	z-index: 7000;
-}
-
-#phone {
-	position: absolute;
-	top: 170px;
-	left: 0;
-	right: 10%;
-	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 22px;
-	color: white;
-	z-index: 7000;
-}
-
-#diffphone {
-	position: absolute;
-	top: 170px;
-	left: 7%;
-	right: 0;
-	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 22px;
-	color: #B51A00;
-	z-index: 7000;
-}
-
-#email {
-	position: absolute;
-	top: 210px;
-	left: 0;
-	right: 17%;
-	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 22px;
-	color: white;
-	z-index: 7000;
-}
-
-#diffemail {
-	position: absolute;
-	top: 210px;
-	left: 6%;
-	right: 0;
-	text-align: center;
-	font-weight: 100;
-	font-family: 'Handlee', sans-serif;
-	font-size: 22px;
-	color: #B51A00;
-	z-index: 7000;
-}
-
-.menutwo {
-	position: absolute;
-	top: 40%;
-	left: 0;
-	right: 0;
-	width: 100%;
-	bottom: 0;
-}
-
-#menutexttwo {
-	position: absolute;
-	left: -80px;
 	right: 0;
 	top: 60%;
-	bottom: 0;
-	list-style: none;
-	font-family: 'Handlee', sans-serif;
-	font-size: 15px;
-	color: white;
+	color: #252525;
+	margin: auto;
 	text-align: center;
-	vertical-align: middle;
+	font-family: Din;
+	font-size: 36px;
+	font-weight: 100;
+	width: 23%;
+	height: auto;
 }
 
-#endstuf {
+.step2 #TWO {
+    font-family: Din;
+    font-weight: 200;
+    font-size: 54px;
+    left: -5px;
+}
+
+#location {
 	position: absolute;
-	font-family: 'Handlee', sans-serif;
-	font-size: 14px;
-	color: white;
-	top: 95%;
+	top: 32%;
+	left: 66.66%;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	height: 175px;
+	width: 85px;
+}
+
+.step3 {
+	position: absolute;
+	left: 66.66%;
+	right: 0;
+	top: 60%;
+	color: #252525;
+	margin: auto;
+	text-align: center;
+	font-family: Din;
+	font-size: 36px;
+	font-weight: 100;
+	width: 23%;
+	height: auto;
+}
+
+.step3 #THREE {
+    font-family: Din;
+    font-weight: 200;
+    font-size: 54px;
+    left: -5px;
+}
+
+.second-button-div {
+	position: absolute;
 	left: 0;
 	right: 0;
 	text-align: center;
-	z-index: 8000;
+	top: 85%;
 }
 
-#finalimg {
+#second-button {
+    position: relative;
+    -webkit-appearance: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #dddddd;
+    font-size: 35px;
+    border-radius: 7px;
+    height: 1.6%;
+    width: 210px;
+    border-color: transparent;
+    background-color: #723a44;
+    font-family: 'Bebas', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: .15s;
+}
+
+#second-button:hover {
+	color: #9e9e9e;
+	transition: .12s;
+}
+
+#second-button:active {
+    box-shadow: 0 0 0 #3f2026;
+    top: 4px;
+    outline: none;
+}
+
+.fourth-panel {
 	position: absolute;
-	top: 130px;
-	left: 45px;
-	height: 150px;
-	width: 300px;
-	border-radius: 100px;
-	background-image: url("http://i.imgur.com/Gj3MwMA.jpg");
+	top: 300%;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("NewEnv3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourth-color {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #c0dfd9;
+    opacity: .85;
+}
+
+.fourth-header {
+	font-family: Bebas;
+	top: 2%;
+	color: #252525;
+	font-size: 100px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	position: relative;
+    margin: 0px;
+}
+
+.third-color {
+	position: absolute;
+	top: 200%;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.third-map {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 27%;
+	height: 412px;
+	background-image: url(http://i.imgur.com/SXAVLAu.png);
 	background-position: center;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	z-index: 100;
+}
+	
+.third-header {
+	font-family: Bebas;
+	top: 2%;
+	color: #252525;
+	font-size: 100px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	position: relative;
+    margin: 0px;
 }
 
-#finalimgtwo {
+.iphoneText {
 	position: absolute;
-	top: 50px;
-	right: 5px;
+	left: 0;
+	right: 0;
+	top: 25%;
+	text-align: center;
+	margin: auto;
+	color: #252525;
+	font-family: Din;
+	font-size: 36px;
+	font-weight: 100;
+	width: 23%;
+	height: auto;
+}
+
+#iphonePrice {
+	position: absolute;
+	top: 32%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
 	height: 300px;
-	width: 400px;
-	background-image: url("http://i.imgur.com/cBAFUZv.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100%;
+	width: 150px;
+}
+
+.iphoneSection {
+	position: absolute;
+	left: 0;
+	right: 66.66%;
+	top: 0;
+	bottom: 0;
+	height: auto;
+}
+
+.galaxySection {
+	position: absolute;
+	left: 33.33%;
+	right: 33.33%;
+	top: 0;
+	bottom: 0;
+	height: auto;
+}
+
+.noteSection {
+	position: absolute;
+	left: 66.66%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: auto;
+}
+
+.phoneinfo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 32%;
+	height: 320px;
+	text-align: center;
+}
+
+.p1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 5%;
+	text-align: center;
+	z-index: 200;
+	font-family: Din;
+	font-size: 25px;
+	color: #c0dfd9;
+}
+
+.p2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 15%;
+	text-align: center;
+	z-index: 200;
+	font-family: Din;
+	font-size: 25px;
+	color: #c0dfd9;
+}
+
+.p3 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 25%;
+	text-align: center;
+	z-index: 200;
+	font-family: Din;
+	font-size: 25px;
+	color: #c0dfd9;
+}
+
+.p4 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 35%;
+	text-align: center;
+	z-index: 200;
+	font-family: Din;
+	font-size: 25px;
+	color: #c0dfd9;
+}
+
+.p5 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+	text-align: center;
+	z-index: 200;
+	font-family: Din;
+	font-size: 25px;
+	color: #c0dfd9;
+}
+
+.p6 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 55%;
+	text-align: center;
+	z-index: 200;
+	font-family: Din;
+	font-size: 25px;
+	color: #c0dfd9;
+}
+
+.p7 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 65%;
+	text-align: center;
+	z-index: 200;
+	font-family: Din;
+	font-size: 25px;
+	color: #c0dfd9;
+}
+
+.galaxyText {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 25%;
+	color: #252525;
+	margin: auto;
+	text-align: center;
+	font-family: Din;
+	font-size: 36px;
+	font-weight: 100;
+	width: 50%;
+	height: auto;
+}
+
+#sPrice {
+	position: absolute;
+	top: 32%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	height: 300px;
+	width: 150px;
+}
+
+.noteText {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 25%;
+	color: #252525;
+	margin: auto;
+	text-align: center;
+	font-family: Din;
+	font-size: 36px;
+	font-weight: 100;
+	width: 40%;
+	height: auto;
+}
+
+#notePrice {
+	position: absolute;
+	top: 32%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	height: 300px;
+	width: 150px;
+}
+
+.third-button-div {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 88.7%;
+}
+
+#thirdSecBottom {
+	position: relative;
+	color: #252525;
+	margin: auto;
+	text-align: center;
+	font-family: Din;
+	font-size: 36px;
+	font-weight: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	
+}
+
+#third-button {
+    position: relative;
+    -webkit-appearance: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #dddddd;
+    font-size: 35px;
+    border-radius: 7px;
+    height: 1.6%;
+    width: 210px;
+    border-color: transparent;
+    background-color: #723a44;
+    font-family: 'Bebas', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: .15s;
+}
+
+#third-button:hover {
+    color: #9e9e9e;
+}
+
+#third-button:active {
+    box-shadow: 0 0 0 #3f2026;
+    top: 4px;
+    outline: none;
+}
+
+.third-panel {
+	position: absolute;
+	top: 200%;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+    background-image: url(Mapa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thirdColor {
+    position: absolute;
+    background-color: #b3c2bf;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    opacity: .74;
+}
+
+form {
+    position: absolute;
+    margin: 0px;
+    top: 28%;
+    left: 0;
+    right: 0;
+    height: 60%;
+}
+
+.firstName {
+    position: absolute;
+    left: 20%;
+    right: 50%;
+    height: 70px;
+    font-family: Din;
+    font-size: 34px;
+    margin: 0px;
+    text-align: center;
+}
+
+.cFirst {
+    left: 10%;
+    right: 0;
+    width: 230px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+
+}
+
+.moveF {
+    position:absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+#fName {
+    outline: none;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 30px;
+    width: 210px;
+    font-family: 'Din', sans-serif;
+    font-size: 23px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+    margin: 0px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.lastName {
+    position: absolute;
+    left: 50%;
+    right: 20%;
+    height: 70px;
+    font-family: Din;
+    font-size: 34px;
+    margin: 0px;
+    text-align: center;
+}
+
+.cLast {
+    left: 0;
+    right: 0;
+    width: 230px;
+    text-align: center;
+    display: inline-block;
+}
+
+.moveL {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+#lName {
+    outline: none;
+    top: 50%;
+    left: 0;
+    right: 25%;
+    height: 30px;
+    width: 210px;
+    font-family: 'Din', sans-serif;
+    font-size: 23px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+#msgArea {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    height: 60%;
+    text-align: center;
+    font-family: Din;
+    font-size: 34px;
+}
+
+.msgName {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+#txtArea {
+    position: relative;
+    top: 20%;
+    margin: 0px;
+    font-family: 'Din', sans-serif;
+    font-size: 23px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-color: transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #252525;
 }
 
 
-.cd-fixed-bg.cd-bg-1 {
-  background-image: url("http://i.imgur.com/st7B1pl.jpg");
-  bottom: -40px;
-}
-.cd-fixed-bg.cd-bg-2 {
-  background-image: url("http://i.imgur.com/7p50tib.jpg");
-}
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url("http://i.imgur.com/bmWjoWz.jpg");
+
+.msgBtn {
+    position: relative;
+    top: 95%;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
-.cd-scrolling-bg {
-	min-height: 60%;
+.SendBtn {
+    position: relative;
+    -webkit-appearance: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #dddddd;
+    font-size: 23px;
+    border-radius: 7px;
+    height: 1.1%;
+    width: 140px;
+    border-color: transparent;
+    background-color: #723a44;
+    font-family: 'Bebas', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: .15s;
 }
 
+.SendBtn:hover {
+    color: #9e9e9e;
+}
+
+.SendBtn:active {
+    box-shadow: 0 0 0 #3f2026;
+    top: 3px;
+    outline: none;
+}
+
+#arrow4 {
+    position: absolute;
+    top: 85%;
+    right: 3.5%;
+    font-family: 'Material Icons', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    color: #252525;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: .02s;
+    z-index: 1008;
+}
+
+#arrow4:hover {
+    color: #5b5b5b;
+    outline: none;
+}
+
+#arrow4:active {
+    top: 82.5%;
+    outline: none;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.botRight {
+    position: absolute;
+    right: 2%;
+    bottom: 25%;
+    height: 30px;
+    font-family: Din;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.botRight p a {
+    text-decoration: none;
+    color: #3f2026;
+}
+
+.botLeft {
+    position: absolute;
+    left: 2%;
+    bottom: 25%;
+    height: 30px;
+    font-family: Din;
+    font-size: 15px;
+}
+
+
+
+/*For Mobile Site. Reads width of monitor size and
+switches to mobile styling of site.*/
 @media all and (max-width: 1024px) {
-	body, html, main {
-		/* important */
-		height: 100%;
-		background-color: black;
-	}
-	
-	.top {
-		position: absolute;
-		top: 50px;
-		height: 90px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		background-color: black;
-	}
-	
-	#need {
-		position: absolute;
-		top: -15px;
-		left: 0;
-		right: 0;
-		text-align: center;
-		color: white;
-		font-family: 'Handlee', sans-serif;
-		font-size: 26px;
-	}
-	
-	#tacos {
-		-webkit-appearance: none;
-		text-decoration: none;
-		color: white;
-		top: -10px;
-		font-size: 23px;
-		border-radius: 2px;
-		height: 30px;
-		width: 190px;
-		border-color: transparent;
-		background-color: #B51A00;
-		font-family: 'Handlee', sans-serif;
-		cursor: pointer;
-		outline: none;
-	}
-	 
-	.cd-fixed-bg {
-		height: 300px;
-		width: 100%;
-		background-size: cover;
-		background-attachment: scroll;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	
-	.menu {
-		position: absolute;
-		display: none;
-	}
-	
-	.menuwrap {
-		transform: translate3d(0px,0px,0px);
-		position: fixed;
-		display: inline;
-		top: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		height: 50px;
-		z-index: 10001;
-	}
-	
-	#alm {
-		position: absolute;
-		height: 48px;
-		top: 0;
-		left: 0;
-		z-index: 10001;
-	}
-	
-	#alm2 {
-		height: 48px;
-		width: 140px;
-	}
-	
-	/*Makes Mobile Version of Menu visible*/
-	.littleme {
-		display: initial;
-		text-align: center;
-	    	left: 0;
-	    	right: 0;
-	    	z-index: 10000;
-	    	height: 50px;
-	    	overflow: visible;
-	    	background-color: black;
-	    	opacity: 1;
-	  }
-	
-	.littleme { margin: 0; }
-	
-	.toggle + a,
-	 .othermenu { 
-	     	display: none;
-	     	left: 0;
-	     	right: 0;
-	     	text-align: center;
-	 }
-	
-	/*Used a Character Font to make the Menu Icon. 
-	It was the most effecient way to get to what I needed.
-	This styles the Menu Icon*/
-	.toggle {
-	    	display: block;
-	    	text-align: right;
-	    	background-color: black;
-	    	opacity: 1;
-	    	top: 3px;
-	    	position: absolute;
-	    	right: 0;
-	    	left: 0;
-	    	color: #B51A00;
-	    	font-size: 48px;
-	    	font-weight: 100;
-	    	line-height: 45px;
-	    	text-decoration: none;
-	    	font-family: 'Material Icons', sans-serif;
-	    	z-index: 7000;
-	}
-	
-	/*Makes Menu Icon Site green after getting clicked*/
-	#drop:checked + label {
-	    	color: #B51A00;
-	}
-	
-	/*Displays Dropdown Menu after Menu Icon is clicked*/
-	[id^=drop]:checked + label + ul {
-	    	display: block;
-	}
-	
-	.littleme ul li {
-		display: block;
-		text-align: center;
-		left: -6%;
-		right: 6%;
-	    	width: 100%;
-	    	z-index: 6000;
-	    	border: none;
-	    	font-family: 'Handlee', sans-serif;
-	}
-	
-	#barz {
-		position: absolute;
-		display: none;
-	}
-	
-	 
-	.cd-container {
-		top: -20px;
-		background-color: black;
-		height: 400px;
-		z-index: 5;
-	}
-	
-	
-	#image {
-		position: absolute;
-		top: 37%;
-		left: 0;
-		right: 0;
-		text-align: center;
-		height: auto;
-		width: 100%;
-		background-color: transparent;
-	}
-	
-	img {
-		position: relative;
-		height: 150px;
-		width: 300px;
-		border-radius: 10px;
-	}
-	
-	#firsttext {
-		position: absolute;
-		display: none;
-		z-index: 1;
-	}
-	
-	#secondtext {
-		position: absolute;
-		display: none;
-		z-index: 1;
-	}
-	
-	#hiderone {
-		position: absolute;
-		top: 100%;
-		height: 140px;
-		left: 7px;
-		right: 7px;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 30px;
-		color: white;
-		line-height: 30px;
-		z-index: 9000;
-	}
-	
-	#tacostwo {
-		margin: auto;
-		display: block;
-	}
-	
-	
-	#tacostwo {
-		-webkit-appearance: none;
-		top: 148%;
-		position: absolute;
-		left: 0;
-		right: 0;
-		text-align: center;
-		text-decoration: none;
-		height: 40px;
-		width: 210px;
-		color: white;
-		font-size: 22px;
-		border-radius: 2px;
-		border-color: transparent;
-		background-color: #B51A00;
-		font-family: 'Handlee', sans-serif;
-		cursor: pointer;
-		outline: none;
-	}
-	
-	#butcen {
-		position: absolute;
-		display: block;
-		top: 148%;
-		left: 0;
-		height: 30px;
-		width: 100%;
-		right: 0;
-		text-align: center;
-		background-color: black;
-	}
-	
-	.cd-containertwo {
-		position: relative;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 400px;
-		vertical-align: middle;
-		background-color: black;
-	}
-	
-	#secttwo {
-		position: absolute;
-		top: -5px;
-		vertical-align: middle;
-		left: 7px;
-		right: 7px;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 28px;
-		color: white;
-		line-height: 30px;
-	}
-	
-	#readmore {
-		margin: auto;
-		display: block;
-	}
-	
-	#readmore {
-		-webkit-appearance: none;
-		position: absolute;
-		left: 0;
-		right: 0;
-		text-align: center;
-		height: 40px;
-		width: 160px;
-		text-align: center;
-		text-decoration: none;
-		color: white;
-		top: 340px;
-		font-size: 22px;
-		border-radius: 2px;
-		border-color: transparent;
-		background-color: #B51A00;
-		font-family: 'Handlee', sans-serif;
-		cursor: pointer;
-		outline: none;
-	}
-	
-	#smallone {
-		position: absolute;
-		display: none;
-	}
-	
-	.cd-containerthree {
-		position: relative;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 500px;
-		vertical-align: middle;
-	}
-	
-	#contact {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 29px;
-		color: white;
-		z-index: 7000;
-	}
-	
-	#phone {
-		position: absolute;
-		top: 70px;
-		left: -140px;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: white;
-		z-index: 7000;
-	}
-	
-	#diffphone {
-		position: absolute;
-		top: 70px;
-		left: 60px;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: #B51A00;
-		z-index: 7000;
-	}
-	
-	a[href^=tel] { 
-		color: inherit; text-decoration: none; 
-	}
-	
-	#email {
-		position: absolute;
-		top: 110px;
-		left: -212px;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: white;
-		z-index: 7000;
-	}
-	
-	#diffemail {
-		position: absolute;
-		top: 110px;
-		left: 60px;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: #B51A00;
-		z-index: 7000;
-	}
-	
-	.menutwo {
-		position: absolute;
-		display: none;
-	}
-	
-	#endstuf {
-		position: absolute;
-		font-family: 'Handlee', sans-serif;
-		font-size: 14px;
-		color: white;
-		top: 95%;
-		left: 0;
-		right: 0;
-		text-align: center;
-		z-index: 8000;
-	}
-	
-	#finalimg {
-		position: absolute;
-		display: none;
-	}
-	
-	#finalimgtwo {
-		position: absolute;
-		top: 230px;
-		text-align: center;
-		left: 3%;
-		right: 0;
-		margin: auto;
-		display: block;
-		height: 150px;
-		width: 300px;
-		border-radius: 100px;
-		background-image: url("http://i.imgur.com/cBAFUZv.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 100%;
-	}
-	
-	
-	.cd-fixed-bg.cd-bg-1 {
-	  background-image: url("http://i.imgur.com/st7B1pl.jpg");
-	  bottom: -40px;
-	}
-	.cd-fixed-bg.cd-bg-2 {
-	  background-image: url("http://i.imgur.com/7p50tib.jpg");
-	}
-	.cd-fixed-bg.cd-bg-3 {
-	  background-image: url("http://i.imgur.com/bmWjoWz.jpg");
-	}
-	
-	.cd-scrolling-bg {
-		height: 55%;
-	}
-}
+  /*Mobile version website height and width*/
+  body {
+    background-color: #f7f7f7;
+    overflow: visible;
+    height: 4035px;
+    width: 100%;
+    top: 0;
+  }
+  /*Wraps around, is same height and width, changes on Desktop Version of site*/
+  .wrapper {
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 4035px;
+    width: 100%;
+  }
+  
+  /*Height and width of image on top of Mobile site*/
+  .top {
+    position: absolute;
+    height: 200px;
+    top: 0;
+  }
+  
+  /*Wraps arond menu, for both Mobile and Desktop site*/  
+  .menuwrap {
+    transform: translate3d(0px,0px,0px);
+    position: absolute;
+    width: 100%;
+    overflow: visible;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    top: 200px;
+    height: 50px;
+    z-index: 6000;
+  }
+  
+  /*This is used with the Java script in order to make the Menu
+  positioning Fixed on both Desktop and Mobile*/
+  .fixed {
+    position: fixed;
+    overflow: visible;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 6000;
+  }
+  
+  /*Container/Link for Logo Image*/
+  #alm {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    left: 7px;
+  }
+  
+  /*Defining container for Logo Image*/
+  #alm2 {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /*Hides the original texts from Desktop Version of Menu*/
+  .texts {
+    position: absolute;
+    display: none;
+  }
+  
+  /*Makes Mobile Version of Menu visible*/
+  .littleme {
+    display: initial;
+    left: 90px;
+    right: 0;
+    z-index: 7000;
+    height: 50px;
+    overflow: visible;
+    background-color: black;
+    opacity: 1;
+  }
 
-@media all and (max-width: 350px) {                                  /*This is the break where media at 350px starts*/
-	body, html, main {
-		/* important */
-		height: 100%;
-		background-color: black;
-	}
-	
-	.top {
-		position: absolute;
-		top: 50px;
-		height: 90px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		background-color: black;
-	}
-	
-	#need {
-		position: absolute;
-		top: -15px;
-		left: 0;
-		right: 0;
-		text-align: center;
-		color: white;
-		font-family: 'Handlee', sans-serif;
-		font-size: 26px;
-	}
-	
-	#tacos {
-		-webkit-appearance: none;
-		text-decoration: none;
-		color: white;
-		top: -10px;
-		font-size: 23px;
-		border-radius: 2px;
-		height: 30px;
-		width: 190px;
-		border-color: transparent;
-		background-color: #B51A00;
-		font-family: 'Handlee', sans-serif;
-		cursor: pointer;
-		outline: none;
-	}
-	 
-	.cd-fixed-bg {
-		height: 300px;
-		width: 100%;
-		background-size: cover;
-		background-attachment: scroll;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	
-	.menu {
-		position: absolute;
-		display: none;
-	}
-	
-	.menuwrap {
-		transform: translate3d(0px,0px,0px);
-		position: fixed;
-		display: inline;
-		top: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		height: 50px;
-		z-index: 10001;
-	}
-	
-	#alm {
-		position: absolute;
-		height: 48px;
-		top: 0;
-		left: 0;
-		z-index: 10001;
-	}
-	
-	#alm2 {
-		height: 48px;
-		width: 140px;
-	}
-	
-		 /*Makes Mobile Version of Menu visible*/
-	.littleme {
-		display: initial;
-		text-align: center;
-	    	left: 0;
-	    	right: 0;
-	    	z-index: 10000;
-	    	height: 50px;
-	    	overflow: visible;
-	    	background-color: black;
-	    	opacity: 1;
-	  }
-	
-	.littleme { margin: 0; }
-	
-	.toggle + a,
-	 .othermenu { 
-	     	display: none;
-	     	left: 0;
-	     	right: 0;
-	     	text-align: center;
-	 }
-	
-	/*Used a Character Font to make the Menu Icon. 
-	It was the most effecient way to get to what I needed.
-	This styles the Menu Icon*/
-	.toggle {
-	    	display: block;
-	    	text-align: right;
-	    	background-color: black;
-	    	opacity: 1;
-	    	top: 3px;
-	    	position: absolute;
-	    	right: 0;
-	    	left: 0;
-	    	color: #B51A00;
-	    	font-size: 48px;
-	    	font-weight: 100;
-	    	line-height: 45px;
-	    	text-decoration: none;
-	    	font-family: 'Material Icons', sans-serif;
-	    	z-index: 7000;
-	}
-	
-	/*Makes Menu Icon Site green after getting clicked*/
-	#drop:checked + label {
-	    	color: #B51A00;
-	}
-	
-	/*Displays Dropdown Menu after Menu Icon is clicked*/
-	[id^=drop]:checked + label + ul {
-	    	display: block;
-	}
-	
-	.littleme ul li {
-		display: block;
-		text-align: center;
-		left: -7.5%;
-		right: 7.5%;
-	    	width: 100%;
-	    	z-index: 6000;
-	    	border: none;
-	    	font-family: 'Handlee', sans-serif;
-	}
-	
-	.littleme ul {
-		padding: 0;
-		left: -7.5%;
-		right: 7.5%;
-	 	list-style: none;
-		position: relative;
-		text-align: center;
-	}
+  .littleme { margin: 0; }
 
-	#barz {
-		position: absolute;
-		display: none;
-		top: 100%;
-		left: 0;
-		right: 0;
-		width: 100%;
-		height: 15px;
-		background-color: black;
-	}
-	
-	 
-	.cd-container {
-		top: -20px;
-		background-color: black;
-		height: 400px;
-		z-index: 5;
-	}
-	
-	
-	#image {
-		position: absolute;
-		top: 37%;
-		left: 0;
-		right: 0;
-		text-align: center;
-		height: auto;
-		width: 100%;
-		background-color: transparent;
-	}
-	
-	img {
-		position: relative;
-		height: 150px;
-		width: 300px;
-		border-radius: 10px;
-	}
-	
-	#firsttext {
-		position: absolute;
-		display: none;
-		z-index: 1;
-	}
-	
-	#secondtext {
-		position: absolute;
-		display: none;
-		z-index: 1;
-	}
-	
-	#hiderone {
-		position: absolute;
-		top: 100%;
-		height: 140px;
-		left: 7px;
-		right: 7px;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 30px;
-		color: white;
-		line-height: 30px;
-		z-index: 9000;
-	}
-	
-	#tacostwo {
-		margin: auto;
-		display: block;
-	}
-	
-	#tacostwo {
-		-webkit-appearance: none;
-		position: absolute;
-		height: 30px;
-		width: 210px;
-		left: 0;
-		right: 0;
-		text-align: center;
-		text-decoration: none;
-		color: white;
-		top: 152%;
-		font-size: 24px;
-		border-radius: 2px;
-		border-color: transparent;
-		background-color: #B51A00;
-		font-family: 'Handlee', sans-serif;
-		cursor: pointer;
-		outline: none;
-	}
+  .toggle + a,
+   .othermenu { 
+     display: none; 
+   }
 
-	
-	.cd-containertwo {
-		position: relative;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 400px;
-		vertical-align: middle;
-		background-color: black;
-	}
-	
-	#secttwo {
-		position: absolute;
-		top: -5px;
-		vertical-align: middle;
-		left: 7px;
-		right: 7px;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 28px;
-		color: white;
-		line-height: 30px;
-	}
-	
-	#butcen2 {
-		position: absolute;
-		top: 148px;
-		height: 30px;
-		text-align: center;
-		left: 0;
-		right: 0;
-		background-color: black;
-	}
-	
-	#readmore {
-		-webkit-appearance: none;
-		position: absolute;
-		height: 30px;
-		width: 160px;
-		text-align: center;
-		text-decoration: none;
-		color: white;
-		top: 360px;
-		font-size: 22px;
-		border-radius: 2px;
-		border-color: transparent;
-		background-color: #B51A00;
-		font-family: 'Handlee', sans-serif;
-		cursor: pointer;
-		outline: none;
-	}
-	
-	#smallone {
-		position: absolute;
-		display: none;
-	}
-	
-	.cd-containerthree {
-		position: relative;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 500px;
-		vertical-align: middle;
-	}
-	
-	#contact {
-		position: absolute;
-		top: 0px;
-		left: 0;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 29px;
-		color: white;
-		z-index: 7000;
-	}
-	
-	#phone {
-		position: absolute;
-		top: 70px;
-		left: 0;
-		right: 43%;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: white;
-		z-index: 7000;
-	}
-	
-	#diffphone {
-		position: absolute;
-		top: 70px;
-		left: 22%;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: #B51A00;
-		z-index: 7000;
-	}
-	
-	a[href^=tel] { 
-		color: inherit; text-decoration: none; 
-	}
-	
-	#email {
-		position: absolute;
-		top: 110px;
-		left: 0;
-		right: 68%;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: white;
-		z-index: 7000;
-	}
-	
-	#diffemail {
-		position: absolute;
-		top: 110px;
-		left: 20%;
-		right: 0;
-		text-align: center;
-		font-weight: 100;
-		font-family: 'Handlee', sans-serif;
-		font-size: 22px;
-		color: #B51A00;
-		z-index: 7000;
-	}
-	
-	.menutwo {
-		position: absolute;
-		display: none;
-	}
-	
-	#endstuf {
-		position: absolute;
-		font-family: 'Handlee', sans-serif;
-		font-size: 14px;
-		color: white;
-		top: 95%;
-		left: 0;
-		right: 0;
-		text-align: center;
-		z-index: 8000;
-	}
-	
-	#finalimg {
-		position: absolute;
-		display: none;
-	}
-	
-	#finalimgtwo {
-		position: absolute;
-		left: 0;
-		right: 0;
-		margin: auto;
-		display: block;
-		top: 230px;
-		text-align: center;
-		height: 150px;
-		width: 300px;
-		border-radius: 100px;
-		background-image: url("http://i.imgur.com/cBAFUZv.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 100%;
-	}
-	
-	
-	.cd-fixed-bg.cd-bg-1 {
-	  background-image: url("http://i.imgur.com/st7B1pl.jpg");
-	  bottom: -40px;
-	}
-	.cd-fixed-bg.cd-bg-2 {
-	  background-image: url("http://i.imgur.com/7p50tib.jpg");
-	}
-	.cd-fixed-bg.cd-bg-3 {
-	  background-image: url("http://i.imgur.com/bmWjoWz.jpg");
-	}
-	
-	.cd-scrolling-bg {
-		height: 55%;
-	}
+  /*Used a Character Font to make the Menu Icon. 
+  It was the most effecient way to get to what I needed.
+  This styles the Menu Icon*/
+  .toggle {
+    display: block;
+    text-align: right;
+    background-color: black;
+    opacity: 1;
+    top: 3px;
+    position: relative;
+    right: 5px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: 'Material Icons', sans-serif;
+    z-index: 7000;
+  }
+
+  /*Makes Menu Icon Site green after getting clicked*/
+  #drop:checked + label {
+    color: #008080;
+  }
+
+  /*Displays Dropdown Menu after Menu Icon is clicked*/
+  [id^=drop]:checked + label + ul {
+    display: block;
+  }
+
+  .littleme ul li {
+    display: block;
+    width: 100%;
+    z-index: 6000;
+    border: none;
+  }
+
+  /*Section holding Intro + Screen Repair and Pricing*/
+  .phones {
+    top: 290px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    overflow: visible;
+    position: absolute;
+  }
+  
+  .phones #services {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: -15px;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-weight: 300;
+    color: #000000;
+  }
+  
+  .phones  #servicestwo{
+    text-align: center;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: #008080;
+  }
+  
+  .phones #under {
+    position: absolute;
+    font-family: 'Roboto condensed', sans-serif;
+    top: 50px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  /*First square of text*/
+  .textsquare {
+    position: absolute;
+    left: 5%;
+    top: 60px;
+    right: 5%;
+    height: 500px;
+  }
+  
+  /*Hides square with image in it*/
+  #littlesquare {
+    position: absolute;
+    display: none;
+  }  
+  
+  /*General seperating lines*/
+  hr {
+    color: #808080;
+    background-color: #808080;
+    width: 80%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    text-align: center;
+  }
+  
+  #lineone {
+    position: absolute;
+    top: 570px;
+    text-align: center;
+  }
+  
+  /*Section holding phone images + pricing. Bootstrap used here*/
+  .container {
+    height: 45px;
+    top: 500px;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 5000;
+  }
+  
+  .phones #broke {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: 660px;
+    left: 5px;
+    right: 5px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #000000;
+  }
+
+  .thumbnail {
+    background-color: transparent;
+  }
+  
+  /*Reposition Column (Bootstrap)*/
+  #col1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 270px;
+  }
+  
+  /*All the p(number) from here on style the text inside the iphone image*/
+  .thumbnail #p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -264px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -268px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -272px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -275px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -278px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;
+    width: 200px;
+  } 
+
+  .thumbnail #p7 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -282px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p8 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -286px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p9 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -290px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+  
+  /*Reposition Second Column (Bootstrap)*/
+  #col2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 850px;
+  } 
+
+  /*All the s(number) from here on style the text inside the GalaxyS image*/
+  .thumbnail #s1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #s2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #s3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #s4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #s5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+  
+  /*Reposition Third Column (Bootstrap)*/
+  #col3 {
+    position: absolute;
+    top: 1430px;
+    left: 0;
+    right: 0;
+  }
+  
+  /*All the s(number) from here on style the text inside the GalaxyNote image*/
+  .thumbnail #n1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #n6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+  
+  /*Styles text in .checkser*/
+  #please {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 790px;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    color: #008080;
+  }
+  
+  /*Makes "SERVICES" clickable inside #please*/
+  #insert {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: #008080;
+    text-decoration: none;
+  }
+  
+   #linetwo{
+    position: absolute;
+    top: 2920px;
+  }
+  
+  #linethree {
+    position: absolute;
+    top: 3480px;
+    text-align: center;
+  }
+  
+  #linefour {
+    position: absolute;
+    top: 3930px;
+  }
+  
+  #linefive{
+    position: absolute;
+    top: 4010px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 2px;
+  }
+  
+  /*30Day Guarantee Section*/
+  .theguaran {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3000px;
+  }
+  
+  /*Styles 30Day Guarantee header Text*/
+  #guaran { 
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    top: 10px;
+    text-align: center;
+  }
+
+  /*Text box for Guarantee section*/
+  .realguaran{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+  }
+  
+  /*Styles text in Guarantee Section*/
+  #moreguaran {
+    position: absolute;
+    top: 40px;
+    font-family: 'Roboto condensed', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    left: 5%;
+    right: 5%;
+  }
+  
+  /*Hides picture for Guarantee Section*/
+  #picforguar{
+    position: absolute;
+    display: none;
+  }
+
+  /*Safety Section*/
+  .safetysec {
+    position: absolute;
+    top: 3550px;
+    overflow: hidden;
+  }
+  
+  /*Styles Safety Section Header Text*/
+  #safefirst {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    top: 25px;
+    left: 2px;
+    right: 2px;
+    text-align: center;
+  }
+  
+  /*Section for Text in Safety Section*/
+  #safetybox {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+  }
+  
+  /*Styles Text in #safetybox*/
+  #safetext {
+    position: absolute;
+    font-family: 'Roboto condensed', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    top: -20px;
+    left: 2px;
+    right: 2px;
+  }
+  
+  /*Hides picture for Safety section*/
+  #safepic {
+    position: absolute;
+    display: none;
+  }
+  
+  /*Hides footer*/
+  .jumbotron2 {
+    display: none;
+  }
+
 }
