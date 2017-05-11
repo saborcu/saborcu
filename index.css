@@ -82,7 +82,6 @@ body {
     color: #31312d;
     font-size: 58px;
     font-weight: 900;
-    text-shadow: -.35px -.35px 0 #31312d, .35px -.35px 0 #31312d, -.35px .35px 0 #31312d, .35px .35px 0 #31312d;
     letter-spacing: .3px;
     left: 0;
     right: 0;
@@ -110,7 +109,6 @@ body {
     font-family: "Bebas", sans-serif;
     color: #31312d;
     font-size: 52px;
-    text-shadow: -.35px -.35px 0 #31312d, .35px -.35px 0 #31312d, -.35px .35px 0 #31312d, .35px .35px 0 #31312d;
     font-weight: 900;
     letter-spacing: .35px;
     left: 0;
@@ -278,12 +276,10 @@ button {
 	height: 40px;
     z-index: 4001;
     -webkit-font-smoothing: antialiased;
-    text-shadow: -.30px -.30px .1px #c1cdcb, .30px -.30px .1px #c1cdcb, -.30px .30px .1px #c1cdcb, .30px .30px .1px #c1cdcb;
 }
 
 .dropdown-content a:hover {
     color: #31312d;
-    text-shadow: -.30px -.30px .1px #31312d, .30px -.30px .1px #31312d, -.30px .30px .1px #31312d, .30px .30px .1px #31312d;
 }
 
 .show {display:block;}
@@ -443,7 +439,6 @@ button {
     font-size: 41px;
     width: 23%;
     height: auto;
-    text-shadow: -.30px -.30px 0 #31312d, .30px -.30px 0 #31312d, -.30px .30px 0 #31312d, .30px .30px 0 #31312d;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -500,7 +495,6 @@ button {
     font-weight: 900;
     width: 23%;
     height: auto;
-    text-shadow: -.30px -.30px 0 #31312d, .30px -.30px 0 #31312d, -.30px .30px 0 #31312d, .30px .30px 0 #31312d;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -536,7 +530,6 @@ button {
     font-weight: 900;
     width: 23%;
     height: auto;
-    text-shadow: -.30px -.30px 0 #31312d, .30px -.30px 0 #31312d, -.30px .30px 0 #31312d, .30px .30px 0 #31312d;
     -webkit-font-smoothing: antialiased;
 }
 
