@@ -1,7 +1,22 @@
 /*CLEAN CLEAN CLEAN*/
 @font-face {
 	font-family: Bebas;
-	src: url('BebasNeue Bold.otf');
+	src: url('bebas-neue-light.woff2');
+}
+
+@font-face {
+    font-family: Bebas2;
+    src: url('BebasNeue Bold.otf')
+}
+
+@font-face {
+    font-family: other;
+    src: url('Qanelas.otf');
+}
+
+@font-face {
+    font-family: Chivo;
+    src: url('MHeiHK.otf')
 }
 
 @font-face {
@@ -43,7 +58,74 @@ body {
 	bottom: 0;
 	height: auto;
 	width: 100%;
-	opacity: .58;
+	opacity: .63;
+}
+
+.first-header {
+    font-family: Bebas2;
+    top: 9%;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    color: #31312d;
+    font-size: 160px;
+    font-weight: 100;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.first-header2 {
+    font-family: Bebas;
+    color: #31312d;
+    font-size: 58px;
+    font-weight: 900;
+    text-shadow: -.35px -.35px 0 #31312d, .35px -.35px 0 #31312d, -.35px .35px 0 #31312d, .35px .35px 0 #31312d;
+    letter-spacing: .3px;
+    left: 0;
+    right: 0;
+    top: 35%;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#thirdTextCont {
+    position: absolute;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 87%;
+}
+
+.third-text {
+    font-family: "Bebas", sans-serif;
+    color: #31312d;
+    font-size: 52px;
+    text-shadow: -.35px -.35px 0 #31312d, .35px -.35px 0 #31312d, -.35px .35px 0 #31312d, .35px .35px 0 #31312d;
+    font-weight: 900;
+    letter-spacing: .35px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+.third-text span {
+    opacity: 0;
 }
 
 .container2 {
@@ -58,7 +140,7 @@ body {
 .bar1, .bar2, .bar3 {
     width: 47px;
     height: 5.3px;
-    background-color: #333;
+    background-color: #31312d;
     margin: 7.4px 0;
     transition: 0.4s;
 }
@@ -90,7 +172,7 @@ body {
     font-family: 'Material Icons', sans-serif;
     font-size: 46px;
     text-align: center;
-    color: #252525;
+    color: #31312d;
     cursor: pointer;
     outline: none;
     border: none;
@@ -136,7 +218,7 @@ body {
     font-family: 'Material Icons', sans-serif;
     font-size: 46px;
     text-align: center;
-    color: #252525;
+    color: #31312d;
     cursor: pointer;
     outline: none;
     border: none;
@@ -191,12 +273,18 @@ button {
 	text-align: center;
     display: block;
 	font-family: Bebas;
-	font-size: 42px;
+    font-weight: 900;
+	font-size: 46px;
 	height: 40px;
     z-index: 4001;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: -.30px -.30px .1px #c1cdcb, .30px -.30px .1px #c1cdcb, -.30px .30px .1px #c1cdcb, .30px .30px .1px #c1cdcb;
 }
 
-.dropdown-content a:hover { color: #252525;}
+.dropdown-content a:hover {
+    color: #31312d;
+    text-shadow: -.30px -.30px .1px #31312d, .30px -.30px .1px #31312d, -.30px .30px .1px #31312d, .30px .30px .1px #31312d;
+}
 
 .show {display:block;}
 
@@ -230,64 +318,7 @@ button {
     z-index: 2001;
 }
 
-.first-header {
-    font-family: Bebas;
-    top: 10%;
-    color: #252525;
-    font-size: 145px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    position: absolute;
-    margin: 0px;
-    -webkit-font-smoothing: antialiased;
-}
 
-.first-header2 {
-    font-family: Bebas;
-    color: #252525;
-    font-size: 97px;
-    left: 0;
-    right: 0;
-    top: 30%;
-    text-align: center;
-    padding: 0;
-    position: absolute;
-    margin: 0px;
-    -webkit-font-smoothing: antialiased;
-}
-
-#thirdCont {
-    position: absolute;
-    text-align: center;
-    margin: 0px;
-    width: 100%;
-    height: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 87%;
-}
-
-.third-text {
-    font-family: "Bebas", sans-serif;
-    color: #252525;
-    font-size: 49px;
-    font-weight: normal;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-font-smoothing: antialiased;
-}
-
-.third-text span {
-    opacity: 0;
-}
 
 .first-button-div {
 	position: absolute;
@@ -303,17 +334,19 @@ button {
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
+    font-weight: 300;
     color: #dddddd;
     font-size: 35px;
     border-radius: 7px;
     height: 1.6%;
-    width: 210px;
+    width: auto;
     border-color: transparent;
     background-color: #723a44;
-    font-family: 'Bebas', sans-serif;
+    font-family: 'Bebas2', sans-serif;
     cursor: pointer;
     outline: none;
     transition: .09s;
+    -webkit-font-smoothing: antialiased;
 }
 
 #first-button:hover {
@@ -359,6 +392,8 @@ button {
     100% {left: 115%;top: 83%;}
 }
 
+/*----------------------END OF FIRST PANEL------------------*/
+
 .second-panel {
 	position: absolute;
 	top: 100%;
@@ -366,7 +401,7 @@ button {
 	right: 0;
 	height: 100%;
 	width: 100%;
-    background-image: url("http://i.imgur.com/o6tEMBR.jpg");
+    background-image: url(wood.jpg);
 }
 
 .second-color {
@@ -382,30 +417,34 @@ button {
 }
 
 .second-header {
-	font-family: Bebas;
-	top: 2%;
-	color: #252525;
-	font-size: 100px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	position: relative;
+    font-family: Bebas2;
+    top: 2%;
+    color: #31312d;
+    font-size: 100px;
+    font-weight: 100;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: relative;
     margin: 0px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .step1 {
-	position: absolute;
-	left: 0;
-	right: 66.66%;
-	top: 60%;
-	text-align: center;
-	margin: auto;
-	color: #252525;
-	font-family: Din;
-	font-size: 36px;
-	font-weight: 100;
-	width: 23%;
-	height: auto;
+    position: absolute;
+    left: 0;
+    right: 66.66%;
+    top: 57%;
+    text-align: center;
+    font-weight: 900;
+    margin: auto;
+    color: #31312d;
+    font-family: Bebas;
+    font-size: 41px;
+    width: 23%;
+    height: auto;
+    text-shadow: -.30px -.30px 0 #31312d, .30px -.30px 0 #31312d, -.30px .30px 0 #31312d, .30px .30px 0 #31312d;
+    -webkit-font-smoothing: antialiased;
 }
 
 .step1 #ONE {
@@ -413,11 +452,12 @@ button {
     font-weight: 200;
     font-size: 54px;
     left: -5px;
+    color: #31312d;
 }
 
 #iphone {
 	position: absolute;
-	top: 32%;
+	top: 28%;
 	left: 0;
 	right: 58%;
 	margin: auto;
@@ -428,7 +468,7 @@ button {
 
 #galaxy {
 	position: absolute;
-	top: 32%;
+	top: 28%;
 	left: 9%;
 	right: 0;
 	text-align: center;
@@ -438,7 +478,7 @@ button {
 
 #brokenIphone {
 	position: absolute;
-	top: 32%;
+	top: 28%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -448,18 +488,20 @@ button {
 }
 
 .step2 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 60%;
-	color: #252525;
-	margin: auto;
-	text-align: center;
-	font-family: Din;
-	font-size: 36px;
-	font-weight: 100;
-	width: 23%;
-	height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 57%;
+    color: #31312d;
+    margin: auto;
+    text-align: center;
+    font-family: Bebas;
+    font-size: 41px;
+    font-weight: 900;
+    width: 23%;
+    height: auto;
+    text-shadow: -.30px -.30px 0 #31312d, .30px -.30px 0 #31312d, -.30px .30px 0 #31312d, .30px .30px 0 #31312d;
+    -webkit-font-smoothing: antialiased;
 }
 
 .step2 #TWO {
@@ -467,11 +509,12 @@ button {
     font-weight: 200;
     font-size: 54px;
     left: -5px;
+    color: #31312d;
 }
 
 #location {
 	position: absolute;
-	top: 32%;
+	top: 28%;
 	left: 66.66%;
 	right: 0;
 	margin: auto;
@@ -481,18 +524,20 @@ button {
 }
 
 .step3 {
-	position: absolute;
-	left: 66.66%;
-	right: 0;
-	top: 60%;
-	color: #252525;
-	margin: auto;
-	text-align: center;
-	font-family: Din;
-	font-size: 36px;
-	font-weight: 100;
-	width: 23%;
-	height: auto;
+    position: absolute;
+    left: 66.66%;
+    right: 0;
+    top: 57%;
+    color: #31312d;
+    margin: auto;
+    text-align: center;
+    font-family: Bebas;
+    font-size: 41px;
+    font-weight: 900;
+    width: 23%;
+    height: auto;
+    text-shadow: -.30px -.30px 0 #31312d, .30px -.30px 0 #31312d, -.30px .30px 0 #31312d, .30px .30px 0 #31312d;
+    -webkit-font-smoothing: antialiased;
 }
 
 .step3 #THREE {
@@ -500,14 +545,16 @@ button {
     font-weight: 200;
     font-size: 54px;
     left: -5px;
+    color: #31312d;
 }
+
 
 .second-button-div {
 	position: absolute;
 	left: 0;
 	right: 0;
 	text-align: center;
-	top: 85%;
+	top: 87%;
 }
 
 #second-button {
@@ -519,11 +566,12 @@ button {
     color: #dddddd;
     font-size: 35px;
     border-radius: 7px;
+    font-weight: 300;
     height: 1.6%;
-    width: 210px;
+    width: auto;
     border-color: transparent;
     background-color: #723a44;
-    font-family: 'Bebas', sans-serif;
+    font-family: 'Bebas2', sans-serif;
     cursor: pointer;
     outline: none;
     transition: .15s;
@@ -540,88 +588,60 @@ button {
     outline: none;
 }
 
-.fourth-panel {
-	position: absolute;
-	top: 300%;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	background-image: url("http://i.imgur.com/8mRJBp8.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+/*--------------------------END OF SECOND PANEL--------------------------*/
 
-.fourth-color {
+
+.third-panel {
     position: absolute;
+    top: 200%;
     left: 0;
     right: 0;
     height: 100%;
     width: 100%;
-    background-color: #c0dfd9;
-    opacity: .85;
+    background-image: url(Mapa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.fourth-header {
-	font-family: Bebas;
-	top: 2%;
-	color: #252525;
-	font-size: 100px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	position: relative;
-    margin: 0px;
+.thirdColor {
+    position: absolute;
+    background-color: #b3c2bf;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    opacity: .74;
 }
 
-.third-color {
-	position: absolute;
-	top: 200%;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-}
 
-.third-map {
-	position: absolute;
-	left: 5%;
-	right: 5%;
-	top: 27%;
-	height: 412px;
-	background-image: url(http://i.imgur.com/SXAVLAu.png);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	z-index: 100;
-}
-	
 .third-header {
-	font-family: Bebas;
-	top: 2%;
-	color: #252525;
-	font-size: 100px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	position: relative;
+    font-family: Bebas2;
+    top: 2%;
+    color: #31312d;
+    font-size: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: relative;
     margin: 0px;
 }
 
 .iphoneText {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 25%;
-	text-align: center;
-	margin: auto;
-	color: #252525;
-	font-family: Din;
-	font-size: 36px;
-	font-weight: 100;
-	width: 23%;
-	height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 24.4%;
+    text-align: center;
+    margin: auto;
+    color: #31312d;
+    font-family: Din;
+    font-size: 39px;
+    font-weight: 100;
+    width: 23%;
+    height: auto;
 }
 
 #iphonePrice {
@@ -672,102 +692,116 @@ button {
 }
 
 .p1 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 5%;
-	text-align: center;
-	z-index: 200;
-	font-family: Din;
-	font-size: 25px;
-	color: #c0dfd9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+    text-align: center;
+    z-index: 200;
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 26px;
+    color: #c0dfd9;
+    text-shadow: -.30px -.30px .1px #c0dfd9, .30px -.30px .1px #c0dfd9, -.30px .30px .1px #c0dfd9, .30px .30px .1px #c0dfd9;
 }
 
 .p2 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 15%;
-	text-align: center;
-	z-index: 200;
-	font-family: Din;
-	font-size: 25px;
-	color: #c0dfd9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    text-align: center;
+    z-index: 200;
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 26px;
+    color: #c0dfd9;
+    text-shadow: -.30px -.30px .1px #c0dfd9, .30px -.30px .1px #c0dfd9, -.30px .30px .1px #c0dfd9, .30px .30px .1px #c0dfd9;
 }
 
 .p3 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 25%;
-	text-align: center;
-	z-index: 200;
-	font-family: Din;
-	font-size: 25px;
-	color: #c0dfd9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    text-align: center;
+    z-index: 200;
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 26px;
+    color: #c0dfd9;
+    text-shadow: -.30px -.30px .1px #c0dfd9, .30px -.30px .1px #c0dfd9, -.30px .30px .1px #c0dfd9, .30px .30px .1px #c0dfd9;
 }
 
 .p4 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 35%;
-	text-align: center;
-	z-index: 200;
-	font-family: Din;
-	font-size: 25px;
-	color: #c0dfd9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+    text-align: center;
+    z-index: 200;
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 26px;
+    color: #c0dfd9;
+    text-shadow: -.30px -.30px .1px #c0dfd9, .30px -.30px .1px #c0dfd9, -.30px .30px .1px #c0dfd9, .30px .30px .1px #c0dfd9;
 }
 
 .p5 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 45%;
-	text-align: center;
-	z-index: 200;
-	font-family: Din;
-	font-size: 25px;
-	color: #c0dfd9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45%;
+    text-align: center;
+    z-index: 200;
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 26px;
+    color: #c0dfd9;
+    text-shadow: -.30px -.30px .1px #c0dfd9, .30px -.30px .1px #c0dfd9, -.30px .30px .1px #c0dfd9, .30px .30px .1px #c0dfd9;
 }
 
 .p6 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 55%;
-	text-align: center;
-	z-index: 200;
-	font-family: Din;
-	font-size: 25px;
-	color: #c0dfd9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55%;
+    text-align: center;
+    z-index: 200;
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 26px;
+    color: #c0dfd9;
+    text-shadow: -.30px -.30px .1px #c0dfd9, .30px -.30px .1px #c0dfd9, -.30px .30px .1px #c0dfd9, .30px .30px .1px #c0dfd9;
 }
 
 .p7 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 65%;
-	text-align: center;
-	z-index: 200;
-	font-family: Din;
-	font-size: 25px;
-	color: #c0dfd9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 65%;
+    text-align: center;
+    z-index: 200;
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 26px;
+    color: #c0dfd9;
+    text-shadow: -.30px -.30px .1px #c0dfd9, .30px -.30px .1px #c0dfd9, -.30px .30px .1px #c0dfd9, .30px .30px .1px #c0dfd9;
 }
 
 .galaxyText {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 25%;
-	color: #252525;
-	margin: auto;
-	text-align: center;
-	font-family: Din;
-	font-size: 36px;
-	font-weight: 100;
-	width: 50%;
-	height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 24%;
+    color: #31312d;
+    margin: auto;
+    text-align: center;
+    font-family: Din;
+    font-size: 39px;
+    font-weight: 100;
+    width: 50%;
+    height: auto;
 }
 
 #sPrice {
@@ -782,18 +816,18 @@ button {
 }
 
 .noteText {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 25%;
-	color: #252525;
-	margin: auto;
-	text-align: center;
-	font-family: Din;
-	font-size: 36px;
-	font-weight: 100;
-	width: 40%;
-	height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 24%;
+    color: #31312d;
+    margin: auto;
+    text-align: center;
+    font-family: Din;
+    font-size: 39px;
+    font-weight: 100;
+    width: 40%;
+    height: auto;
 }
 
 #notePrice {
@@ -816,18 +850,17 @@ button {
 }
 
 #thirdSecBottom {
-	position: relative;
-	color: #252525;
-	margin: auto;
-	text-align: center;
-	font-family: Din;
-	font-size: 36px;
-	font-weight: 100;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: auto;
-	
+    position: relative;
+    color: #31312d;
+    margin: auto;
+    text-align: center;
+    font-family: Din;
+    font-size: 36px;
+    font-weight: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
 }
 
 #third-button {
@@ -840,12 +873,13 @@ button {
     font-size: 35px;
     border-radius: 7px;
     height: 1.6%;
-    width: 210px;
+    width: 190px;
     border-color: transparent;
     background-color: #723a44;
-    font-family: 'Bebas', sans-serif;
+    font-family: 'Din', sans-serif;
     cursor: pointer;
     outline: none;
+    font-weight: 300;
     transition: .15s;
 }
 
@@ -859,29 +893,42 @@ button {
     outline: none;
 }
 
-.third-panel {
-	position: absolute;
-	top: 200%;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-    background-image: url("http://i.imgur.com/TNOhW0K.jpg");
+
+/*---------------------END OF THIRD PANEL-----------------------*/
+
+.fourth-panel {
+    position: absolute;
+    top: 300%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("NewEnv3.png");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.thirdColor {
+.fourth-color {
     position: absolute;
-    background-color: #b3c2bf;
     left: 0;
-    top: 0;
     right: 0;
-    bottom: 0;
-    height: auto;
+    height: 100%;
     width: 100%;
-    opacity: .74;
+    background-color: #c0dfd9;
+    opacity: .85;
+}
+
+.fourth-header {
+    font-family: Bebas2;
+    top: 2%;
+    color: #31312d;
+    font-size: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: relative;
+    margin: 0px;
 }
 
 form {
@@ -902,6 +949,7 @@ form {
     font-size: 34px;
     margin: 0px;
     text-align: center;
+    color: #31312d;
 }
 
 .cFirst {
@@ -930,14 +978,15 @@ form {
     right: 0;
     height: 30px;
     width: 210px;
-    font-family: 'Din', sans-serif;
-    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
     padding-left: 8px;
     padding-right: 8px;
     display: inline-block;
     margin: 0px;
     border-color: transparent;
     border-radius: 4px;
+    color: #31312d;
 }
 
 .lastName {
@@ -949,6 +998,7 @@ form {
     font-size: 34px;
     margin: 0px;
     text-align: center;
+    color: #31312d;
 }
 
 .cLast {
@@ -970,13 +1020,15 @@ form {
 
 #lName {
     outline: none;
+    color: #31312d;
     top: 50%;
     left: 0;
     right: 25%;
     height: 30px;
     width: 210px;
-    font-family: 'Din', sans-serif;
-    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
     padding-left: 8px;
     padding-right: 8px;
     margin: 0px;
@@ -993,6 +1045,7 @@ form {
     text-align: center;
     font-family: Din;
     font-size: 34px;
+    color: #31312d;
 }
 
 .msgName {
@@ -1007,14 +1060,17 @@ form {
     position: relative;
     top: 20%;
     margin: 0px;
-    font-family: 'Din', sans-serif;
-    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 1px;
     padding-left: 8px;
     padding-right: 8px;
     border-color: transparent;
     border-radius: 4px;
     outline: none;
-    color: #252525;
+    color: #31312d;
 }
 
 
@@ -1036,11 +1092,12 @@ form {
     color: #dddddd;
     font-size: 23px;
     border-radius: 7px;
+    font-weight: 900;
     height: 1.1%;
     width: 140px;
     border-color: transparent;
     background-color: #723a44;
-    font-family: 'Bebas', sans-serif;
+    font-family: 'Bebas2', sans-serif;
     cursor: pointer;
     outline: none;
     transition: .15s;
@@ -1063,12 +1120,12 @@ form {
     font-family: 'Material Icons', sans-serif;
     font-size: 46px;
     text-align: center;
-    color: #252525;
+    color: #31312d;
     cursor: pointer;
     outline: none;
     border: none;
     background-color: transparent;
-    transition: .02s;
+    transition: .10s;
     z-index: 1008;
 }
 
@@ -1102,11 +1159,12 @@ form {
     font-family: Din;
     font-size: 15px;
     text-decoration: none;
+    color: #31312d;
 }
 
 .botRight p a {
     text-decoration: none;
-    color: #3f2026;
+    color: #31312d;
 }
 
 .botLeft {
@@ -1116,6 +1174,7 @@ form {
     height: 30px;
     font-family: Din;
     font-size: 15px;
+    color: #31312d;
 }
 
 
