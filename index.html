@@ -121,7 +121,7 @@
 
         
         sabio.page.getAllAuthors = function (onSuccess, onError) {
-            var url = "http://sabioapi2.azurewebsites.net/api/authors";
+            var url = "https://sabioapi2.azurewebsites.net/api/authors";
 
             var settings = {
                 cache: false
@@ -166,7 +166,7 @@
         sabio.page.getOneAuthor = function (onSuccess, onError) {
             var idGetter = $("#idInput").val();
             console.log(idGetter);
-            var url = "http://sabioapi2.azurewebsites.net/api/authors/" + idGetter;
+            var url = "https://sabioapi2.azurewebsites.net/api/authors/" + idGetter;
 
             var settings = {
                 cache: false
@@ -230,7 +230,7 @@
         };
 
         sabio.page.addAuthor = function (data, onSuccess, onError) {
-            var url = "http://sabioapi2.azurewebsites.net/api/authors";
+            var url = "https://sabioapi2.azurewebsites.net/api/authors";
             var settings = {
                 cache: false
                 , contentType: "application/x-www-form-urlencoded; charset=UTF-8"
@@ -299,7 +299,7 @@
 
         sabio.page.putAuthor = function (data, onSuccess, onError) {
             var idGetter = $("#idInput").val();
-            var url = "http://sabioapi2.azurewebsites.net/api/authors/" + idGetter;
+            var url = "https://sabioapi2.azurewebsites.net/api/authors/" + idGetter;
             var settings = {
                 cache: false
                 , contentType: "application/x-www-form-urlencoded; charset=UTF-8"
@@ -346,7 +346,7 @@
 
         sabio.page.deleteAuthor = function (data, onSuccess, onError) {
             var idGetter = $("#idInput").val();
-            var url = "http://sabioapi2.azurewebsites.net/api/authors/" + idGetter;
+            var url = "https://sabioapi2.azurewebsites.net/api/authors/" + idGetter;
             var settings = {
                 cache: false
                 , contentType: "application/x-www-form-urlencoded; charset=UTF-8"
