@@ -48,7 +48,7 @@ body {
     transform-origin: left bottom;
     transform: skewY(-3deg);
     overflow: hidden;
-    background-image: url(http://i.imgur.com/rt66oLa.jpg);
+    background-image: url(https://i.imgur.com/rt66oLa.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -421,7 +421,7 @@ button {
     transform-origin: right top;
     transform: skewY(-3deg);
     overflow: visible;
-    background-image: url(wood.jpg);
+    background-image: url(https://i.imgur.com/o6tEMBR.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
