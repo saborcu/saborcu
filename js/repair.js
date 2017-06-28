@@ -52,7 +52,7 @@ function contClick(e) {
     }
 }
 
-/*function sendToSpree() {
+function sendToSpree() {
     var newObj = param(final()),
         xhr = new XMLHttpRequest();
 
@@ -64,8 +64,7 @@ function contClick(e) {
         }
     };
     xhr.send(newObj);
-}*/
-
+}
 
 function param(object) {
     var encodedString = '';
@@ -89,7 +88,6 @@ function final() {
     var date = document.getElementById("sp").value;
     var zCode = document.getElementById("zp").value;
     var state = document.getElementById("st").value;
-
 
     var personData = {
         fullName: fullName,
