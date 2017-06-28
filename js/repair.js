@@ -52,7 +52,7 @@ function contClick(e) {
     }
 }
 
-function sendToSpree() {
+/*function sendToSpree() {
     var newObj = param(final()),
         xhr = new XMLHttpRequest();
 
@@ -64,7 +64,7 @@ function sendToSpree() {
         }
     };
     xhr.send(newObj);
-}
+}*/
 
 
 function param(object) {
