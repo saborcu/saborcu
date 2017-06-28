@@ -1,3 +1,5 @@
+var issues = [];
+
 //----Sets up eventListener for menu button.----//
 function menuEventListen() {
     var getter = document.getElementById("Scont");
@@ -5,8 +7,6 @@ function menuEventListen() {
 }
 
 function hoverListen() {
-    issues = [];
-
     var theParent = document.querySelector("#father");
     var apel = document.getElementById("apple");
     var sung = document.getElementById("samsung");
