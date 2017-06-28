@@ -216,7 +216,7 @@ function hovStep2(e) {
     } else if (ID == "volume") {
         document.getElementById("circleDos").style.opacity = "1";
     } else if (ID == "screen") {
-        document.getElementById("iPhRep").src = "https://i.imgur.com/acPJTo5.png";
+        document.getElementById("iPhRep").src = "https://i.imgur.com/acPJasdfTo5.png";
     } else if (ID == "charger") {
         document.getElementById("circleSiete").style.opacity = "1";
     } else if (ID == "camera") {
