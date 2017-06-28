@@ -53,17 +53,16 @@ function contClick(e) {
 }
 
 function sendToSpree() {
-    var newObj = param(final()),
-        xhr = new XMLHttpRequest();
-
+    var passer = final();
+    var xhr = new XMLHttpRequest();
     xhr.open('POST', '//formspree.io/vrchavez05@gmail.com');
-    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.onload = function () {
-        if (xhr.status !== 200) {
-            alert('Request failed.  Returned status of ' + xhr.status);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            var userInfo = JSON.parse(xhr.responseText);
         }
     };
-    xhr.send(newObj);
+    xhr.send(JSON.stringify(passer));
 }
 
 function param(object) {
