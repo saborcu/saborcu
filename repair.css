@@ -171,7 +171,7 @@ body {
     left: -10%;
     width: 90px;
     height: 90px;
-    background-image: url(http://i.imgur.com/Ok7zdRt.png);
+    background-image: url(https://i.imgur.com/Ok7zdRt.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@ body {
     text-align: center;
     height: 180px;
     width: 90px;
-    background-image: url(http://i.imgur.com/HR7ooMX.png);
+    background-image: url(https://i.imgur.com/HR7ooMX.png);
     background-position: center;
     background-size: cover;
     transition: .15s ease-in-out;
@@ -383,7 +383,7 @@ body {
     text-align: center;
     height: 180px;
     width: 90px;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -420,7 +420,7 @@ body {
     text-align: center;
     height: 183px;
     width: 91px;
-    background-image: url(http://i.imgur.com/cXeIxAx.png);
+    background-image: url(https://i.imgur.com/cXeIxAx.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -458,7 +458,7 @@ body {
     text-align: center;
     height: 180px;
     width: 120px;
-    background-image: url(http://i.imgur.com/rP2K9Fh.png);
+    background-image: url(https://i.imgur.com/rP2K9Fh.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1028,7 +1028,7 @@ body {
     left: 2%;
     right: 0;
     padding: 3px 0;
-    background-image: url(http://i.imgur.com/HR7ooMX.png);
+    background-image: url(https://i.imgur.com/HR7ooMX.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1036,7 +1036,7 @@ body {
 
 .iphTex2:hover {
     cursor: pointer;
-    background-image: url(http://i.imgur.com/acPJTo5.png);
+    background-image: url(https://i.imgur.com/acPJTo5.png);
 }
 
 .iphTex2:hover > .iphMod {
@@ -1122,7 +1122,7 @@ body {
     left: 0;
     right: 0;
     padding: 3px 0;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1130,7 +1130,7 @@ body {
 
 .samTex2:hover {
     cursor: pointer;
-    background-image: url(http://i.imgur.com/C8kGuhs.png);
+    background-image: url(https://i.imgur.com/C8kGuhs.png);
 }
 
 .samTex2:hover > .sMod {
@@ -1176,7 +1176,7 @@ body {
     left: 0;
     right: 0;
     padding: 3px 0;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1184,7 +1184,7 @@ body {
 
 .galTex2:hover {
     cursor: pointer;
-    background-image: url(http://i.imgur.com/C8kGuhs.png);
+    background-image: url(https://i.imgur.com/C8kGuhs.png);
 }
 
 .galTex2:hover > .gMod {
@@ -1240,7 +1240,7 @@ body {
     left: 0;
     right: 0;
     padding: 3px 0;
-    background-image: url(http://i.imgur.com/cXeIxAx.png);
+    background-image: url(https://i.imgur.com/cXeIxAx.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1248,7 +1248,7 @@ body {
 
 .pixTex2:hover {
     cursor: pointer;
-    background-image: url(http://i.imgur.com/QhWx0KT.png);
+    background-image: url(https://i.imgur.com/QhWx0KT.png);
 }
 
 .pixTex2:hover > .pMod {
@@ -1292,7 +1292,7 @@ body {
     left: 0;
     right: 0;
     padding: 3px 0;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1300,7 +1300,7 @@ body {
 
 .chooTex2:hover {
     cursor: pointer;
-    background-image: url(http://i.imgur.com/C8kGuhs.png);
+    background-image: url(https://i.imgur.com/C8kGuhs.png);
 }
 
 .chooTex2:hover > .chooMod {
@@ -1345,7 +1345,7 @@ body {
     left: 0;
     right: 0;
     padding: 3px 0;
-    background-image: url(http://i.imgur.com/rP2K9Fh.png);
+    background-image: url(https://i.imgur.com/rP2K9Fh.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1353,7 +1353,7 @@ body {
 
 .ipadTex2:hover {
     cursor: pointer;
-    background-image: url(http://i.imgur.com/DpoPP9g.png);
+    background-image: url(https://i.imgur.com/DpoPP9g.png);
 }
 
 .ipadTex2:hover > .ipadMod {
@@ -1891,7 +1891,7 @@ switches to mobile styling of site.*/
     left: -10%;
     width: 90px;
     height: 90px;
-    background-image: url(http://i.imgur.com/Ok7zdRt.png);
+    background-image: url(https://i.imgur.com/Ok7zdRt.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1905,7 +1905,7 @@ switches to mobile styling of site.*/
     animation-duration: 2.8s;
     animation-iteration-count: 1;
     animation-delay: .4s;
-    animation-fill-mode: forwards; /* http://i.imgur.com/Ok7zdRt.png */
+    animation-fill-mode: forwards; /* https://i.imgur.com/Ok7zdRt.png */
     }
 
     @-webkit-keyframes car {
