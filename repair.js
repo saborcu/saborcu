@@ -59,10 +59,7 @@ function sendToSpree() {
     xhr.open('POST', '//formspree.io/vrchavez05@gmail.com');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function () {
-        if (xhr.status === 200 && xhr.responseText !== newObj) {
-            alert('Something went wrong.  Name is now ' + xhr.responseText);
-        }
-        else if (xhr.status !== 200) {
+        if (xhr.status !== 200) {
             alert('Request failed.  Returned status of ' + xhr.status);
         }
     };
@@ -222,7 +219,7 @@ function hovStep2(e) {
     } else if (ID == "volume") {
         document.getElementById("circleDos").style.opacity = "1";
     } else if (ID == "screen") {
-        document.getElementById("iPhRep").src = "iphoneNEW3.png";
+        document.getElementById("iPhRep").src = "http://i.imgur.com/acPJTo5.png";
     } else if (ID == "charger") {
         document.getElementById("circleSiete").style.opacity = "1";
     } else if (ID == "camera") {
@@ -476,19 +473,19 @@ function hoverChange(e) {
     var x = "", w = "";
     if ((e.target !== e.currentTarget) && ((e.target.id == "iphone") || (e.target.id == "iph"))) {
         x = "iph";
-        document.getElementById("iphone").style.backgroundImage = "url(iphoneNEW3.png)";
+        document.getElementById("iphone").style.backgroundImage = "url(http://i.imgur.com/acPJTo5.png)";
     }
     else if ((e.target !== e.currentTarget) && ((e.target.id == "galaxy") || (e.target.id == "sam"))) {
         x = "sam";
-        document.getElementById("galaxy").style.backgroundImage = "url(galaxyRed.png)";
+        document.getElementById("galaxy").style.backgroundImage = "url(http://i.imgur.com/C8kGuhs.png)";
     }
     else if ((e.target !== e.currentTarget) && ((e.target.id == "google") || (e.target.id == "goo"))) {
         x = "goo";
-        document.getElementById("google").style.backgroundImage = "url(PixelRedNEW2.png)";
+        document.getElementById("google").style.backgroundImage = "url(http://i.imgur.com/QhWx0KT.png)";
     }
     else if ((e.target !== e.currentTarget) && ((e.target.id == "ipad") || (e.target.id == "pad"))) {
         x = "pad";
-        document.getElementById("ipad").style.backgroundImage = "url(ipad4Red.png)";
+        document.getElementById("ipad").style.backgroundImage = "url(http://i.imgur.com/DpoPP9g.png)";
     }
 
     if (x != '') {
@@ -504,7 +501,7 @@ function outChange(e) {
     var y = "", z = "";
     if ((e.target !== e.currentTarget) && ((e.target.id == "iphone") || (e.target.id == "iph"))) {
         y = "iph";
-        document.getElementById("iphone").style.backgroundImage = "url(iphoneNEW2.png)";
+        document.getElementById("iphone").style.backgroundImage = "url(http://i.imgur.com/HR7ooMX.png)";
     }
     else if ((e.target !== e.currentTarget) && ((e.target.id == "galaxy") || (e.target.id == "sam"))) {
         y = "sam";
@@ -512,11 +509,11 @@ function outChange(e) {
     }
     else if ((e.target !== e.currentTarget) && ((e.target.id == "google") || (e.target.id == "goo"))) {
         y = "goo";
-        document.getElementById("google").style.backgroundImage = "url(pixelNEW2.png)";
+        document.getElementById("google").style.backgroundImage = "url(http://i.imgur.com/cXeIxAx.png)";
     }
     else if ((e.target !== e.currentTarget) && ((e.target.id == "ipad") || (e.target.id == "pad"))) {
         y = "pad";
-        document.getElementById("ipad").style.backgroundImage = "url(ipad4.png)";
+        document.getElementById("ipad").style.backgroundImage = "url(http://i.imgur.com/rP2K9Fh.png)";
     }
 
     if (y != '') {
